@@ -99,27 +99,39 @@ end
 function cerulean()
     flight =  flyto('cerulean')
     underground = flyto('vermilion')
-    gate = has('tea') and (flyto('saffron') or flyto('celadon') or flyto('lavender')) or has('opt_tea_off') and flyt
+    gate = (has('tea') and (flyto('saffron') or celadon())) or (has('opt_tea_off') and celadon()) --TODO this seems like it can be simplified
     rt3_passable = rt3() and (old_man() or cut() or flyto('pewter'))
     rocktunnel = cut() and lavender() --this skips checking for flash, which we'll do in accessrules i think?
-    return flight or underground or rt3_passable or rocktunnel
+    return flight or underground or rt3_passable or rocktunnel or gate
 end
 
 function lavender()
-    flight = flyto('lavender')
-    gate = saffron() and has('tea')
-    underground = flyto('celadon')
-    rock_tunnel = cerulean() and cut()
+    return celadon()
+    
+    -- flight = flyto('lavender')
+    -- gate = saffron() and has('tea')
+    -- underground = flyto('celadon')
+    -- rock_tunnel = cerulean() and cut()
 
-    flute = has('pokeflute')
-    boulders = extra_boulders()
-    via_vermilion = cerulean() and flute and boulders
-    via_fuchsia = fuchsia() and surf() or (flute and boulders)
-    return flight or underground or gate or rock_tunnel
+    -- flute = has('pokeflute')
+    -- boulders = extra_boulders()
+    -- via_vermilion = cerulean() and flute and boulders
+    -- via_fuchsia = fuchsia() and surf() or (flute and boulders)
+    -- return flight or underground or gate or rock_tunnel
 end
 
 function celadon()
-    return lavender()
+    flute = has('pokeflute')
+
+    flight = flyto('celadon') or flyto('lavender')
+    gate = fly('saffron') and has('tea')
+    reverse_lavender = surf() and strength()
+    bike = flyto('fuchsia') and cyclingroad() and flute
+    via_vermilion = (flyto('cerulean') or flyto('vermilion')) and (has('tea') or (flute and extra_boulders()))
+
+    return flight or gate or reverse_lavender or bike or via_vermilion
+
+
 end
 
 function vermilion()

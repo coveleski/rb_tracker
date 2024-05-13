@@ -347,61 +347,61 @@
             {
               "name": "Giovanni",
               "item_count": 1,
-              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$old_man"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Item in Gym",
               "item_count": 1,
-              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$old_man"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Gym: Tamer 1",
               "item_count": 1,
-              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$old_man"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Blackbelt 1",
               "item_count": 1,
-              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$old_man"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Gym: Cooltrainer M 1",
               "item_count": 1,
-              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$old_man"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Cooltrainer M 2",
               "item_count": 1,
-              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$old_man"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Blackbelt 2",
               "item_count": 1,
-              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$old_man"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Gym: Tamer 2",
               "item_count": 1,
-              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$old_man"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Blackbelt 3",
               "item_count": 1,
-              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$old_man"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Gym: Cooltrainer M 3",
               "item_count": 1,
-              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$old_man"],
               "visibility_rules": ["trainer_on"]
             }
           ],
@@ -2092,7 +2092,7 @@
         },
         {
           "name": "Viridian Forest",
-          "access_rules": ["$pewter", "$cut", "$oldman"],
+          "access_rules": ["$pewter", "$cut", "$old_man"],
           "sections": [
             {
               "name": "East Item",
