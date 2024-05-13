@@ -245,5 +245,5 @@ function ceruleancave()
     local key_item_req = (10 * tens) + ones
     -- print(key_items() .. "items out of " .. key_item_count)
     -- print(badges().."out of "..badge_count)
-    return (key_items() >= key_item_req) and (badges_count() >= badge_req)
+    return (key_items_count() >= key_item_req) and (badges_count() >= badge_req)
 end
