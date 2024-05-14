@@ -145,7 +145,7 @@
         "codes": "opt_aide_2",
         "max_quantity": 80,
         "initial_quantity": 1,
-        "img": "images/items/dummy.png"
+        "img": "images/items/aide02.png"
     },
     {
         "name": "Oak's Aide Rt 11 Pokedex Requirement",
@@ -155,7 +155,7 @@
         "codes": "opt_aide_11",
         "max_quantity": 80,
         "initial_quantity": 1,
-        "img": "images/items/dummy.png"
+        "img": "images/items/aide11.png"
     },
     {
         "name": "Oak's Aide Rt 15 Pokedex Requirement",
@@ -164,7 +164,7 @@
         "codes": "opt_aide_15",
         "max_quantity": 80,
         "initial_quantity": 1,
-        "img": "images/items/dummy.png"
+        "img": "images/items/aide15.png"
     },
     {
         "name": "Route 3 Requirement",
@@ -299,13 +299,13 @@
         "stages": [
             {
                 "name": "Extra Key Items - Off",
-                "img": "images/items/dummy.png",
+                "img": "images/items/extrakey.png",
                 "img_mods": "@disabled",
                 "codes": "opt_extra_key_items,opt_extra_key_items_off"
             },
             {
                 "name": "Extra Key Items - On",
-                "img": "images/items/dummy.png",
+                "img": "images/items/extrakey.png",
                 "codes": "opt_extra_key_items,opt_extra_key_items_on",
                 "inherit_codes": false
             }
