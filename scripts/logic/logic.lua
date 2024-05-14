@@ -6,7 +6,7 @@ function badges_count()
 end
 -- returns int of # of key items
 function key_items_count()
-    count = 0
+    local count = 0
     -- accounting for the purchasable evo stones
     if celadon() and not has('opt_stonesanity_on') then
         count = 4
@@ -58,10 +58,10 @@ function hidden()
 end
 
 function aide(route)
-    code = 'opt_aide_' .. route
+    local code = 'opt_aide_' .. route
     print(code)
-    required = Tracker:FindObjectForCode(code).AcquiredCount
-    caught = pokedex_count()
+    local required = Tracker:FindObjectForCode(code).AcquiredCount
+    local caught = pokedex_count()
     return required <= caught and (has('pokedex') or has('opt_dex_required_off'))
 
 end
@@ -97,11 +97,11 @@ function rt3()
 end
 
 function cerulean()
-    flight =  flyto('cerulean')
-    underground = flyto('vermilion')
-    gate = (has('tea') and (flyto('saffron') or celadon())) or (has('opt_tea_off') and celadon()) --TODO this seems like it can be simplified
-    rt3_passable = rt3() and (old_man() or cut() or flyto('pewter'))
-    rocktunnel = cut() and lavender() --this skips checking for flash, which we'll do in accessrules i think?
+    local flight =  flyto('cerulean')
+    local underground = flyto('vermilion')
+    local gate = (has('tea') and (flyto('saffron') or celadon())) or (has('opt_tea_off') and celadon()) --TODO this seems like it can be simplified
+    local rt3_passable = rt3() and (old_man() or cut() or flyto('pewter'))
+    local rocktunnel = cut() and lavender() --this skips checking for flash, which we'll do in accessrules i think?
     return flight or underground or rt3_passable or rocktunnel or gate
 end
 
@@ -121,13 +121,13 @@ function lavender()
 end
 
 function celadon()
-    flute = has('pokeflute')
+    local flute = has('pokeflute')
 
-    flight = flyto('celadon') or flyto('lavender')
-    gate = fly('saffron') and has('tea')
-    reverse_lavender = surf() and strength()
-    bike = flyto('fuchsia') and cyclingroad() and flute
-    via_vermilion = (flyto('cerulean') or flyto('vermilion')) and (has('tea') or (flute and extra_boulders()))
+    local flight = flyto('celadon') or flyto('lavender')
+    local gate = fly('saffron') and has('tea')
+    local reverse_lavender = surf() and strength()
+    local bike = flyto('fuchsia') and cyclingroad() and flute
+    local via_vermilion = (flyto('cerulean') or flyto('vermilion')) and (has('tea') or (flute and extra_boulders()))
 
     return flight or gate or reverse_lavender or bike or via_vermilion
 
@@ -143,17 +143,28 @@ function saffron()
 end
 
 function fuchsia()
-    flight = flyto('fuchsia')
-    via_cinnabar = surf() and strength()
-    flute = has('pokeflute')
-    cycling_road = cyclingroad() and cerulean() and flute
-    boulders = extra_boulders()
-    via_vermilion = cerulean() and flute and boulders
-    via_lavender = lavender() and (surf() or (flute and boulders))
+    local flight = flyto('fuchsia')
+    local via_cinnabar = surf() and strength()
+    local flute = has('pokeflute')
+    local cycling_road = cyclingroad() and cerulean() and flute
+    local boulders = extra_boulders()
+    local via_vermilion = cerulean() and flute and boulders
+    local via_lavender = lavender() and (surf() or (flute and boulders))
     return flight or via_cinnabar or cycling_road or via_vermilion or via_lavender
 end
 
 function cinnabar()
+    local sur = surf()
+    local flight = flyto('cinnabar')
+
+    print('surf: ')
+    print(sur)
+    print('fly:')
+    print(flight)
+
+    print('return')
+    print(sur or flight)
+
     return surf() or flyto('cinnabar')
 end
 

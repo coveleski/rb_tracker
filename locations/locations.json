@@ -1297,7 +1297,7 @@
               "name": "R&D Lab Scientist",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": []
             },
             {
               "name": "Blaine",
@@ -1364,7 +1364,7 @@
               "name": "Mr. Psychic",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": []
             },
             {
               "name": "Sabrina",
