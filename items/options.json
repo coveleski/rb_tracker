@@ -478,6 +478,12 @@
                 "inherit_codes": false
             },
             {
+                "name": "Lavender",
+                "img": "images/items/flavender.png",
+                "codes": "free_fly, fly_lavender",
+                "inherit_codes": false
+            },
+            {
                 "name": "Celadon",
                 "img": "images/items/fceladon.png",
                 "codes": "free_fly, fly_celadon",
@@ -542,6 +548,12 @@
                 "name": "Vermilion",
                 "img": "images/items/mvermilion.png",
                 "codes": "tm_free_fly, fly_vermilion",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lavender",
+                "img": "images/items/mlavender.png",
+                "codes": "tm_free_fly, fly_lavender",
                 "inherit_codes": false
             },
             {

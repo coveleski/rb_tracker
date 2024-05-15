@@ -1,9 +1,9 @@
 ﻿{
     "name": "Pokemon Red/Blue Archipelago Poptracker",
     "game_name": "Pokemon Red/Blue",
-    "package_version": "1.0.0.0",
+    "package_version": "1.0.0",
     "package_uid": "pokemonrb_ap",
-    "author": "Coveleski & Palex00",
+    "author": "Coveleski & palex00",
     "variants": {
         "standard": {
             "display_name": "Map Tracker",

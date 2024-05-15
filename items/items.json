@@ -340,5 +340,11 @@
         "type": "toggle",
         "img": "images/items/silph.png",
         "codes": "silphco"
+	},
+    {
+        "name": "Beat the Champ",
+        "type": "toggle",
+        "img": "images/items/champ.png",
+        "codes": "champ"
 	}
 ]

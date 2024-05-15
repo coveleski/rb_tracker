@@ -1,8 +1,8 @@
 [
     {
       "name": "Kanto",
-      "chest-unopened_img": "UNOPENED",
-      "chest-opened_img": "OPENED",
+      "chest_unopened_img": "images/items/itemicon.png",
+      "chest_opened_img": "images/items/itemicon_opened.png",
       "children": [
         {
           "name": "Vermilion City",
@@ -31,6 +31,12 @@
               "item_count": 2,
               "access_rules": ["$cut","$surf"],
               "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "​Lt. Surge",
+              "item_count": 1,
+              "access_rules": ["$cut","$surf"],
+              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "Gym: Sailor",
@@ -80,6 +86,12 @@
               "item_count": 2,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "​Koga",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "Gym: Juggler 1",
@@ -146,7 +158,7 @@
               "name": "Jr. Trainer M",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Fisherman 5",
@@ -231,7 +243,7 @@
             {
               "name": "Gambling Addict",
               "item_count": 1,
-              "access_rules": ["coincase"],
+              "access_rules": [""],
               "visibility_rules": [""]
             },
             {
@@ -245,6 +257,12 @@
               "item_count": 2,
               "access_rules": ["$cut"],
               "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "​Erika",
+              "item_count": 1,
+              "access_rules": ["$cut"],
+              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "Gym: Lass 1",
@@ -268,7 +286,7 @@
               "name": "Gym: Jr. Trainer F",
               "item_count": 1,
               "access_rules": ["$cut"],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Lass 2",
@@ -280,7 +298,7 @@
               "name": "Gym: Cool Trainer F",
               "item_count": 1,
               "access_rules": ["$cut"],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Beauty 3",
@@ -346,9 +364,15 @@
             },
             {
               "name": "Giovanni",
-              "item_count": 1,
+              "item_count": 2,
               "access_rules": ["$viridiangym,$cut","$viridiangym,$old_man"],
               "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "​Giovanni",
+              "item_count": 1,
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$old_man"],
+              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "Item in Gym",
@@ -366,7 +390,7 @@
               "name": "Gym: Blackbelt 1",
               "item_count": 1,
               "access_rules": ["$viridiangym,$cut","$viridiangym,$old_man"],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Cooltrainer M 1",
@@ -384,7 +408,7 @@
               "name": "Gym: Blackbelt 2",
               "item_count": 1,
               "access_rules": ["$viridiangym,$cut","$viridiangym,$old_man"],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Tamer 2",
@@ -396,7 +420,7 @@
               "name": "Gym: Blackbelt 3",
               "item_count": 1,
               "access_rules": ["$viridiangym,$cut","$viridiangym,$old_man"],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Cooltrainer M 3",
@@ -414,8 +438,8 @@
             {
               "name": "Oak's Aide",
               "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["$aide|2"]
+              "access_rules": ["$aide|2"],
+              "visibility_rules": []
             },
             {
               "name": "South Item",
@@ -440,19 +464,25 @@
               "name": "Museum Scientist",
               "item_count": 1,
               "access_rules": ["$cut"],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": [""]
             },
             {
               "name": "Brock",
-              "item_count": 1,
+              "item_count": 2,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "​Brock",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "Gym: Jr. Trainer M",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 144, "y": 112, "size": 27, "border_thickness": 4 }]
@@ -465,7 +495,7 @@
               "name": "Bicycle Shop",
               "item_count": 1,
               "access_rules": ["voucher"],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": [""]
             },
             {
               "name": "HI: Badge Guy's Backyard",
@@ -481,9 +511,15 @@
             },
             {
               "name": "Misty",
-              "item_count": 1,
+              "item_count": 2,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "​Misty",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "Gym: Swimmer",
@@ -495,7 +531,7 @@
               "name": "Gym: Jr. Trainer F",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 400, "y": 80, "size": 27, "border_thickness": 4 }]
@@ -544,13 +580,13 @@
               "name": "Jr. Trainer M 1",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Jr. Trainer M 2",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 400, "y": 48 }]
@@ -563,7 +599,7 @@
               "name": "Bill",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": [""]
             },
             {
               "name": "Item",
@@ -623,7 +659,7 @@
               "name": "Jr. Trainer M",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Youngster 3",
@@ -646,7 +682,6 @@
           "sections": [
             {
               "name": "Mr. Fuji",
-              "item_count": 1,
               "access_rules": ["fuji"],
               "visibility_rules": []
             }
@@ -655,7 +690,7 @@
         },
         {
           "name": "Route 12 North",
-          "access_rules": ["$lavender","$cerulean,$extra_boulders,pokeflute","$fuchsia,$extra_boulders"],
+          "access_rules": ["$lavender","$cerulean,$extra_boulders,pokeflute","$fuchsia,$extra_boulders,pokeflute"],
           "sections": [
             {
               "name": "Mourning Girl",
@@ -756,7 +791,7 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "3F Item ",
+              "name": "3F Item",
               "item_count": 1,
               "access_rules": ["$cardkey(3)"],
               "visibility_rules": ["opt_keyonly_off"]
@@ -822,7 +857,7 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "5F Northwest Item ",
+              "name": "5F Northwest Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
@@ -997,7 +1032,7 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "HI: 9F Nurse Bed ",
+              "name": "HI: 9F Nurse Bed",
               "item_count": 1,
               "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
@@ -1087,7 +1122,7 @@
               "visibility_rules": [""]
             },
             {
-              "name": "Biker",
+              "name": "Biker 1",
               "item_count": 1,
               "access_rules": ["$cyclingroad,$fuchsia","$cyclingroad,$celadon,pokeflute"],
               "visibility_rules": ["trainer_on"]
@@ -1142,7 +1177,7 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "Jr. TrainerF 1",
+              "name": "Jr. Trainer F 1",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -1154,7 +1189,7 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "Jr. TrainerF 2",
+              "name": "Jr. Trainer F 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -1172,7 +1207,7 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "Jr. TrainerF 3",
+              "name": "Jr. Trainer F 3",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -1196,7 +1231,7 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "Jr. TrainerF 4",
+              "name": "Jr. Trainer F 4",
               "item_count": 1,
               "access_rules": ["$cut"],
               "visibility_rules": ["trainer_on"]
@@ -1297,13 +1332,19 @@
               "name": "R&D Lab Scientist",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": []
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Blaine",
               "item_count": 2,
               "access_rules": ["secretkey"],
               "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "​Blaine",
+              "item_count": 1,
+              "access_rules": ["secretkey"],
+              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "Gym: Burglar 1",
@@ -1352,7 +1393,7 @@
         },
         {
           "name": "Saffron City",
-          "access_rules": ["saffron"],
+          "access_rules": ["$saffron"],
           "sections": [
             {
               "name": "Copycat",
@@ -1364,13 +1405,19 @@
               "name": "Mr. Psychic",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": []
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Sabrina",
-              "item_count": 1,
+              "item_count": 2,
               "access_rules": ["silphco"],
               "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "​Sabrina",
+              "item_count": 1,
+              "access_rules": ["silphco"],
+              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "HI: Copycat Desk",
@@ -1424,25 +1471,25 @@
               "name": "Fighting Dojo: Blackbelt 1",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Fighting Dojo: Blackbelt 2",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Fighting Dojo: Blackbelt 3",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Fighting Dojo: Blackbelt 4",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 400, "y": 176, "size": 27, "border_thickness": 4 }]
@@ -1508,7 +1555,7 @@
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
-              "name": "Jr. TrainerF 1",
+              "name": "Jr. Trainer F 1",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -1523,7 +1570,7 @@
               "name": "Jr. Trainer M 1",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Bug Catcher 1",
@@ -1547,7 +1594,7 @@
               "name": "Jr. Trainer M 2",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Hiker 3",
@@ -1556,7 +1603,7 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "Jr. TrainerF 2",
+              "name": "Jr. Trainer F 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -1764,25 +1811,25 @@
             {
               "name": "7F Rocket 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["silphscope","opt_pokedoll_skip_on"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "7F Rocket 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["silphscope","opt_pokedoll_skip_on"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "7F Rocket 3",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["silphscope","opt_pokedoll_skip_on"],
               "visibility_rules": ["trainer_on"]
             },
 			{
 				"name": "7F Save Mr. Fuji",
 				"hosted_item": "fuji",
-				"access_rules": ["silphscope","$celadon,opt_pokedoll_skip_on"]
+				"access_rules": ["silphscope","opt_pokedoll_skip_on"]
 			}
 		],
           "map_locations": [{ "map": "map", "x": 560, "y": 176 }]
@@ -2037,7 +2084,7 @@
               "name": "2F Blackbelt",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "2F Juggler 1",
@@ -2070,7 +2117,7 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "3F CooltrainerF 1",
+              "name": "3F Cooltrainer F 1",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -2082,7 +2129,7 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "3F CooltrainerF 2",
+              "name": "3F Cooltrainer F 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -2500,19 +2547,19 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "1F Jr. TrainerF 1",
+              "name": "1F Jr. Trainer F 1",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "1F Jr. TrainerF 2",
+              "name": "1F Jr. Trainer F 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "1F Jr. TrainerF 3",
+              "name": "1F Jr. Trainer F 3",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -2524,7 +2571,7 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "B1F Jr. TrainerF 1",
+              "name": "B1F Jr. Trainer F 1",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -2548,7 +2595,7 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "B1F Jr. TrainerF 2",
+              "name": "B1F Jr. Trainer F 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -2573,7 +2620,7 @@
           "access_rules": ["$lavender,$rock_tunnel","$cerulean,$cut"],
           "sections": [
             {
-              "name": "Jr. TrainerF",
+              "name": "Jr. Trainer F",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -2598,7 +2645,7 @@
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
-              "name": "Jr. TrainerF 1",
+              "name": "Jr. Trainer F 1",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -2610,7 +2657,7 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "Jr. TrainerF 2",
+              "name": "Jr. Trainer F 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -2653,7 +2700,7 @@
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
-              "name": "Jr. TrainerF 1",
+              "name": "Jr. Trainer F 1",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -2665,7 +2712,7 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "Jr. TrainerF 2",
+              "name": "Jr. Trainer F 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -2683,13 +2730,13 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "Jr. TrainerF 3",
+              "name": "Jr. Trainer F 3",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "Jr. TrainerF 4",
+              "name": "Jr. Trainer F 4",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -2937,18 +2984,18 @@
         },
         {
           "name": "Underground Tunnel North-South",
-          "access_rules": ["$cerulean,$hidden"],
+          "access_rules": ["$cerulean"],
           "sections": [
             {
               "name": "HI: Near Northern Stairs",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: Near Southern Stairs",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
@@ -2956,18 +3003,18 @@
         },
         {
           "name": "Underground Tunnel West-East",
-          "access_rules": ["$celadon,$hidden"],
+          "access_rules": ["$celadon"],
           "sections": [
             {
               "name": "HI: West",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: East",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
@@ -3202,7 +3249,7 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "Jr. TrainerF 1",
+              "name": "Jr. Trainer F 1",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -3226,7 +3273,7 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "Jr. TrainerF 2",
+              "name": "Jr. Trainer F 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -3504,7 +3551,7 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "Jr. TrainerF 1",
+              "name": "Jr. Trainer F 1",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -3513,7 +3560,7 @@
               "name": "Jr. Trainer M 1",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Bug Catcher 2",
@@ -3522,7 +3569,7 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "Jr. TrainerF 2",
+              "name": "Jr. Trainer F 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -3531,7 +3578,7 @@
               "name": "Jr. Trainer M 2",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 400, "y": 240 }]
@@ -3618,7 +3665,11 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
-            }
+            },
+			{
+				"name": "Beat The Game",
+				"hosted_item": "champ"
+			}
           ],
           "map_locations": [{ "map": "map", "x": 80, "y": 80, "size": 27, "border_thickness": 4 }]
         },
