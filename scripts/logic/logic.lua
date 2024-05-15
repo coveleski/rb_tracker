@@ -122,14 +122,15 @@ end
 
 function celadon()
     local flute = has('pokeflute')
+    local boulders = extra_boulders()
 
     local flight = flyto('celadon') or flyto('lavender')
     local gate = fly('saffron') and has('tea')
     local reverse_lavender = surf() and strength()
-    local bike = flyto('fuchsia') and cyclingroad() and flute
-    local via_vermilion = (flyto('cerulean') or flyto('vermilion')) and (has('tea') or (flute and extra_boulders()))
+    local via_fuchsia = flyto('fuchsia') and flute and (boulders or cyclingroad())
+    local via_vermilion = (flyto('cerulean') or flyto('vermilion')) and (has('tea') or (flute and boulders))
 
-    return flight or gate or reverse_lavender or bike or via_vermilion
+    return flight or gate or reverse_lavender or via_fuchsia or via_vermilion
 
 
 end
