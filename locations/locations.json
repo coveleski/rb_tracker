@@ -122,7 +122,7 @@
         },
         {
           "name": "Route 12 South",
-          "access_rules": ["$fuchsia","$lavender,$surf","$cerulean,flute"],
+          "access_rules": ["$fuchsia,$extra_boulders","$lavender,$surf","$cerulean,flute"],
           "sections": [
             {
               "name": "Fishing Guru's Brother",
