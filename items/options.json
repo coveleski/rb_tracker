@@ -79,6 +79,32 @@
         ]
     },
     {
+        "name": "Card Key Option",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Card Key - Vanilla",
+                "img_mods": "@disabled",
+                "img": "images/items/cardkey.png",
+                "codes": "opt_cardkey,opt_cardkey_off"
+            },
+            {
+                "name": "Card Key - Progressive",
+                "img_mods": "@disabled",
+                "img": "images/items/cardkey.png",
+                "codes": "opt_cardkey,opt_cardkey_prog"
+            },
+            {
+                "name": "Cardkey - Split",
+                "img": "images/items/cardkey.png",
+                "codes": "opt_cardkey,opt_cardkey_split",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Second Fossil Check Requirement",
         "type": "consumable",
         "loop": true,

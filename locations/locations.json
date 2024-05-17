@@ -758,7 +758,7 @@
               "name": "1F Receptionist",
               "item_count": 1,
               "access_rules": ["silphco"],
-              "visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
+              "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
             },
             {
               "name": "2F Woman",
@@ -848,7 +848,7 @@
               "name": "4F Hostage",
               "item_count": 1,
               "access_rules": ["$cardkey(4)"],
-              "visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
+              "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
             },
             {
               "name": "5F Southwest Item",
@@ -902,7 +902,7 @@
               "name": "5F Hostage",
               "item_count": 1,
               "access_rules": ["$cardkey(5)"],
-              "visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
+              "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 368, "y": 144 }]
@@ -945,7 +945,7 @@
               "name": "6F Hostage",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
+              "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
             },
             {
               "name": "7F West Item",
@@ -987,7 +987,7 @@
               "name": "7F Hostage",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
+              "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
             },
             {
               "name": "8F Rocket 1",
@@ -1011,7 +1011,7 @@
               "name": "8F Hostage",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
+              "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
             },
             {
               "name": "9F Rocket 1",
@@ -1041,7 +1041,7 @@
               "name": "9F Nurse",
               "item_count": 1,
               "access_rules": ["$cardkey(9)"],
-              "visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
+              "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
             },
             {
               "name": "10F Left Item",
@@ -1077,7 +1077,7 @@
               "name": "10F Hostage",
               "item_count": 1,
               "access_rules": ["$cardkey(10)"],
-              "visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
+              "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
             },
             {
               "name": "11F Rocket 1",
@@ -1106,7 +1106,7 @@
               "name": "11F Secretary",
               "item_count": 1,
               "access_rules": ["silphco"],
-              "visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
+              "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 340, "y": 144 }]

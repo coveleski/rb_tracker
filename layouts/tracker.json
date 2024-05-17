@@ -1,4 +1,4 @@
-{
+﻿{
     "tracker_default": {
         "type": "container",
         "background": "#212121",
@@ -20,6 +20,10 @@
                                 "type": "layout",
                                 "key": "shared_item_grid"
                             }
+                        },
+                        {
+                            "type": "layout",
+                            "key": "cardkey",
                         },
                         {
                             "type": "group",

@@ -1,0 +1,10 @@
+{
+    "cardkey": {
+        "type": "itemgrid",
+        "background": "#212121",
+        "rows": [
+            ["cardkey2f", "cardkey3f", "cardkey4f", "cardkey5f", "cardkey6f"],
+            ["cardkey7f", "cardkey8f", "cardkey9f", "cardkey10f", "cardkey11f"]
+        ]
+    }
+}

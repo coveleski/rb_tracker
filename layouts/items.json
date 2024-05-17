@@ -133,7 +133,8 @@
                         "opt_trn",
                         "opt_dexsanity",
                         "opt_stonesanity",
-                        "opt_keyonly"
+                        "opt_keyonly",
+                        "opt_cardkey"
                     ]
                 ]
             },

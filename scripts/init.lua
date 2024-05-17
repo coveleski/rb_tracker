@@ -7,7 +7,7 @@ local variant = Tracker.ActiveVariantUID
 IS_ITEMS_ONLY = variant:find("itemsonly")
 
 function split_key()
-    obj =  Tracker:FindObjectForCode('op_cardkey_split')
+    obj =  Tracker:FindObjectForCode('opt_cardkey_split')
     if obj.CurrentStage == 2 then
       Tracker:AddLayouts("layouts/split_cardkey.json")
     end
@@ -49,5 +49,5 @@ if PopVersion and PopVersion >= "0.18.0" then
 end
 -- Add a watch to dynamically load layout if progressive card keys enabled
 if PopVersion and PopVersion >= "0.1.0" then
-    ScriptHost:AddWatchForCode("loadCardKey", "op_cardkey_split", split_key)
+    ScriptHost:AddWatchForCode("loadCardKey", "opt_cardkey_split", split_key)
   end
