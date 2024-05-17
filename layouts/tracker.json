@@ -1,7 +1,7 @@
 ﻿{
     "tracker_default": {
         "type": "container",
-        "background": "#171717",
+        "background": "#111111",
         "content": {
             "type": "dock",
             "dropshadow": true,
@@ -9,7 +9,7 @@
                 {
                     "type": "dock",
                     "dock": "left",
-                    "background": "#171717",
+                    "background": "#111111",
                     "v_alignment": "stretch",
                     "margin": "0,0,0,0",
                     "content": [
@@ -17,6 +17,7 @@
                             "type": "group",
                             "header": "Items",
                             "dock": "top",
+                            "margin": "0,0,0,0",
                             "content": {
                                 "type": "layout",
                                 "key": "shared_item_grid"

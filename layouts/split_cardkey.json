@@ -1,7 +1,10 @@
 {
     "cardkey": {
         "type": "itemgrid",
-        "background": "#171717",
+        "margin": "3,0,0,0",
+        "item_margin": "3, 3",
+        "h_alignment": "left",
+        // "background": "#111111",
         "rows": [
             ["cardkey2f", "cardkey3f", "cardkey4f", "cardkey5f", "cardkey6f"],
             ["cardkey7f", "cardkey8f", "cardkey9f", "cardkey10f", "cardkey11f"]
