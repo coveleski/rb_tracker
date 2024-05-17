@@ -11,9 +11,10 @@
             },
             {
                 "img":"images/pokedex/bulbasaur.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/bulbasaur.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -29,9 +30,10 @@
             },
             {
                 "img":"images/pokedex/ivysaur.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/ivysaur.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -47,9 +49,10 @@
             },
             {
                 "img":"images/pokedex/venusaur.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/venusaur.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -65,9 +68,10 @@
             },
             {
                 "img":"images/pokedex/charmander.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/charmander.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -82,10 +86,11 @@
                 "img": "images/pokedex/charmeleon.png"
             },
             {
-                "img":"images/pokedex/charmeleon.png",
-                "img_mods": "@disabled"
+                "img":"images/pokedex/charmeleon.png",  
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/charmeleon.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -101,9 +106,10 @@
             },
             {
                 "img":"images/pokedex/charizard.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/charizard.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -119,9 +125,10 @@
             },
             {
                 "img":"images/pokedex/squirtle.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/squirtle.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -137,9 +144,10 @@
             },
             {
                 "img":"images/pokedex/wartortle.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/wartortle.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -155,9 +163,10 @@
             },
             {
                 "img":"images/pokedex/blastoise.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/blastoise.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -173,9 +182,10 @@
             },
             {
                 "img":"images/pokedex/caterpie.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/caterpie.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -191,9 +201,10 @@
             },
             {
                 "img":"images/pokedex/metapod.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/metapod.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -209,9 +220,10 @@
             },
             {
                 "img":"images/pokedex/butterfree.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/butterfree.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -227,9 +239,10 @@
             },
             {
                 "img":"images/pokedex/weedle.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/weedle.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -245,9 +258,10 @@
             },
             {
                 "img":"images/pokedex/kakuna.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/kakuna.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -263,9 +277,10 @@
             },
             {
                 "img":"images/pokedex/beedrill.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/beedrill.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -281,9 +296,10 @@
             },
             {
                 "img":"images/pokedex/pidgey.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/pidgey.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -299,9 +315,10 @@
             },
             {
                 "img":"images/pokedex/pidgeotto.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/pidgeotto.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -317,9 +334,10 @@
             },
             {
                 "img":"images/pokedex/pidgeot.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/pidgeot.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -335,9 +353,10 @@
             },
             {
                 "img":"images/pokedex/rattata.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/rattata.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -353,9 +372,10 @@
             },
             {
                 "img":"images/pokedex/raticate.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/raticate.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -371,9 +391,10 @@
             },
             {
                 "img":"images/pokedex/spearow.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/spearow.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -389,9 +410,10 @@
             },
             {
                 "img":"images/pokedex/fearow.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/fearow.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -407,9 +429,10 @@
             },
             {
                 "img":"images/pokedex/ekans.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/ekans.pngg",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -425,9 +448,10 @@
             },
             {
                 "img":"images/pokedex/arbok.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/arbok.pngg",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -443,9 +467,10 @@
             },
             {
                 "img":"images/pokedex/pikachu.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/pikachu.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -461,9 +486,10 @@
             },
             {
                 "img":"images/pokedex/raichu.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/raichu.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -479,9 +505,10 @@
             },
             {
                 "img":"images/pokedex/sandshrew.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/sandshrew.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -497,9 +524,10 @@
             },
             {
                 "img":"images/pokedex/sandslash.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/sandslash.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -515,9 +543,10 @@
             },
             {
                 "img":"images/pokedex/nidoranf.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/nidoranf.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -533,9 +562,10 @@
             },
             {
                 "img":"images/pokedex/nidorina.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/nidorina.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -551,9 +581,10 @@
             },
             {
                 "img":"images/pokedex/nidoqueen.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/nidoqueen.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -569,9 +600,10 @@
             },
             {
                 "img":"images/pokedex/nidoranm.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/nidoranm.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -587,9 +619,10 @@
             },
             {
                 "img":"images/pokedex/nidorino.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/nidorino.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -605,9 +638,10 @@
             },
             {
                 "img":"images/pokedex/nidoking.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/nidoking.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -623,9 +657,10 @@
             },
             {
                 "img":"images/pokedex/clefairy.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/clefairy.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -641,9 +676,10 @@
             },
             {
                 "img":"images/pokedex/clefable.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/clefable.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -659,9 +695,10 @@
             },
             {
                 "img":"images/pokedex/vulpix.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/vulpix.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -677,9 +714,10 @@
             },
             {
                 "img":"images/pokedex/ninetales.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/ninetales.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -695,9 +733,10 @@
             },
             {
                 "img":"images/pokedex/jigglypuff.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/jigglypuff.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -713,9 +752,10 @@
             },
             {
                 "img":"images/pokedex/wigglytuff.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/wigglytuff.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -731,9 +771,10 @@
             },
             {
                 "img":"images/pokedex/zubat.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/zubat.pngg",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -749,9 +790,10 @@
             },
             {
                 "img":"images/pokedex/golbat.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/golbat.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -767,9 +809,10 @@
             },
             {
                 "img":"images/pokedex/oddish.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/oddish.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -785,9 +828,10 @@
             },
             {
                 "img":"images/pokedex/gloom.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/gloom.pngg",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -803,9 +847,10 @@
             },
             {
                 "img":"images/pokedex/vileplume.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/vileplume.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -821,9 +866,10 @@
             },
             {
                 "img":"images/pokedex/paras.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/paras.pngg",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -839,9 +885,10 @@
             },
             {
                 "img":"images/pokedex/parasect.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/parasect.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -857,9 +904,10 @@
             },
             {
                 "img":"images/pokedex/venonat.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/venonat.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -875,9 +923,10 @@
             },
             {
                 "img":"images/pokedex/venomoth.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/venomoth.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -893,9 +942,10 @@
             },
             {
                 "img":"images/pokedex/diglett.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/diglett.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -911,9 +961,10 @@
             },
             {
                 "img":"images/pokedex/dugtrio.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/dugtrio.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -929,9 +980,10 @@
             },
             {
                 "img":"images/pokedex/meowth.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/meowth.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -947,9 +999,10 @@
             },
             {
                 "img":"images/pokedex/persian.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/persian.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -965,9 +1018,10 @@
             },
             {
                 "img":"images/pokedex/psyduck.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/psyduck.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -983,9 +1037,10 @@
             },
             {
                 "img":"images/pokedex/golduck.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/golduck.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1001,9 +1056,10 @@
             },
             {
                 "img":"images/pokedex/mankey.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/mankey.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1019,9 +1075,10 @@
             },
             {
                 "img":"images/pokedex/primeape.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/primeape.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1037,9 +1094,10 @@
             },
             {
                 "img":"images/pokedex/growlithe.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/growlithe.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1055,9 +1113,10 @@
             },
             {
                 "img":"images/pokedex/arcanine.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/arcanine.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1073,9 +1132,10 @@
             },
             {
                 "img":"images/pokedex/poliwag.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/poliwag.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1091,9 +1151,10 @@
             },
             {
                 "img":"images/pokedex/poliwhirl.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/poliwhirl.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1109,9 +1170,10 @@
             },
             {
                 "img":"images/pokedex/poliwrath.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/poliwrath.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1127,9 +1189,10 @@
             },
             {
                 "img":"images/pokedex/abra.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/abra.pngng",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1145,9 +1208,10 @@
             },
             {
                 "img":"images/pokedex/kadabra.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/kadabra.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1163,9 +1227,10 @@
             },
             {
                 "img":"images/pokedex/alakazam.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/alakazam.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1181,9 +1246,10 @@
             },
             {
                 "img":"images/pokedex/machop.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/machop.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1199,9 +1265,10 @@
             },
             {
                 "img":"images/pokedex/machoke.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/machoke.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1217,9 +1284,10 @@
             },
             {
                 "img":"images/pokedex/machamp.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/machamp.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1235,9 +1303,10 @@
             },
             {
                 "img":"images/pokedex/bellsprout.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/bellsprout.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1253,9 +1322,10 @@
             },
             {
                 "img":"images/pokedex/weepinbell.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/weepinbell.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1271,9 +1341,10 @@
             },
             {
                 "img":"images/pokedex/victreebel.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/victreebel.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1289,9 +1360,10 @@
             },
             {
                 "img":"images/pokedex/tentacool.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/tentacool.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1307,9 +1379,10 @@
             },
             {
                 "img":"images/pokedex/tentacruel.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/tentacruel.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1325,9 +1398,10 @@
             },
             {
                 "img":"images/pokedex/geodude.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/geodude.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1343,9 +1417,10 @@
             },
             {
                 "img":"images/pokedex/graveler.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/graveler.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1361,9 +1436,10 @@
             },
             {
                 "img":"images/pokedex/golem.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/golem.pngg",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1379,9 +1455,10 @@
             },
             {
                 "img":"images/pokedex/ponyta.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/ponyta.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1397,9 +1474,10 @@
             },
             {
                 "img":"images/pokedex/rapidash.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/rapidash.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1415,9 +1493,10 @@
             },
             {
                 "img":"images/pokedex/slowpoke.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/slowpoke.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1433,9 +1512,10 @@
             },
             {
                 "img":"images/pokedex/slowbro.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/slowbro.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1451,9 +1531,10 @@
             },
             {
                 "img":"images/pokedex/magnemite.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/magnemite.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1469,9 +1550,10 @@
             },
             {
                 "img":"images/pokedex/magneton.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/magneton.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1487,9 +1569,10 @@
             },
             {
                 "img":"images/pokedex/farfetchd.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/farfetchd.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1505,9 +1588,10 @@
             },
             {
                 "img":"images/pokedex/doduo.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/doduo.pngg",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1523,9 +1607,10 @@
             },
             {
                 "img":"images/pokedex/dodrio.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/dodrio.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1541,9 +1626,10 @@
             },
             {
                 "img":"images/pokedex/seel.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/seel.pngng",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1559,9 +1645,10 @@
             },
             {
                 "img":"images/pokedex/dewgong.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/dewgong.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1577,9 +1664,10 @@
             },
             {
                 "img":"images/pokedex/grimer.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/grimer.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1595,9 +1683,10 @@
             },
             {
                 "img":"images/pokedex/muk.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/pokedex/muk.pngpng",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1613,9 +1702,10 @@
             },
             {
                 "img":"images/pokedex/shellder.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/shellder.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1631,9 +1721,10 @@
             },
             {
                 "img":"images/pokedex/cloyster.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/cloyster.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1649,9 +1740,10 @@
             },
             {
                 "img":"images/pokedex/gastly.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/gastly.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1667,9 +1759,10 @@
             },
             {
                 "img":"images/pokedex/haunter.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/haunter.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1685,9 +1778,10 @@
             },
             {
                 "img":"images/pokedex/gengar.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/gengar.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1703,9 +1797,10 @@
             },
             {
                 "img":"images/pokedex/onix.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/onix.pngng",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1721,9 +1816,10 @@
             },
             {
                 "img":"images/pokedex/drowzee.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/drowzee.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1739,9 +1835,10 @@
             },
             {
                 "img":"images/pokedex/hypno.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/hypno.pngg",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1757,9 +1854,10 @@
             },
             {
                 "img":"images/pokedex/krabby.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/krabby.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1775,9 +1873,10 @@
             },
             {
                 "img":"images/pokedex/kingler.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/kingler.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1793,9 +1892,10 @@
             },
             {
                 "img":"images/pokedex/voltorb.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/voltorb.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1811,9 +1911,10 @@
             },
             {
                 "img":"images/pokedex/electrode.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/electrode.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1829,9 +1930,10 @@
             },
             {
                 "img":"images/pokedex/exeggcute.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/exeggcute.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1847,9 +1949,10 @@
             },
             {
                 "img":"images/pokedex/exeggutor.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/exeggutor.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1865,9 +1968,10 @@
             },
             {
                 "img":"images/pokedex/cubone.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/cubone.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1883,9 +1987,10 @@
             },
             {
                 "img":"images/pokedex/marowak.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/marowak.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1901,9 +2006,10 @@
             },
             {
                 "img":"images/pokedex/hitmonlee.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/hitmonlee.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1919,9 +2025,10 @@
             },
             {
                 "img":"images/pokedex/hitmonchan.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/hitmonchan.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1937,9 +2044,10 @@
             },
             {
                 "img":"images/pokedex/lickitung.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/lickitung.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1955,9 +2063,10 @@
             },
             {
                 "img":"images/pokedex/koffing.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/koffing.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1973,9 +2082,10 @@
             },
             {
                 "img":"images/pokedex/weezing.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/weezing.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -1991,9 +2101,10 @@
             },
             {
                 "img":"images/pokedex/rhyhorn.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/rhyhorn.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2009,9 +2120,10 @@
             },
             {
                 "img":"images/pokedex/rhydon.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/rhydon.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2027,9 +2139,10 @@
             },
             {
                 "img":"images/pokedex/chansey.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/chansey.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2045,9 +2158,10 @@
             },
             {
                 "img":"images/pokedex/tangela.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/tangela.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2063,9 +2177,10 @@
             },
             {
                 "img":"images/pokedex/kangaskhan.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/kangaskhan.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2081,9 +2196,10 @@
             },
             {
                 "img":"images/pokedex/horsea.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/horsea.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2099,9 +2215,10 @@
             },
             {
                 "img":"images/pokedex/seadra.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/seadra.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2117,9 +2234,10 @@
             },
             {
                 "img":"images/pokedex/goldeen.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/goldeen.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2135,9 +2253,10 @@
             },
             {
                 "img":"images/pokedex/seaking.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/seaking.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2153,9 +2272,10 @@
             },
             {
                 "img":"images/pokedex/staryu.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/staryu.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2171,9 +2291,10 @@
             },
             {
                 "img":"images/pokedex/starmie.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/starmie.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2189,9 +2310,10 @@
             },
             {
                 "img":"images/pokedex/mrmime.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/mrmime.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2207,9 +2329,10 @@
             },
             {
                 "img":"images/pokedex/scyther.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/scyther.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2225,9 +2348,10 @@
             },
             {
                 "img":"images/pokedex/jynx.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/jynx.pngng",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2243,9 +2367,10 @@
             },
             {
                 "img":"images/pokedex/electabuzz.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/electabuzz.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2261,9 +2386,10 @@
             },
             {
                 "img":"images/pokedex/magmar.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/magmar.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2279,9 +2405,10 @@
             },
             {
                 "img":"images/pokedex/pinsir.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/pinsir.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2297,9 +2424,10 @@
             },
             {
                 "img":"images/pokedex/tauros.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/tauros.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2315,9 +2443,10 @@
             },
             {
                 "img":"images/pokedex/magikarp.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/magikarp.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2333,9 +2462,10 @@
             },
             {
                 "img":"images/pokedex/gyarados.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/gyarados.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2351,9 +2481,10 @@
             },
             {
                 "img":"images/pokedex/lapras.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/lapras.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2369,9 +2500,10 @@
             },
             {
                 "img":"images/pokedex/ditto.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/ditto.pngg",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2387,9 +2519,10 @@
             },
             {
                 "img":"images/pokedex/eevee.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/eevee.pngg",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2405,9 +2538,10 @@
             },
             {
                 "img":"images/pokedex/vaporeon.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/vaporeon.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2423,9 +2557,10 @@
             },
             {
                 "img":"images/pokedex/jolteon.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/jolteon.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2441,9 +2576,10 @@
             },
             {
                 "img":"images/pokedex/flareon.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/flareon.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2459,9 +2595,10 @@
             },
             {
                 "img":"images/pokedex/porygon.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/porygon.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2477,9 +2614,10 @@
             },
             {
                 "img":"images/pokedex/omanyte.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/omanyte.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2495,9 +2633,10 @@
             },
             {
                 "img":"images/pokedex/omastar.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/omastar.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2513,9 +2652,10 @@
             },
             {
                 "img":"images/pokedex/kabuto.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/kabuto.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2531,9 +2671,10 @@
             },
             {
                 "img":"images/pokedex/kabutops.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/kabutops.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2549,9 +2690,10 @@
             },
             {
                 "img":"images/pokedex/aerodactyl.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/aerodactyl.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2567,9 +2709,10 @@
             },
             {
                 "img":"images/pokedex/snorlax.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/snorlax.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2585,9 +2728,10 @@
             },
             {
                 "img":"images/pokedex/articuno.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/articuno.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2603,9 +2747,10 @@
             },
             {
                 "img":"images/pokedex/zapdos.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/zapdos.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2621,9 +2766,10 @@
             },
             {
                 "img":"images/pokedex/moltres.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/moltres.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2639,9 +2785,10 @@
             },
             {
                 "img":"images/pokedex/dratini.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/dratini.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2657,9 +2804,10 @@
             },
             {
                 "img":"images/pokedex/dragonair.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/dragonair.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2675,9 +2823,10 @@
             },
             {
                 "img":"images/pokedex/dragonite.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/dragonite.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2693,9 +2842,10 @@
             },
             {
                 "img":"images/pokedex/mewtwo.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/images/pokedex/mewtwo.png",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
@@ -2711,9 +2861,10 @@
             },
             {
                 "img":"images/pokedex/mew.png",
-                "img_mods": "@disabled"
+                "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/transparent.png",
+                "img": "/pokedex/mew.pngpng",
+                "img_mods": "@disabled",
                 "name": ""
             }
         ]
