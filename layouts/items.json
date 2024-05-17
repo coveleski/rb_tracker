@@ -225,5 +225,68 @@
                 ]
             }
         ]
+    },
+    "bottombar": {
+        "type": "array",
+        "orientation": "horizontal",
+        "background": "#212121",
+        "margin": "0 0 0 0",
+        "content": [
+            {
+                "type": "group",
+                "header": "Viridian Gym",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["vg_req","badge_req","vg_digit",""]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Victory Road Requirements",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["rt22_req","badge_req","rt22_digit","",
+                        "vr_req", "badge_req","vr_digit",""]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Elite 4 Requirements",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["badge_req","e4b_digit","","key_req","e4k_digit1","e4k_digit2",
+                        "","dex_req","e4p_digit1", "e4p_digit2","e4p_digit3",""]
+                    ]
+                
+                }
+            },
+                {
+                    "type": "group",
+                    "header": "Cerulean Cave Requirements",
+                    "dock": "top",
+                    "content":                 {
+                        "type": "itemgrid",
+                        "orientation": "vertical",
+                        "h_alignment": "left",
+                        "rows": [["badge_req","ccaveB_digit","","key_req","ccaveK_digit1","ccaveK_digit2"]]
+                    
+                    }
+                }
+        
+        ]
     }
 }
