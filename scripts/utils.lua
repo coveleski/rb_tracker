@@ -33,3 +33,7 @@ end
 function progCount(code)
 	return Tracker:FindObjectForCode(code).CurrentStage
 end
+
+function scoutable()
+    return AccessibilityLevel.Inspect
+end

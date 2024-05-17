@@ -438,7 +438,7 @@
             {
               "name": "Oak's Aide",
               "item_count": 1,
-              "access_rules": ["$aide|2"],
+              "access_rules": ["$aide|2", "{^$scoutable}"],
               "visibility_rules": []
             },
             {
@@ -494,7 +494,7 @@
             {
               "name": "Bicycle Shop",
               "item_count": 1,
-              "access_rules": ["voucher"],
+              "access_rules": ["voucher", "{^$scoutable}"],
               "visibility_rules": [""]
             },
             {
@@ -738,7 +738,7 @@
             {
               "name": "Oak's Aide",
               "item_count": 1,
-              "access_rules": ["$aide|11"],
+              "access_rules": ["$aide|11", "{^$scoutable}"],
               "visibility_rules": [""]
             },
             {
@@ -1167,7 +1167,7 @@
             {
               "name": "Oak's Aide",
               "item_count": 1,
-              "access_rules": ["aide|15"],
+              "access_rules": ["aide|15", "{^$scoutable}"],
               "visibility_rules": [""]
             },
             {
