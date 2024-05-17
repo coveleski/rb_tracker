@@ -256,6 +256,48 @@
         ]
     },
     {
+        "name": "Pokedex Randomized",
+        "type": "toggle",
+        "codes": "dex_test_rand"
+    },
+    {
+        "name": "Pokedex Required",
+        "type": "toggle",
+        "codes": "dex_test_req"
+    },
+    {
+        "name": "Pokedex",
+        "type": "composite_toggle",
+        "codes": "dex_composite",
+        "item_left": "dex_test_rand",
+        "item_right": "dex_test_req",
+        "img": "images/items/pokedex.png",
+        "images": [
+            {
+                "name": "vanilla pokedex",
+                "left": false,
+                "right": false,
+                "img": "images/items/pokedex.png"
+            },
+            {
+                "name": "vanilla pokedex",
+                "left": true,
+                "right": false,
+                "img_mods": "overlay|images/options/pokedex_rand.png"
+            },
+            {
+                "left": false,
+                "right": true,
+                "img": "overlay|images/options/pokedex_req.png"
+            },
+            {
+                "left": true,
+                "right": true,
+                "img": "overlay|images/options/pokedex_rand.png,overlay|images/options/pokedex_req.png"
+            }
+        ]
+    },
+    {
         "name": "Pokédex Randomized",
         "type": "progressive",
         "loop": true,
