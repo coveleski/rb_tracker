@@ -1,4 +1,4 @@
-﻿{
+{
     "tracker_default": {
         "type": "container",
         "background": "#111111",
@@ -58,10 +58,18 @@
                             "tabs": [
                                 {
                                     "title": "Kanto",
-                                    "icon": "images/map.png",
+                                    "icon": "images/maps/map.png",
                                     "content": {
                                         "type": "map",
                                         "maps": ["map"]
+                                    }
+                                },
+								{
+                                    "title": "Rock Tunnel",
+                                    "icon": "images/maps/rocktunnel.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["rocktunnel"]
                                     }
                                 }
                             ]
