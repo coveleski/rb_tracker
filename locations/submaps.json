@@ -1,0 +1,174 @@
+[
+    {
+        "name": "Dungeons",
+        "chest_unopened_img": "images/items/pokeball.png",
+        "chest_opened_img": "images/items/pokeball_gray.png",
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "World/Rock Tunnel/1F Trainer 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rocktunnel",
+                        "x": 375,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "World/Rock Tunnel/1F Trainer 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rocktunnel",
+                        "x": 120,
+                        "y": 84
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "World/Rock Tunnel/1F Trainer 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rocktunnel",
+                        "x": 90,
+                        "y": 260
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "World/Rock Tunnel/1F Trainer 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rocktunnel",
+                        "x": 278,
+                        "y": 243
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "World/Rock Tunnel/1F Trainer 5"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rocktunnel",
+                        "x": 600,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "World/Rock Tunnel/1F Trainer 6"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rocktunnel",
+                        "x": 522,
+                        "y": 387
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "World/Rock Tunnel/1F Trainer 7"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rocktunnel",
+                        "x": 360,
+                        "y": 390
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "World/Rock Tunnel/B1F Southwest Item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rocktunnel",
+                        "x": 680,
+                        "y": 480
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "World/Rock Tunnel/B1F West Item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rocktunnel",
+                        "x": 680,
+                        "y": 390
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "World/Rock Tunnel/B1F Northwest Item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rocktunnel",
+                        "x": 680,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "World/Rock Tunnel/B1F North Item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rocktunnel",
+                        "x": 1010,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]
