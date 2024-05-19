@@ -4,5 +4,11 @@
         "location_size": 20,
         "location_border_thickness": 2,
         "img": "images/maps/map.png"
-    }
+    },
+    {
+        "name": "rocktunnel",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/rocktunnel.png"
+    }	
 ]
