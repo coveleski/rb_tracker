@@ -112,7 +112,8 @@
         "img": "images/items/fossilcheck.png",
         "codes": "opt_fossilcheck",
         "max_quantity": 3,
-        "initial_quantity": 0
+        "initial_quantity": 0,
+		"overlay_background": "#000000"
 
     },
     {
