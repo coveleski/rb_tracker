@@ -1496,7 +1496,7 @@
         },
         {
           "name": "Fossil",
-          "access_rules": ["$pewter,$rt3"],
+          "access_rules": ["$pewter,$rt3","$cerulean,$surf"],
           "sections": [
             {
               "name": "Fossil A",
