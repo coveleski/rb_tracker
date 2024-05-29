@@ -751,7 +751,7 @@
           "map_locations": [{ "map": "map", "x": 496, "y": 304 }]
         },
         {
-          "name": "Silph Co 1F - 5F",
+          "name": "Silph Co 1F - 6F",
           "access_rules": ["$saffron,fuji"],
           "sections": [
             {
@@ -903,14 +903,7 @@
               "item_count": 1,
               "access_rules": ["$cardkey(5)"],
               "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
-            }
-          ],
-          "map_locations": [{ "map": "map", "x": 368, "y": 144 }]
-        },
-        {
-          "name": "Silph Co 6F - 11F",
-          "access_rules": ["$saffron,fuji"],
-          "sections": [
+            },
             {
               "name": "6F Card Key Southwest Item Top",
               "item_count": 1,
@@ -946,7 +939,14 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
-            },
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 368, "y": 144 }]
+        },
+        {
+          "name": "Silph Co 7F - 11F",
+          "access_rules": ["$saffron,fuji"],
+          "sections": [
             {
               "name": "7F West Item",
               "item_count": 1,
@@ -1540,7 +1540,7 @@
         },
         {
           "name": "Route 9",
-          "access_rules": ["$cerulean,$cut","$lavender,^$rock_tunnel"],
+          "access_rules": ["$cerulean,$cut","$lavender,$rock_tunnel"],
           "sections": [
             {
               "name": "Item",
@@ -1957,7 +1957,7 @@
         },
         {
           "name": "Power Plant",
-          "access_rules": ["$cerulean,$cut,$surf,$plantkey","$lavender,^$rock_tunnel,$cansurf"],
+          "access_rules": ["$cerulean,$cut,$surf,$plantkey","$lavender,$rock_tunnel,$cansurf"],
           "sections": [
             {
               "name": "Southwest Item",
@@ -2496,7 +2496,7 @@
         },
         {
           "name": "Rock Tunnel",
-          "access_rules": ["$lavender,^$rock_tunnel","$cerulean,$cut,^$rock_tunnel"],
+          "access_rules": ["$lavender,$rock_tunnel","$cerulean,$cut,$rock_tunnel"],
           "sections": [
             {
               "name": "B1F Southwest Item",
@@ -2617,7 +2617,7 @@
         },
         {
           "name": "Route 10 North",
-          "access_rules": ["$lavender,^$rock_tunnel","$cerulean,$cut"],
+          "access_rules": ["$lavender,$rock_tunnel","$cerulean,$cut"],
           "sections": [
             {
               "name": "Jr. Trainer F",
@@ -2636,7 +2636,7 @@
         },
         {
           "name": "Route 10 South",
-          "access_rules": ["$lavender","$cerulean,$cut,^$rock_tunnel"],
+          "access_rules": ["$lavender","$cerulean,$cut,$rock_tunnel"],
           "sections": [
             {
               "name": "HI: Bush",
@@ -3681,19 +3681,19 @@
               "name": "West Gambler Gift",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Center Gambler Gift",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "East Gambler Gift",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "HI: Northwest by Counter",
