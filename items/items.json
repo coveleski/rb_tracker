@@ -367,7 +367,7 @@
         "max_quantity": 151,
         "initial_quantity": 0,
         "img": "images/items/pokedex.png",
-        "codes": "dex"
+        "codes": "pokedex"
     },
     {
         "name": "Town Map",
