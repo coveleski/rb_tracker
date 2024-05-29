@@ -1,6 +1,312 @@
 
 [
     {
+        "name": "HM01 Cut",
+        "type": "progressive_toggle",
+        "img": "images/items/hm_normal",
+        "codes": "cut",
+        "stages": [
+            {
+                "name": "HM 01 Cut",
+                "codes": "cut,cut_noextra",
+                "img": "images/items/hm_water.png"
+            },
+            {
+                "name": "HM01 Cut - Extra: Boulder Badge",
+                "codes": "cut,cut_boulder",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM01 Cut - Extra: Cascade Badge",
+                "codes": "cut,cut_cascade",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM01 Cut - Extra: Thunder Badge",
+                "codes": "cut,cut_thunder",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM01 Cut - Extra: Rainbow Badge",
+                "codes": "cut,cut_rainbow",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM01 Cut - Extra: Soul Badge",
+                "codes": "cut,cut_soul",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM01 Cut - Extra: Marsh Badge",
+                "codes": "cut,cut_marsh",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM01 Cut - Extra: Volcano Badge",
+                "codes": "cut,cut_volcano",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/rainbow.png"
+            },
+            {
+                "name": "HM01 Cut - Extra: Earth Badge",
+                "codes": "cut,cut_earth",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            }
+        ]
+    },
+    {
+        "name": "HM02 Fly",
+        "type": "progressive_toggle",
+        "img": "images/items/hm_normal",
+        "codes": "fly",
+        "stages": [
+            {
+                "name": "HM 02 Fly",
+                "codes": "fly,fly_noextra",
+                "img": "images/items/hm_water.png"
+            },
+            {
+                "name": "HM02 Fly - Extra: Boulder Badge",
+                "codes": "fly,fly_boulder",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM02 Fly - Extra: Cascade Badge",
+                "codes": "fly,fly_cascade",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM02 Fly - Extra: Thunder Badge",
+                "codes": "fly,fly_thunder",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM02 Fly - Extra: Rainbow Badge",
+                "codes": "fly,fly_rainbow",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM02 Fly - Extra: Soul Badge",
+                "codes": "fly,fly_soul",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM02 Fly - Extra: Marsh Badge",
+                "codes": "fly,fly_marsh",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM02 Fly - Extra: Volcano Badge",
+                "codes": "fly,fly_volcano",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/rainbow.png"
+            },
+            {
+                "name": "HM02 Fly - Extra: Earth Badge",
+                "codes": "fly,fly_earth",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            }
+        ]
+    },
+    {
+        "name": "HM03 Surf",
+        "type": "progressive_toggle",
+        "img": "images/items/hm_normal",
+        "codes": "surf",
+        "stages": [
+            {
+                "name": "HM 03 Surf",
+                "codes": "surf,surf_noextra",
+                "img": "images/items/hm_water.png"
+            },
+            {
+                "name": "HM03 Surf - Extra: Boulder Badge",
+                "codes": "surf,surf_boulder",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM03 Surf - Extra: Cascade Badge",
+                "codes": "surf,surf_cascade",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM03 Surf - Extra: Thunder Badge",
+                "codes": "surf,surf_thunder",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM03 Surf - Extra: Rainbow Badge",
+                "codes": "surf,surf_rainbow",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM03 Surf - Extra: Soul Badge",
+                "codes": "surf,surf_soul",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM03 Surf - Extra: Marsh Badge",
+                "codes": "surf,surf_marsh",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM03 Surf - Extra: Volcano Badge",
+                "codes": "surf,surf_volcano",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/rainbow.png"
+            },
+            {
+                "name": "HM03 Surf - Extra: Earth Badge",
+                "codes": "surf,surf_earth",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            }
+        ]
+    },
+    {
+        "name": "HM04 Strength",
+        "type": "progressive_toggle",
+        "img": "images/items/hm_normal",
+        "codes": "strength",
+        "stages": [
+            {
+                "name": "HM 04 Strength",
+                "codes": "strength,strength_noextra",
+                "img": "images/items/hm_water.png"
+            },
+            {
+                "name": "HM04 Strength - Extra: Boulder Badge",
+                "codes": "strength,strength_boulder",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM04 Strength - Extra: Cascade Badge",
+                "codes": "strength,strength_cascade",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM04 Strength - Extra: Thunder Badge",
+                "codes": "strength,strength_thunder",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM04 Strength - Extra: Rainbow Badge",
+                "codes": "strength,strength_rainbow",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM04 Strength - Extra: Soul Badge",
+                "codes": "strength,strength_soul",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM04 Strength - Extra: Marsh Badge",
+                "codes": "strength,strength_marsh",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM04 Strength - Extra: Volcano Badge",
+                "codes": "strength,strength_volcano",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/rainbow.png"
+            },
+            {
+                "name": "HM04 Strength - Extra: Earth Badge",
+                "codes": "strength,strength_earth",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            }
+        ]
+    },
+    {
+        "name": "HM05 Flash",
+        "type": "progressive_toggle",
+        "img": "images/items/hm_normal",
+        "codes": "flash",
+        "stages": [
+            {
+                "name": "HM 05 Flash",
+                "codes": "flash,flash_noextra",
+                "img": "images/items/hm_water.png"
+            },
+            {
+                "name": "HM05 Flash - Extra: Boulder Badge",
+                "codes": "flash,flash_boulder",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM05 Flash - Extra: Cascade Badge",
+                "codes": "flash,flash_cascade",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM05 Flash - Extra: Thunder Badge",
+                "codes": "flash,flash_thunder",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM05 Flash - Extra: Rainbow Badge",
+                "codes": "flash,flash_rainbow",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM05 Flash - Extra: Soul Badge",
+                "codes": "flash,flash_soul",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM05 Flash - Extra: Marsh Badge",
+                "codes": "flash,flash_marsh",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            },
+            {
+                "name": "HM05 Flash - Extra: Volcano Badge",
+                "codes": "flash,flash_volcano",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/rainbow.png"
+            },
+            {
+                "name": "HM05 Flash - Extra: Earth Badge",
+                "codes": "flash,flash_earth",
+                "img": "images/items/hm_water.png",
+                "img_mods": "overlay|images/overlays/earth.png"
+            }
+        ]
+    },
+    
+    {
         "name": "Boulder Badge",
         "type": "toggle",
         "img": "images/items/boulder.png",
@@ -47,36 +353,6 @@
         "type": "toggle",
         "img": "images/items/earth.png",
         "codes": "earth,badge"
-    },
-    {
-        "name": "HM01 Cut",
-        "type": "toggle",
-        "img": "images/items/hm_normal.png",
-        "codes": "cut,keyitem"
-    },
-    {
-        "name": "HM02 Fly",
-        "type": "toggle",
-        "img": "images/items/hm_flying.png",
-        "codes": "fly,keyitem"
-    },
-    {
-        "name": "HM03 Surf",
-        "type": "toggle",
-        "img": "images/items/hm_water.png",
-        "codes": "surf,keyitem"
-    },
-    {
-        "name": "HM04 Strength",
-        "type": "toggle",
-        "img": "images/items/hm_normal.png",
-        "codes": "strength,keyitem"
-    },
-    {
-        "name": "HM05 Cut",
-        "type": "toggle",
-        "img": "images/items/hm_normal.png",
-        "codes": "flash,keyitem"
     },
     {
         "name": "Oak's Parcel",

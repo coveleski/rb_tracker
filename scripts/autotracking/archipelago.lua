@@ -14,6 +14,13 @@ LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
 function onClear(slot_data)
+
+    print("Contents of slot_data:")
+	for key, value in pairs(slot_data) do
+		print(key, value)
+	end
+
+
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end
@@ -97,6 +104,8 @@ function onItem(index, item_id, item_name, player_number)
     local obj = Tracker:FindObjectForCode(v[1])
     if obj then
         if v[2] == "toggle" then
+            obj.Active = true
+        elseif v[2] == "progressive_toggle" then
             obj.Active = true
         elseif v[2] == "progressive" then
             if obj.Active then

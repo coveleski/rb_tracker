@@ -33,10 +33,11 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["extra_strength_boulders"] then
-		Tracker:FindObjectForCode('opt_extra_boykders').CurrentStage = slot_data["extra_strength_boulders"]
+		Tracker:FindObjectForCode('opt_extra_boulders').CurrentStage = slot_data["extra_strength_boulders"]
 	end
 
     if slot_data["tea"] then
+		--TODO
 		Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage = slot_data["extra_key_items"]
 	end
 
@@ -83,6 +84,29 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["extra_badges"] then
+
+		hm_list = {"Cut", "Fly", "Surf", "Strength", "Flash"}
+		stages = { boulder=1, cascade=2, thunder=3, rainbow=4, soul=5, marsh=6, volcano=7, earth=8}
+		for i=1,5 do
+			hm = hm_list[i]
+			badge = slot_data["extra_badges"][hm]
+			if  badge then
+				badge = string.lower(badge)
+				badge = string.gsub(badge, " badge", "")
+				
+				obj = Tracker:FindObjectForCode(string.lower(hm).."_"..badge)
+				if obj then
+					print(stages[badge])
+					obj.CurrentStage = stages[badge]
+					print(obj)
+				end
+
+			end
+		end
+
+
+		badge = "boulder"
+		hm = "fly"
 	end
 
     if slot_data["randomize_pokedex"] then
@@ -98,7 +122,7 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["key_items_only"] then
-		Tracker:FindObjectForCode('opt_key_only').CurrentStage = slot_data["key_items_only"]
+		Tracker:FindObjectForCode('opt_keyonly').CurrentStage = slot_data["key_items_only"]
 	end
 
     if slot_data["poke_doll_skip"] then

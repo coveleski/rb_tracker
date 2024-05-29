@@ -24,24 +24,53 @@ function fossil_count()
 end
 
 -- HM CHECKS
+
+--a table for lookups
+badges = {"boulder", "cascade", "thunder", "rainbow", "soul", "marsh", "volcano", "earth"}
+
 function cut()
-    return has('cut') and has('cascade')
+    obj = Tracker:FindObjectForCode('cut')
+    stage = 0
+    if obj then
+        stage = obj.CurrentStage
+    end
+    return has('cut') and (has('cascade') or has(badges[stage]))
 end
 
 function fly()
-    return has('fly') and has('thunder')
+    obj = Tracker:FindObjectForCode('fly')
+    stage = 0
+    if obj then
+        stage = obj.CurrentStage
+    end
+    return has('fly') and (has('thunder') or has(badges[stage]))
 end
 
 function surf()
-    return has('surf') and has('soul')
+    obj = Tracker:FindObjectForCode('surf')
+    stage = 0
+    if obj then
+        stage = obj.CurrentStage
+    end
+    return has('surf') and (has('soul') or has(badges[stage]))
 end
 
 function strength()
-    return has('strength') and has('rainbow')
+    obj = Tracker:FindObjectForCode('strength')
+    stage = 0
+    if obj then
+        stage = obj.CurrentStage
+    end
+    return has('strength') and (has('rainbow') or has(badges[stage]))
 end
 
 function flash()
-    return has('flash') and has('boulder')
+    obj = Tracker:FindObjectForCode('flash')
+    stage = 0
+    if obj then
+        stage = obj.CurrentStage
+    end
+    return has('flash') and (has('boulder') or has(badges[stage]))
 end
 
 function flyto(location)
@@ -59,7 +88,6 @@ end
 
 function aide(route)
     local code = 'opt_aide_' .. route
-    print(code)
     local required = Tracker:FindObjectForCode(code).AcquiredCount
     local caught = pokedex_count()
     return required <= caught and (has('pokedex') or has('opt_dex_required_off'))
@@ -80,7 +108,14 @@ function cyclingroad()
 end
 
 function rock_tunnel()
-    return flash() or has('opt_dark_rock_tunnel_on')
+
+    if has('opt_dark_rock_tunnel_off') then
+        return AccessibilityLevel.SequenceBreak
+    elseif flash() or has('opt_dark_rock_tunnel_on') then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 function guard_gate()
@@ -102,6 +137,13 @@ function cerulean()
     local gate = (has('tea') and (flyto('saffron') or celadon())) or (has('opt_tea_off') and celadon()) --TODO this seems like it can be simplified
     local rt3_passable = rt3() and (old_man() or cut() or flyto('pewter'))
     local rocktunnel = cut() and lavender() --this skips checking for flash, which we'll do in accessrules i think?
+    -- if flight or underground or rt3_passable or gate then
+    --     return AccessibilityLevel.Regular
+    -- elseif gate then
+    --     return AccessibilityLevel.SequenceBreak
+    -- else
+    --     return AccessibilityLevel.None
+    -- end
     return flight or underground or rt3_passable or rocktunnel or gate
 end
 
@@ -157,15 +199,6 @@ end
 function cinnabar()
     local sur = surf()
     local flight = flyto('cinnabar')
-
-    print('surf: ')
-    print(sur)
-    print('fly:')
-    print(flight)
-
-    print('return')
-    print(sur or flight)
-
     return surf() or flyto('cinnabar')
 end
 
@@ -255,7 +288,5 @@ function ceruleancave()
         ones = obj.CurrentStage
     end
     local key_item_req = (10 * tens) + ones
-    -- print(key_items() .. "items out of " .. key_item_count)
-    -- print(badges().."out of "..badge_count)
     return (key_items_count() >= key_item_req) and (badges_count() >= badge_req)
 end
