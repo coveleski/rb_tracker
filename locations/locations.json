@@ -1540,7 +1540,7 @@
         },
         {
           "name": "Route 9",
-          "access_rules": ["$cerulean,$cut","$lavender,$rock_tunnel"],
+          "access_rules": ["$cerulean,$cut","$lavender,^$rock_tunnel"],
           "sections": [
             {
               "name": "Item",
@@ -1957,7 +1957,7 @@
         },
         {
           "name": "Power Plant",
-          "access_rules": ["$cerulean,$cut,$surf,$plantkey","$lavender,$rock_tunnel,$cansurf"],
+          "access_rules": ["$cerulean,$cut,$surf,$plantkey","$lavender,^$rock_tunnel,$cansurf"],
           "sections": [
             {
               "name": "Southwest Item",
@@ -2496,7 +2496,7 @@
         },
         {
           "name": "Rock Tunnel",
-          "access_rules": ["$lavender,$rock_tunnel","$cerulean,$cut,$rock_tunnel"],
+          "access_rules": ["$lavender,^$rock_tunnel","$cerulean,$cut,^$rock_tunnel"],
           "sections": [
             {
               "name": "B1F Southwest Item",
@@ -2617,7 +2617,7 @@
         },
         {
           "name": "Route 10 North",
-          "access_rules": ["$lavender,$rock_tunnel","$cerulean,$cut"],
+          "access_rules": ["$lavender,^$rock_tunnel","$cerulean,$cut"],
           "sections": [
             {
               "name": "Jr. Trainer F",
@@ -2636,7 +2636,7 @@
         },
         {
           "name": "Route 10 South",
-          "access_rules": ["$lavender","$cerulean,$cut,$rock_tunnel"],
+          "access_rules": ["$lavender","$cerulean,$cut,^$rock_tunnel"],
           "sections": [
             {
               "name": "HI: Bush",
