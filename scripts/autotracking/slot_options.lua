@@ -16,16 +16,16 @@ function get_slot_options(slot_data)
 
 	end
 
-    if slot_data["oaks_aide_rt2"] then
-		Tracker:FindObjectForCode('opt_aide_2').AcquiredCount = slot_data["oaks_aide_rt2"]
+    if slot_data["oaks_aide_rt_2"] then
+		Tracker:FindObjectForCode('opt_aide_2').AcquiredCount = slot_data["oaks_aide_rt_2"]
 	end
 
-    if slot_data["oaks_aide_rt11"] then
-		Tracker:FindObjectForCode('opt_aide_11').AcquiredCount = slot_data["oaks_aide_rt11"]
+    if slot_data["oaks_aide_rt_11"] then
+		Tracker:FindObjectForCode('opt_aide_11').AcquiredCount = slot_data["oaks_aide_rt_11"]
 	end
 
-    if slot_data["oaks_aide_rt15"] then
-		Tracker:FindObjectForCode('opt_aide_15').AcquiredCount = slot_data["oaks_aide_rt15"]
+    if slot_data["oaks_aide_rt_15"] then
+		Tracker:FindObjectForCode('opt_aide_15').AcquiredCount = slot_data["oaks_aide_rt_15"]
 	end
 
     if slot_data["extra_key_items"] then
