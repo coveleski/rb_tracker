@@ -506,7 +506,7 @@
             {
               "name": "Rocket Thief",
               "item_count": 1,
-              "access_rules": ["$needsnewrule"],
+              "access_rules": ["$officer"],
               "visibility_rules": ["trainer_on"]
             },
             {
