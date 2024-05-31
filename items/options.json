@@ -108,11 +108,12 @@
         "name": "Second Fossil Check Requirement",
         "type": "consumable",
         "loop": true,
-        "allow_disabled": false,
+        "allow_disabled": true,
         "img": "images/items/fossilcheck.png",
         "codes": "opt_fossilcheck",
         "max_quantity": 3,
-        "initial_quantity": 0
+        "initial_quantity": 0,
+	"overlay_background": "#000000"
 
     },
     {
@@ -419,10 +420,22 @@
     },
     {
         "name": "Robbed House Officer",
-        "type": "toggle",
+        "type": "progressive",
         "loop": true,
         "allow_disabled": false,
-        "codes": "opt_officer"
+        "stages": [
+            {
+                "name": "Robbed House Officer is out of the way",
+                "img": "images/items/officer_off.png",
+                "codes": "opt_officer,opt_officer_off"
+            },
+            {
+                "name": "Robbed House Officer requires Bill",
+                "img": "images/items/officer_on.png",
+                "codes": "opt_officer,opt_officer_on",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Trainersanity",

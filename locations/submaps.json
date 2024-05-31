@@ -1,0 +1,113 @@
+[
+    {
+        "name": "Dungeons",
+        "chest_unopened_img": "images/items/pokeball.png",
+        "chest_opened_img": "images/items/pokeball_gray.png",
+        "children": [
+{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F Southwest Item"}],"map_locations":[{"map":"rocktunnel","x": 698,"y": 512}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F West Item"}],"map_locations":[{"map":"rocktunnel","x": 698,"y": 416}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F Northwest Item"}],"map_locations":[{"map":"rocktunnel","x": 698,"y": 368}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F North Item"}],"map_locations":[{"map":"rocktunnel","x": 1034,"y": 64}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/1F PokeManiac"}],"map_locations":[{"map":"rocktunnel","x": 386,"y": 160}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/1F Hiker 1"}],"map_locations":[{"map":"rocktunnel","x": 130,"y": 112}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/1F Hiker 2"}],"map_locations":[{"map":"rocktunnel","x": 98,"y": 304}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/1F Hiker 3"}],"map_locations":[{"map":"rocktunnel","x": 290,"y": 272}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/1F Jr. Trainer F 1"}],"map_locations":[{"map":"rocktunnel","x": 610,"y": 370}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/1F Jr. Trainer F 2"}],"map_locations":[{"map":"rocktunnel","x": 529,"y": 417}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/1F Jr. Trainer F 3"}],"map_locations":[{"map":"rocktunnel","x": 368,"y": 416}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F PokeManiac 1"}],"map_locations":[{"map":"rocktunnel","x": 1081,"y": 512}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F Jr. Trainer F 1"}],"map_locations":[{"map":"rocktunnel","x": 888,"y": 481}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F PokeManiac 2"}],"map_locations":[{"map":"rocktunnel","x": 986,"y": 368}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F Hiker 1"}],"map_locations":[{"map":"rocktunnel","x": 1146,"y": 192}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F Hiker 2"}],"map_locations":[{"map":"rocktunnel","x": 1192,"y": 111}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F Jr. Trainer F 2"}],"map_locations":[{"map":"rocktunnel","x": 842,"y": 240}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F Hiker 3"}],"map_locations":[{"map":"rocktunnel","x": 762,"y": 192}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F PokeManiac 3"}],"map_locations":[{"map":"rocktunnel","x": 713,"y": 117}]}
+
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/1F Receptionist"}],"map_locations":[{"map":"silph16","x": 81,"y": 64}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/2F Woman"}],"map_locations":[{"map":"silph16","x": 665,"y": 48}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/2F Rocket 1"}],"map_locations":[{"map":"silph16","x": 889,"y": 144}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/2F Rocket 2"}],"map_locations":[{"map":"silph16","x": 761,"y": 208}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/2F Scientist 1"}],"map_locations":[{"map":"silph16","x": 889,"y": 240}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/2F Scientist 2"}],"map_locations":[{"map":"silph16","x": 585,"y": 224}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/3F Item"}],"map_locations":[{"map":"silph16","x": 145,"y": 423}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/3F Scientist"}],"map_locations":[{"map":"silph16","x": 129,"y": 487}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/3F Rocket"}],"map_locations":[{"map":"silph16","x": 337,"y": 455}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/4F Card Key Left Item"}],"map_locations":[{"map":"silph16","x": 553,"y": 487}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/4F Card Key Middle Item"}],"map_locations":[{"map":"silph16","x": 569,"y": 455}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/4F Card Key Right Item"}],"map_locations":[{"map":"silph16","x": 595,"y": 471}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/4F Rocket 1"}],"map_locations":[{"map":"silph16","x": 921,"y": 503}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/4F Rocket 2"}],"map_locations":[{"map":"silph16","x": 649,"y": 567}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/4F Scientist"}],"map_locations":[{"map":"silph16","x": 729,"y": 439}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/4F Hostage"}],"map_locations":[{"map":"silph16","x": 601,"y": 375}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Southwest Item"}],"map_locations":[{"map":"silph16","x": 49,"y": 863}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Northwest Item"}],"map_locations":[{"map":"silph16","x": 49,"y": 863}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Southeast Item"}],"map_locations":[{"map":"silph16","x": 81,"y": 735}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/HI: 5F Pot Plant"}],"map_locations":[{"map":"silph16","x": 353,"y": 911}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Rocket 1"}],"map_locations":[{"map":"silph16","x": 465,"y": 719}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Juggler"}],"map_locations":[{"map":"silph16","x": 289,"y": 815}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Scientist"}],"map_locations":[{"map":"silph16","x": 145,"y": 907}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Rocket 2"}],"map_locations":[{"map":"silph16","x": 145,"y": 911}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Hostage"}],"map_locations":[{"map":"silph16","x": 225,"y": 799}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/6F Card Key Southwest Item Top"}],"map_locations":[{"map":"silph16","x": 553,"y": 847}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/6F Card Key Southwest Item Bottom"}],"map_locations":[{"map":"silph16","x": 537,"y": 895}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/6F Rocket 1"}],"map_locations":[{"map":"silph16","x": 825,"y": 703}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/6F Scientist"}],"map_locations":[{"map":"silph16","x": 617,"y": 767}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/6F Rocket 2"}],"map_locations":[{"map":"silph16","x": 729,"y": 895}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/6F Hostage"}],"map_locations":[{"map":"silph16","x": 841,"y": 751}]}
+
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/7F West Item"}],"map_locations":[{"map":"silph711","x": 33,"y": 177}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/7F East Item"}],"map_locations":[{"map":"silph711","x": 401,"y": 209}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/7F Rocket 1"}],"map_locations":[{"map":"silph711","x": 337,"y": 65}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/7F Rocket 2"}],"map_locations":[{"map":"silph711","x": 225,"y": 49}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/7F Scientist"}],"map_locations":[{"map":"silph711","x": 49,"y": 241}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/7F Rocket 3"}],"map_locations":[{"map":"silph711","x": 321,"y": 257}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/7F Hostage"}],"map_locations":[{"map":"silph711","x": 177,"y": 161}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/8F Rocket 1"}],"map_locations":[{"map":"silph711","x": 778,"y": 65}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/8F Rocket 2"}],"map_locations":[{"map":"silph711","x": 666,"y": 273}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/8F Scientist"}],"map_locations":[{"map":"silph711","x": 634,"y": 65}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/8F Hostage"}],"map_locations":[{"map":"silph711","x": 538,"y": 65}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/9F Rocket 1"}],"map_locations":[{"map":"silph711","x": 225,"y": 601}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/9F Scientist"}],"map_locations":[{"map":"silph711","x": 353,"y": 553}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/9F Rocket 2"}],"map_locations":[{"map":"silph711","x": 49,"y": 409}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/HI: 9F Nurse Bed"}],"map_locations":[{"map":"silph711","x": 49,"y": 585}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/9F Nurse"}],"map_locations":[{"map":"silph711","x": 65,"y": 569}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/10F Left Item"}],"map_locations":[{"map":"silph711","x": 506,"y": 537}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/10F Bottom Item"}],"map_locations":[{"map":"silph711","x": 538,"y": 569}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/10F Right Item"}],"map_locations":[{"map":"silph711","x": 554,"y": 521}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/10F Scientist"}],"map_locations":[{"map":"silph711","x": 634,"y": 377}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/10F Rocket"}],"map_locations":[{"map":"silph711","x": 490,"y": 489}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/10F Hostage"}],"map_locations":[{"map":"silph711","x": 618,"y": 585}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/11F Rocket 1"}],"map_locations":[{"map":"silph711","x": 257,"y": 809}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/11F Rocket 2"}],"map_locations":[{"map":"silph711","x": 65,"y": 913}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/Liberate Silph Co"}],"map_locations":[{"map":"silph711","x": 113,"y": 793}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/11F Silph Co President"}],"map_locations":[{"map":"silph711","x": 129,"y": 737}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/11F Secretary"}],"map_locations":[{"map":"silph711","x": 177,"y": 737}]}
+
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/1F North Item"}],"map_locations":[{"map":"mansion","x": 241,"y": 80}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/1F South Item"}],"map_locations":[{"map":"mansion","x": 305,"y": 368}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/2F Northeast Item"}],"map_locations":[{"map":"mansion","x": 953,"y": 144}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/3F Southwest Item"}],"map_locations":[{"map":"mansion","x": 33,"y": 759}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/3F Northeast Item"}],"map_locations":[{"map":"mansion","x": 417,"y": 583}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/B1F North Item"}],"map_locations":[{"map":"mansion","x": 665,"y": 535}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/B1F Southwest Item"}],"map_locations":[{"map":"mansion","x": 521,"y": 855}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/B1F South Item"}],"map_locations":[{"map":"mansion","x": 809,"y": 903}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/B1F Northwest Item"}],"map_locations":[{"map":"mansion","x": 585,"y": 567}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/B1F West Item"}],"map_locations":[{"map":"mansion","x": 585,"y": 711}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/HI: B1F Secret Key Room Corner"}],"map_locations":[{"map":"mansion","x": 521,"y": 647}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/HI: 1F Block Near Entrance Carpet"}],"map_locations":[{"map":"mansion","x": 145,"y": 320}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/HI: 3F Behind Burglar"}],"map_locations":[{"map":"mansion","x": 33,"y": 647}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/1F Scientist"}],"map_locations":[{"map":"mansion","x": 289,"y": 304}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/2F Burglar"}],"map_locations":[{"map":"mansion","x": 553,"y": 304}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/3F Scientist"}],"map_locations":[{"map":"mansion","x": 337,"y": 679}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/3F Burglar"}],"map_locations":[{"map":"mansion","x": 97,"y": 679}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/B1F Scientist"}],"map_locations":[{"map":"mansion","x": 937,"y": 683}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/B1F Burglar"}],"map_locations":[{"map":"mansion","x": 761,"y": 871}]}
+
+,{"name":"","sections":[{"ref":"Kanto/Seafoam Islands/HI: B2F Rock"}],"map_locations":[{"map":"seafoam","x": 745,"y": 583}]}
+,{"name":"","sections":[{"ref":"Kanto/Seafoam Islands/HI: B4F Corner"}],"map_locations":[{"map":"seafoam","x": 161,"y": 910}]}
+,{"name":"","sections":[{"ref":"Kanto/Seafoam Islands/HI: B3F Rock"}],"map_locations":[{"map":"seafoam","x": 907,"y": 925}]}
+
+        ]
+    }
+]

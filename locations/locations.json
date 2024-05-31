@@ -506,7 +506,7 @@
             {
               "name": "Rocket Thief",
               "item_count": 1,
-              "access_rules": ["$needsnewrule"],
+              "access_rules": ["$officer"],
               "visibility_rules": ["trainer_on"]
             },
             {
@@ -751,7 +751,7 @@
           "map_locations": [{ "map": "map", "x": 496, "y": 304 }]
         },
         {
-          "name": "Silph Co 1F - 5F",
+          "name": "Silph Co 1F - 6F",
           "access_rules": ["$saffron,fuji"],
           "sections": [
             {
@@ -903,14 +903,7 @@
               "item_count": 1,
               "access_rules": ["$cardkey(5)"],
               "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
-            }
-          ],
-          "map_locations": [{ "map": "map", "x": 368, "y": 144 }]
-        },
-        {
-          "name": "Silph Co 6F - 11F",
-          "access_rules": ["$saffron,fuji"],
-          "sections": [
+            },
             {
               "name": "6F Card Key Southwest Item Top",
               "item_count": 1,
@@ -946,7 +939,14 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
-            },
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 368, "y": 144 }]
+        },
+        {
+          "name": "Silph Co 7F - 11F",
+          "access_rules": ["$saffron,fuji"],
+          "sections": [
             {
               "name": "7F West Item",
               "item_count": 1,
@@ -1496,7 +1496,7 @@
         },
         {
           "name": "Fossil",
-          "access_rules": ["$pewter,$rt3"],
+          "access_rules": ["$pewter,$rt3","$cerulean,$surf"],
           "sections": [
             {
               "name": "Fossil A",
@@ -2645,19 +2645,13 @@
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
-              "name": "Jr. Trainer F 1",
+              "name": "Jr. Trainer F",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "PokeManiac 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "Jr. Trainer F 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -3681,19 +3675,19 @@
               "name": "West Gambler Gift",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Center Gambler Gift",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "East Gambler Gift",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "HI: Northwest by Counter",

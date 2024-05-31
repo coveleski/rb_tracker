@@ -1,4 +1,4 @@
-﻿{
+{
     "tracker_default": {
         "type": "container",
         "background": "#111111",
@@ -58,10 +58,50 @@
                             "tabs": [
                                 {
                                     "title": "Kanto",
-                                    "icon": "images/map.png",
+                                    "icon": "images/items/townmap.png",
                                     "content": {
                                         "type": "map",
                                         "maps": ["map"]
+                                    }
+                                },
+								{
+                                    "title": "Rock Tunnel",
+                                    "icon": "images/items/extraboulder.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["rocktunnel"]
+                                    }
+                                },
+								{
+                                    "title": "Silph Co (1F-6F)",
+                                    "icon": "images/items/silph.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["silph16"]
+                                    }
+                                },
+								{
+                                    "title": "Silph Co (7F-11F)",
+                                    "icon": "images/items/silph.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["silph711"]
+                                    }
+                                },
+								{
+                                    "title": "Seafoam Island",
+                                    "icon": "images/pokedex/articuno.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["seafoam"]
+                                    }
+                                },
+								{
+                                    "title": "Pokémon Mansion",
+                                    "icon": "images/pokedex/mew.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["mansion"]
                                     }
                                 }
                             ]

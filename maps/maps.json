@@ -4,5 +4,35 @@
         "location_size": 20,
         "location_border_thickness": 2,
         "img": "images/maps/map.png"
+    },
+    {
+        "name": "rocktunnel",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/rocktunnel_alt.png"
+    },
+    {
+        "name": "seafoam",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/seafoam_alt2.png"
+    },
+    {
+        "name": "silph16",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/silph1to6_alt.png"
+    },
+    {
+        "name": "silph711",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/silph7to11_alt2.png"
+    },
+    {
+        "name": "mansion",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/mansion_alt.png"
     }
 ]
