@@ -166,6 +166,97 @@
         "img": "images/items/dummy.png"
     },
     {
+        "name": "",
+        "type": "progressive",
+        "codes": "dex_digit1",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/digits/d0.png"
+            },
+            {
+                "img": "/images/digits/d1.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "dex_digit2",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/digits/d0.png"
+            },
+            {
+                "img": "/images/digits/d1.png"
+            },
+            {
+                "img": "/images/digits/d2.png"
+            },
+            {
+                "img": "/images/digits/d3.png"
+            },
+            {
+                "img": "/images/digits/d4.png"
+            },
+            {
+                "img": "/images/digits/d5.png"
+            },
+            {
+                "img": "/images/digits/d6.png"
+            },
+            {
+                "img": "/images/digits/d7.png"
+            },
+            {
+                "img": "/images/digits/d8.png"
+            },
+            {
+                "img": "/images/digits/d9.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "dex_digit3",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/digits/d0.png"
+            },
+            {
+                "img": "/images/digits/d1.png"
+            },
+            {
+                "img": "/images/digits/d2.png"
+            },
+            {
+                "img": "/images/digits/d3.png"
+            },
+            {
+                "img": "/images/digits/d4.png"
+            },
+            {
+                "img": "/images/digits/d5.png"
+            },
+            {
+                "img": "/images/digits/d6.png"
+            },
+            {
+                "img": "/images/digits/d7.png"
+            },
+            {
+                "img": "/images/digits/d8.png"
+            },
+            {
+                "img": "/images/digits/d9.png"
+            }
+        ]
+    },
+
+    {
         "name": "Oak's Aide Rt 2 Pokedex Requirement",
         "type": "consumable",
         "allow_disabled": false,
@@ -844,30 +935,6 @@
             },
             {
                 "img": "/images/digits/d1.png"
-            },
-            {
-                "img": "/images/digits/d2.png"
-            },
-            {
-                "img": "/images/digits/d3.png"
-            },
-            {
-                "img": "/images/digits/d4.png"
-            },
-            {
-                "img": "/images/digits/d5.png"
-            },
-            {
-                "img": "/images/digits/d6.png"
-            },
-            {
-                "img": "/images/digits/d7.png"
-            },
-            {
-                "img": "/images/digits/d8.png"
-            },
-            {
-                "img": "/images/digits/d9.png"
             }
         ]
     },
@@ -970,18 +1037,6 @@
             },
             {
                 "img": "/images/digits/d5.png"
-            },
-            {
-                "img": "/images/digits/d6.png"
-            },
-            {
-                "img": "/images/digits/d7.png"
-            },
-            {
-                "img": "/images/digits/d8.png"
-            },
-            {
-                "img": "/images/digits/d9.png"
             }
         ]
     },

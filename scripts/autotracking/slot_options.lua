@@ -46,21 +46,48 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["elite_four_badges_condition"] then
+		local obj = Tracker:FindObjectForCode("e4b_digit")
+		obj.CurrentStage = slot_data["elite_four_badges_condition"]
 	end
     
     if slot_data["elite_four_key_items_condition"] then
+		local tens = Tracker:FindObjectForCode("e4k_digit1")
+		local ones = Tracker:FindObjectForCode("e4k_digit2")
+		local val = slot_data["elite_four_key_items_condition"]
+		if tens and ones then
+			tens.CurrentStage = val // 10
+			ones.CurrentStage = val % 10
+		end
 	end
 
     if slot_data["elite_four_pokedex_condition"] then
+		local hunds = Tracker:FindObjectForCode("e4p_digit1")
+		local tens = Tracker:FindObjectForCode("e4p_digit2")
+		local ones = Tracker:FindObjectForCode("e4p_digit3")
+		local val = slot_data["elite_four_pokedex_condition"]
+		if hunds and tens and ones then
+			hunds.CurrentStage = val // 100
+			tens.CurrentStage = val % 100 // 10
+			ones.CurrentStage = val % 10
+		end
 	end
 
     if slot_data["victory_road_condition"] then
+		local obj = Tracker:FindObjectForCode("vr_digit")
+		if obj then
+			obj.CurrentStage = slot_data["victory_road_condition"]
+		end
 	end
 
     if slot_data["route_22_gate_condition"] then
+		local obj = Tracker:FindObjectForCode("rt22_digit")
+		if obj then
+			obj.CurrentStage = slot_data["route_22_gate_condition"]
+		end	
 	end
 
     if slot_data["route_3_condition"] then
+		-- TODO
 	end
 
     if slot_data["robbed_house_officer"] then
@@ -73,12 +100,25 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["viridian_gym_condition"] then
+		local obj = Tracker:FindObjectForCode("vg_digit")
+		if obj then
+			obj.CurrentStage = slot_data["viridian_gym_condition"]
+		end
 	end
 
     if slot_data["cerulean_cave_badges_condition"] then
+		local obj = Tracker:FindObjectForCode("ccaveB_digit")
+		obj.CurrentStage = slot_data["cerulean_cave_badges_condition"]
 	end
 
     if slot_data["cerulean_cave_key_items_condition"] then
+		local tens = Tracker:FindObjectForCode("ccaveK_digit1")
+		local ones = Tracker:FindObjectForCode("ccaveK_digit2")
+		local val = slot_data["cerulean_cave_key_items_condition"]
+		if tens and ones then
+			tens.CurrentStage = val // 10
+			ones.CurrentStage = val % 10
+		end
 	end
 
     if slot_data["free_fly_map"] then
@@ -148,6 +188,16 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["split_card_key"] then
+		local obj = Tracker:FindObjectForCode("op_cardkey")
+		if obj then
+			tmp = slot_data["split_card_key"]
+			if tmp == 2 then
+				tmp = 1
+			elseif tmp == 1 then
+				tmp = 2
+				obj.CurrentStage = tmp
+			end
+		end
 	end
 end
 

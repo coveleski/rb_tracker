@@ -15,7 +15,23 @@ function key_items_count()
 end
 -- returns int of # of pokemon caught
 function pokedex_count()
-    return Tracker:FindObjectForCode('pokemon').AcquiredCount
+    local hundreds = 0
+    local tens = 0
+    local ones = 0
+
+    obj = Tracker:FindObjectForCode("dex_digit1")
+    if obj then
+        hundreds = obj.CurrentStage
+    end
+    obj = Tracker:FindObjectForCode("dex_digit2")
+    if obj then
+        tens = obj.CurrentStage
+    end
+    obj = Tracker:FindObjectForCode("dex_digit3")
+    if obj then
+        ones = obj.CurrentStage
+    end
+    return (100 * hundreds) + (10 * tens) + ones
 end
 -- returns int of # of fossiles
 function fossil_count()

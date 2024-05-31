@@ -24,7 +24,7 @@
                     ["starmie", "mrmime", "scyther", "jynx", "electabuzz", "magmar", "pinsir", "tauros", "magikarp", "gyarados"],
                     ["lapras", "ditto", "eevee", "vaporeon", "jolteon", "flareon", "porygon", "omanyte", "omastar", "kabuto"],
                     ["kabutops", "aerodactyl", "snorlax", "articuno", "zapdos", "moltres", "dratini", "dragonair", "dragonite", "mewtwo"],
-                    ["mew","","","","","","","","","","pokemon"]
+                    ["mew","","","","","","","pokedex","dex_digit1","dex_digit2","dex_digit3"]
                 ]
             }
         ]
