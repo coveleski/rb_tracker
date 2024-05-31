@@ -64,7 +64,12 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["robbed_house_officer"] then
-		Tracker:FindObjectForCode('opt_officer').CurrentStage = slot_data["robbed_house_officer"]
+		opt = slot_data["robbed_house_officer"]
+		if opt ~= 0 then
+			Tracker:FindObjectForCode('opt_officer').Active = true
+		else
+			Tracker:FindObjectForCode('opt_officer').Active = false
+		end
 	end
 
     if slot_data["viridian_gym_condition"] then

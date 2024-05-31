@@ -142,6 +142,10 @@ function guard_gate()
     return true
 end
 
+function officer()
+    return has('bill') or has("opt_officer_off")
+end
+
 -- LOCATION ACCESS CHECKS
 function pewter()
     return old_man() or cut() or (cerulean() and surf()) or flyto('pewter')

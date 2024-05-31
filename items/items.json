@@ -606,6 +606,11 @@
         "codes": "moonstone,stone,keyitem"
     },
     {
+        "name": "Helped Bill",
+        "type": "toggle",
+        "codes": "bill"
+	},
+    {
         "name": "Saved Mr. Fuji",
         "type": "toggle",
         "img": "images/items/fuji.png",
