@@ -31,46 +31,66 @@ badges = {"boulder", "cascade", "thunder", "rainbow", "soul", "marsh", "volcano"
 function cut()
     obj = Tracker:FindObjectForCode('cut')
     stage = 0
+    extra = false
     if obj then
         stage = obj.CurrentStage
+        if stage > 0 then
+            extra = has(badges[stage])
+        end
     end
-    return has('cut') and (has('cascade') or has(badges[stage]))
+    return has('cut') and (has('cascade') or extra)
 end
 
 function fly()
     obj = Tracker:FindObjectForCode('fly')
     stage = 0
+    extra = false
     if obj then
         stage = obj.CurrentStage
+        if stage > 0 then
+            extra = has(badges[stage])
+        end
     end
-    return has('fly') and (has('thunder') or has(badges[stage]))
+    return has('fly') and (has('thunder') or extra)
 end
 
 function surf()
     obj = Tracker:FindObjectForCode('surf')
     stage = 0
+    extra = false
     if obj then
         stage = obj.CurrentStage
+        if stage > 0 then
+            extra = has(badges[stage])
+        end
     end
-    return has('surf') and (has('soul') or has(badges[stage]))
+    return has('surf') and (has('soul') or extra)
 end
 
 function strength()
     obj = Tracker:FindObjectForCode('strength')
     stage = 0
+    extra = false
     if obj then
         stage = obj.CurrentStage
+        if stage > 0 then
+            extra = has(badges[stage])
+        end
     end
-    return has('strength') and (has('rainbow') or has(badges[stage]))
+    return has('strength') and (has('rainbow') or extra)
 end
 
 function flash()
     obj = Tracker:FindObjectForCode('flash')
     stage = 0
+    extra = false
     if obj then
         stage = obj.CurrentStage
+        if stage > 0 then
+            extra = has(badges[stage])
+        end
     end
-    return has('flash') and (has('boulder') or has(badges[stage]))
+    return has('flash') and (has('boulder') or extra)
 end
 
 function flyto(location)
