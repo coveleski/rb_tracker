@@ -169,7 +169,7 @@
         "type": "consumable",
         "allow_disabled": false,
         "codes": "opt_aide_2",
-        "max_quantity": 80,
+        "max_quantity": 151,
         "initial_quantity": 1,
         "img": "images/items/aide02.png"
     },
@@ -179,7 +179,7 @@
         "allow_disabled": false,
         "loop": false,
         "codes": "opt_aide_11",
-        "max_quantity": 80,
+        "max_quantity": 151,
         "initial_quantity": 1,
         "img": "images/items/aide11.png"
     },
@@ -188,7 +188,7 @@
         "type": "consumable",
         "allow_disabled": false,
         "codes": "opt_aide_15",
-        "max_quantity": 80,
+        "max_quantity": 151,
         "initial_quantity": 1,
         "img": "images/items/aide15.png"
     },
