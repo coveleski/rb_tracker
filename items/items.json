@@ -1,704 +1,310 @@
-
-[
-    {
-        "name": "HM01 Cut",
-        "type": "progressive_toggle",
-        "img": "images/items/hm_normal",
-        "codes": "cut",
-        "stages": [
+{
+    "shared_item_grid": {
+        "type": "array",
+        "background": "#111111",
+        "orientation": "vertical",
+        "margin": "0,0,0,0",
+        "content": [
             {
-                "name": "HM01 Cut",
-                "codes": "cut,cut_noextra",
-                "img": "images/items/hm_normal.png"
-            },
-            {
-                "name": "HM01 Cut - Extra: Boulder Badge",
-                "codes": "cut,cut_boulder",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/boulder.png"
-            },
-            {
-                "name": "HM01 Cut - Extra: Cascade Badge",
-                "codes": "cut,cut_cascade",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/cascade.png"
-            },
-            {
-                "name": "HM01 Cut - Extra: Thunder Badge",
-                "codes": "cut,cut_thunder",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/thunder.png"
-            },
-            {
-                "name": "HM01 Cut - Extra: Rainbow Badge",
-                "codes": "cut,cut_rainbow",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/rainbow.png"
-            },
-            {
-                "name": "HM01 Cut - Extra: Soul Badge",
-                "codes": "cut,cut_soul",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/soul.png"
-            },
-            {
-                "name": "HM01 Cut - Extra: Marsh Badge",
-                "codes": "cut,cut_marsh",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/marsh.png"
-            },
-            {
-                "name": "HM01 Cut - Extra: Volcano Badge",
-                "codes": "cut,cut_volcano",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/volcano.png"
-            },
-            {
-                "name": "HM01 Cut - Extra: Earth Badge",
-                "codes": "cut,cut_earth",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/earth.png"
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0,0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "3, 3",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "boulder",
+                                "cascade",
+                                "thunder",
+                                "rainbow",
+                                "soul",
+                                "marsh",
+                                "volcano",
+                                "earth"
+                            ],
+                            [
+                                "cut",
+                                "fly",
+                                "surf",
+                                "strength",
+                                "flash",
+                                "dex",
+                                "fuji",
+                                "silphco"
+                            ],
+                            [
+                                "parcel",
+                                "townmap",
+                                "bicycle",
+                                "itemfinder",
+                                "silphscope",
+                                "coincase",
+                                "pokeflute",
+                                "goldteeth"
+                            ],
+                            [
+                                "oldrod",
+                                "goodrod",
+                                "superrod",
+                                "voucher",
+                                "ssticket",
+								"pokedex",
+                                "tea"
+                            ],
+                            [
+                                "firestone",
+                                "leafstone",
+                                "thunderstone",
+                                "waterstone",
+                                "moonstone",
+                                "oldamber",
+                                "domefossil",
+                                "helixfossil"
+                            ],
+                            [
+                                "cardkeyprogvan",
+                                "secretkey",
+                                "liftkey",
+                                "plantkey",
+                                "mansionkey",
+                                "hideoutkey",
+                                "safaripass"
+                            ]
+                        ]
+                    }
+                ]
             }
         ]
     },
-    {
-        "name": "HM02 Fly",
-        "type": "progressive_toggle",
-        "img": "images/items/hm_normal",
-        "codes": "fly",
-        "stages": [
+    "settings": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
             {
-                "name": "HM02 Fly",
-                "codes": "fly,fly_noextra",
-                "img": "images/items/hm_flying.png"
+                "type": "text",
+                "text": "Pokédex-related"
             },
             {
-                "name": "HM02 Fly - Extra: Boulder Badge",
-                "codes": "fly,fly_boulder",
-                "img": "images/items/hm_flying.png",
-                "img_mods": "overlay|images/overlays/boulder.png"
+                "type": "itemgrid",
+                "item_size": 32,
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "opt_aide_2",
+                        "opt_aide_11",
+                        "opt_aide_15",
+                        "opt_dex_required",
+                        "opt_fossilcheck"
+                    ]
+                ]
             },
             {
-                "name": "HM02 Fly - Extra: Cascade Badge",
-                "codes": "fly,fly_cascade",
-                "img": "images/items/hm_flying.png",
-                "img_mods": "overlay|images/overlays/cascade.png"
+                "type": "text",
+                "text": "Roadblocks"
             },
             {
-                "name": "HM02 Fly - Extra: Thunder Badge",
-                "codes": "fly,fly_thunder",
-                "img": "images/items/hm_flying.png",
-                "img_mods": "overlay|images/overlays/thunder.png"
+                "type": "itemgrid",
+                "orientation": "vertical",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "opt_old_man",
+                        "opt_rt3",
+			"opt_officer",
+                        "opt_extra_boulders",
+                        "opt_hm",
+                        "opt_tea"
+                    ]
+                ]
             },
             {
-                "name": "HM02 Fly - Extra: Rainbow Badge",
-                "codes": "fly,fly_rainbow",
-                "img": "images/items/hm_flying.png",
-                "img_mods": "overlay|images/overlays/rainbow.png"
+                "type": "text",
+                "text": "Pool-Size Changes"
             },
             {
-                "name": "HM02 Fly - Extra: Soul Badge",
-                "codes": "fly,fly_soul",
-                "img": "images/items/hm_flying.png",
-                "img_mods": "overlay|images/overlays/soul.png"
+                "type": "itemgrid",
+                "orientation": "vertical",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "opt_hidden_items",
+                        "opt_extra_key_items",
+                        "opt_prizesanity",
+                        "opt_trn",
+                        "opt_dexsanity",
+                        "opt_stonesanity",
+                        "opt_keyonly",
+                        "opt_cardkey"
+                    ]
+                ]
             },
             {
-                "name": "HM02 Fly - Extra: Marsh Badge",
-                "codes": "fly,fly_marsh",
-                "img": "images/items/hm_flying.png",
-                "img_mods": "overlay|images/overlays/marsh.png"
+                "type": "text",
+                "text": "Logic Implications"
             },
             {
-                "name": "HM02 Fly - Extra: Volcano Badge",
-                "codes": "fly,fly_volcano",
-                "img": "images/items/hm_flying.png",
-                "img_mods": "overlay|images/overlays/volcano.png"
+                "type": "itemgrid",
+                "orientation": "vertical",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "opt_itemfinder",
+                        "opt_bike_skips",
+                        "opt_pokedoll_skip",
+                        "opt_dark_rock_tunnel"
+                    ]
+                ]
             },
             {
-                "name": "HM02 Fly - Extra: Earth Badge",
-                "codes": "fly,fly_earth",
-                "img": "images/items/hm_flying.png",
-                "img_mods": "overlay|images/overlays/earth.png"
+                "type": "group",
+                "header": "Free Fly",
+                "background": "#111111",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "free_fly",
+                        "v_alignment": "top",
+                        "h_alignment": "center",
+                        "item_size": "305,40"
+                    },
+                    {
+                        "type": "item",
+                        "item": "tm_free_fly",
+                        "v_alignment": "top",
+                        "h_alignment": "center",
+                        "item_size": "305,40"
+                    }
+                ]
             }
         ]
     },
-    {
-        "name": "HM03 Surf",
-        "type": "progressive_toggle",
-        "img": "images/items/hm_normal",
-        "codes": "surf",
-        "stages": [
+    "bottombar": {
+        "type": "array",
+        "orientation": "horizontal",
+        "background": "#212121",
+        "margin": "0 0 0 0",
+        "content": [
             {
-                "name": "HM03 Surf",
-                "codes": "surf,surf_noextra",
-                "img": "images/items/hm_water.png"
+                "type": "group",
+                "header": "Viridian Gym",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["vg_req","badge_req","vg_digit",""]
+                    ]
+                }
             },
             {
-                "name": "HM03 Surf - Extra: Boulder Badge",
-                "codes": "surf,surf_boulder",
-                "img": "images/items/hm_water.png",
-                "img_mods": "overlay|images/overlays/boulder.png"
+                "type": "group",
+                "header": "Victory Road Requirements",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["rt22_req","badge_req","rt22_digit","",
+                        "vr_req", "badge_req","vr_digit",""]
+                    ]
+                }
             },
             {
-                "name": "HM03 Surf - Extra: Cascade Badge",
-                "codes": "surf,surf_cascade",
-                "img": "images/items/hm_water.png",
-                "img_mods": "overlay|images/overlays/cascade.png"
+                "type": "group",
+                "header": "Elite 4 Requirements",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["badge_req","e4b_digit","","key_req","e4k_digit1","e4k_digit2",
+                        "","dex_req","e4p_digit1", "e4p_digit2","e4p_digit3",""]
+                    ]
+                
+                }
             },
-            {
-                "name": "HM03 Surf - Extra: Thunder Badge",
-                "codes": "surf,surf_thunder",
-                "img": "images/items/hm_water.png",
-                "img_mods": "overlay|images/overlays/thunder.png"
-            },
-            {
-                "name": "HM03 Surf - Extra: Rainbow Badge",
-                "codes": "surf,surf_rainbow",
-                "img": "images/items/hm_water.png",
-                "img_mods": "overlay|images/overlays/rainbow.png"
-            },
-            {
-                "name": "HM03 Surf - Extra: Soul Badge",
-                "codes": "surf,surf_soul",
-                "img": "images/items/hm_water.png",
-                "img_mods": "overlay|images/overlays/soul.png"
-            },
-            {
-                "name": "HM03 Surf - Extra: Marsh Badge",
-                "codes": "surf,surf_marsh",
-                "img": "images/items/hm_water.png",
-                "img_mods": "overlay|images/overlays/marsh.png"
-            },
-            {
-                "name": "HM03 Surf - Extra: Volcano Badge",
-                "codes": "surf,surf_volcano",
-                "img": "images/items/hm_water.png",
-                "img_mods": "overlay|images/overlays/volcano.png"
-            },
-            {
-                "name": "HM03 Surf - Extra: Earth Badge",
-                "codes": "surf,surf_earth",
-                "img": "images/items/hm_water.png",
-                "img_mods": "overlay|images/overlays/earth.png"
-            }
+                {
+                    "type": "group",
+                    "header": "Cerulean Cave Requirements",
+                    "dock": "top",
+                    "content":                 {
+                        "type": "itemgrid",
+                        "orientation": "vertical",
+                        "h_alignment": "left",
+                        "rows": [["badge_req","ccaveB_digit","","key_req","ccaveK_digit1","ccaveK_digit2"]]
+                    
+                    }
+                }
+        
         ]
     },
-    {
-        "name": "HM04 Strength",
-        "type": "progressive_toggle",
-        "img": "images/items/hm_normal",
-        "codes": "strength",
-        "stages": [
+    "requirements": {
+        "type": "array",
+        "orientation": "vertical",
+        "background": "#171717",
+        "margin": "0 0 0 0",
+        "content": [
             {
-                "name": "HM04 Strength",
-                "codes": "strength,strength_noextra",
-                "img": "images/items/hm_normal.png"
+                "type": "group",
+                "header": "Viridian Gym",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["vg_req","badge_req","vg_digit",""]
+                    ]
+                }
             },
             {
-                "name": "HM04 Strength - Extra: Boulder Badge",
-                "codes": "strength,strength_boulder",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/boulder.png"
+                "type": "group",
+                "header": "Victory Road Requirements",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["rt22_req","badge_req","rt22_digit","",
+                        "vr_req", "badge_req","vr_digit",""]
+                    ]
+                }
             },
             {
-                "name": "HM04 Strength - Extra: Cascade Badge",
-                "codes": "strength,strength_cascade",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/cascade.png"
+                "type": "group",
+                "header": "Elite 4 Requirements",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["badge_req","e4b_digit","","key_req","e4k_digit1","e4k_digit2"],
+                        ["dex_req","e4p_digit1", "e4p_digit2","e4p_digit3",""]
+                    ]
+                
+                }
             },
-            {
-                "name": "HM04 Strength - Extra: Thunder Badge",
-                "codes": "strength,strength_thunder",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/thunder.png"
-            },
-            {
-                "name": "HM04 Strength - Extra: Rainbow Badge",
-                "codes": "strength,strength_rainbow",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/rainbow.png"
-            },
-            {
-                "name": "HM04 Strength - Extra: Soul Badge",
-                "codes": "strength,strength_soul",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/soul.png"
-            },
-            {
-                "name": "HM04 Strength - Extra: Marsh Badge",
-                "codes": "strength,strength_marsh",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/marsh.png"
-            },
-            {
-                "name": "HM04 Strength - Extra: Volcano Badge",
-                "codes": "strength,strength_volcano",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/volcano.png"
-            },
-            {
-                "name": "HM04 Strength - Extra: Earth Badge",
-                "codes": "strength,strength_earth",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/earth.png"
-            }
+                {
+                    "type": "group",
+                    "header": "Cerulean Cave Requirements",
+                    "dock": "top",
+                    "content":                 {
+                        "type": "itemgrid",
+                        "orientation": "vertical",
+                        "h_alignment": "left",
+                        "rows": [["badge_req","ccaveB_digit","","key_req","ccaveK_digit1","ccaveK_digit2"]]
+                    
+                    }
+                }
+        
         ]
-    },
-    {
-        "name": "HM05 Flash",
-        "type": "progressive_toggle",
-        "img": "images/items/hm_normal",
-        "codes": "flash",
-        "stages": [
-            {
-                "name": "HM05 Flash",
-                "codes": "flash,flash_noextra",
-                "img": "images/items/hm_normal.png"
-            },
-            {
-                "name": "HM05 Flash - Extra: Boulder Badge",
-                "codes": "flash,flash_boulder",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/boulder.png"
-            },
-            {
-                "name": "HM05 Flash - Extra: Cascade Badge",
-                "codes": "flash,flash_cascade",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/cascade.png"
-            },
-            {
-                "name": "HM05 Flash - Extra: Thunder Badge",
-                "codes": "flash,flash_thunder",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/thunder.png"
-            },
-            {
-                "name": "HM05 Flash - Extra: Rainbow Badge",
-                "codes": "flash,flash_rainbow",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/rainbow.png"
-            },
-            {
-                "name": "HM05 Flash - Extra: Soul Badge",
-                "codes": "flash,flash_soul",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/soul.png"
-            },
-            {
-                "name": "HM05 Flash - Extra: Marsh Badge",
-                "codes": "flash,flash_marsh",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/marsh.png"
-            },
-            {
-                "name": "HM05 Flash - Extra: Volcano Badge",
-                "codes": "flash,flash_volcano",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/volcano.png"
-            },
-            {
-                "name": "HM05 Flash - Extra: Earth Badge",
-                "codes": "flash,flash_earth",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/earth.png"
-            }
-        ]
-    },
-    
-    {
-        "name": "Boulder Badge",
-        "type": "toggle",
-        "img": "images/items/boulder.png",
-        "codes": "boulder,badge"
-    },
-    {
-        "name": "Cascade Badge",
-        "type": "toggle",
-        "img": "images/items/cascade.png",
-        "codes": "cascade,badge"
-    },
-    {
-        "name": "Thunder Badge",
-        "type": "toggle",
-        "img": "images/items/thunder.png",
-        "codes": "thunder,badge"
-    },
-    {
-        "name": "Rainbow Badge",
-        "type": "toggle",
-        "img": "images/items/rainbow.png",
-        "codes": "rainbow,badge"
-    },
-    {
-        "name": "Soul Badge",
-        "type": "toggle",
-        "img": "images/items/soul.png",
-        "codes": "soul,badge"
-    },
-    {
-        "name": "Marsh Badge",
-        "type": "toggle",
-        "img": "images/items/marsh.png",
-        "codes": "marsh,badge"
-    },
-    {
-        "name": "Volcano Badge",
-        "type": "toggle",
-        "img": "images/items/volcano.png",
-        "codes": "volcano,badge"
-    },
-    {
-        "name": "Earth Badge",
-        "type": "toggle",
-        "img": "images/items/earth.png",
-        "codes": "earth,badge"
-    },
-    {
-        "name": "Oak's Parcel",
-        "type": "toggle",
-        "img": "images/items/oaksparcel.png",
-        "codes": "parcel"
-    },
-    {
-        "name": "Pokedex",
-        "type": "consumable",
-		"allow_disabled": true,
-        "max_quantity": 151,
-        "initial_quantity": 0,
-        "img": "images/items/pokedex.png",
-        "codes": "pokedex"
-    },
-    {
-        "name": "Town Map",
-        "type": "toggle",
-        "img": "images/items/townmap.png",
-        "codes": "townmap,keyitem"
-    },
-    {
-        "name": "Bicycle",
-        "type": "toggle",
-        "img": "images/items/bicycle.png",
-        "codes": "bicycle,keyitem"
-    },
-    {
-        "name": "Item Finder",
-        "type": "toggle",
-        "img": "images/items/itemfinder.png",
-        "codes": "itemfinder,keyitem"
-    },
-    {
-        "name": "Silph Scope",
-        "type": "toggle",
-        "img": "images/items/silphscope.png",
-        "codes": "silphscope,keyitem"
-    },
-    {
-        "name": "Coin Case",
-        "type": "toggle",
-        "img": "images/items/coincase.png",
-        "codes": "coincase,keyitem"
-    },
-    {
-        "name": "Poke Flute",
-        "type": "toggle",
-        "img": "images/items/pokeflute.png",
-        "codes": "pokeflute,keyitem"
-    },
-    {
-        "name": "Old Rod",
-        "type": "toggle",
-        "img": "images/items/oldrod.png",
-        "codes": "oldrod,keyitem"
-    },
-    {
-        "name": "Good Rod",
-        "type": "toggle",
-        "img": "images/items/goodrod.png",
-        "codes": "goodrod,keyitem"
-    },
-    {
-        "name": "Super Rod",
-        "type": "toggle",
-        "img": "images/items/superrod.png",
-        "codes": "superrod,keyitem"
-    },
-    {
-        "name": "Gold Teeth",
-        "type": "toggle",
-        "img": "images/items/goldteeth.png",
-        "codes": "goldteeth,teeth"
-    },
-    {
-        "name": "Secret Key",
-        "type": "toggle",
-        "img": "images/items/secretkey.png",
-        "codes": "secretkey,keyitem"
-    },
-    {
-        "name": "Bike Voucher",
-        "type": "toggle",
-        "img": "images/items/bikevoucher.png",
-        "codes": "voucher"
-    },
-    {
-        "name": "Lift Key",
-        "type": "toggle",
-        "img": "images/items/liftkey.png",
-        "codes": "liftkey,keyitem"
-    },
-    {
-        "name": "Card Key",
-        "type": "toggle",
-        "img": "images/items/cardkey.png",
-        "codes": "cardkey,keyitem"
-    },
-    {
-        "name": "(Progressive) Card Key. Left click to toggle, right click to increase",
-        "type": "progressive_toggle",
-        "img": "images/items/cardkey",
-        "codes": "cardkeyprogvan,keyitem",
-        "stages": [
-            {
-                "name": "Cardkey",
-                "codes": "",
-                "img": "images/items/cardkey.png"
-            },
-            {
-                "name": "Progressive Cardkey (2F Access)",
-                "codes": "",
-                "img": "images/items/cardkeyprog.png",
-                "img_mods": "overlay|images/overlays/2.png"
-            },
-            {
-                "name": "Progressive Cardkey (3F Access)",
-                "codes": "",
-                "img": "images/items/cardkeyprog.png",
-                "img_mods": "overlay|images/overlays/3.png"
-            },
-            {
-                "name": "Progressive Cardkey (4F Access)",
-                "codes": "",
-                "img": "images/items/cardkeyprog.png",
-                "img_mods": "overlay|images/overlays/4.png"
-            },
-            {
-                "name": "Progressive Cardkey (5F Access)",
-                "codes": "",
-                "img": "images/items/cardkeyprog.png",
-                "img_mods": "overlay|images/overlays/5.png"
-            },
-            {
-                "name": "Progressive Cardkey (6F Access)",
-                "codes": "",
-                "img": "images/items/cardkeyprog.png",
-                "img_mods": "overlay|images/overlays/6.png"
-            },
-            {
-                "name": "Progressive Cardkey (7F Access)",
-                "codes": "",
-                "img": "images/items/cardkeyprog.png",
-                "img_mods": "overlay|images/overlays/7.png"
-            },
-            {
-                "name": "Progressive Cardkey (8F Access)",
-                "codes": "",
-                "img": "images/items/cardkeyprog.png",
-                "img_mods": "overlay|images/overlays/8.png"
-            },
-            {
-                "name": "Progressive Cardkey (9F Access)",
-                "codes": "",
-                "img": "images/items/cardkeyprog.png",
-                "img_mods": "overlay|images/overlays/9.png"
-            },
-            {
-                "name": "Progressive Cardkey (10F Access)",
-                "codes": "",
-                "img": "images/items/cardkeyprog.png",
-                "img_mods": "overlay|images/overlays/10.png"
-            },
-            {
-                "name": "Progressive Cardkey (11F Access)",
-                "codes": "",
-                "img": "images/items/cardkeyprog.png",
-                "img_mods": "overlay|images/overlays/11.png"
-            }
-        ]
-    },
-    {
-        "name": "Progressive Card Key",
-        "type": "consumable", 
-        "max_quantity": 10,
-        "initial_quantity": 0,
-        "img": "images/items/cardkeyprog.png",
-        "codes": "cardkey_progressive,keyitem"
-    },
-    {
-        "name": "Card Key 2F",
-        "type": "toggle",
-        "img": "images/items/cardkey2.png",
-        "codes": "cardkey2f, split_cardkey,keyitem"
-    },
-    {
-        "name": "Card Key 3F",
-        "type": "toggle",
-        "img": "images/items/cardkey3.png",
-        "codes": "cardkey3f, split_cardkey,keyitem"
-    },
-    {
-        "name": "Card Key 4F",
-        "type": "toggle",
-        "img": "images/items/cardkey4.png",
-        "codes": "cardkey4f, split_cardkey,keyitem"
-    },
-    {
-        "name": "Card Key 5F",
-        "type": "toggle",
-        "img": "images/items/cardkey5.png",
-        "codes": "cardkey5f, split_cardkey,keyitem"
-    },
-    {
-        "name": "Card Key 6F",
-        "type": "toggle",
-        "img": "images/items/cardkey6.png",
-        "codes": "cardkey6f, split_cardkey,keyitem"
-    },
-    {
-        "name": "Card Key 7F",
-        "type": "toggle",
-        "img": "images/items/cardkey7.png",
-        "codes": "cardkey7f, split_cardkey,keyitem"
-    },
-    {
-        "name": "Card Key 8F",
-        "type": "toggle",
-        "img": "images/items/cardkey8.png",
-        "codes": "cardkey8f, split_cardkey,keyitem"
-    },
-    {
-        "name": "Card Key 9F",
-        "type": "toggle",
-        "img": "images/items/cardkey9.png",
-        "codes": "cardkey9f, split_cardkey,keyitem"
-    },
-    {
-        "name": "Card Key 10F",
-        "type": "toggle",
-        "img": "images/items/cardkey10.png",
-        "codes": "cardkey10f, split_cardkey,keyitem"
-    },
-    {
-        "name": "Card Key 11F",
-        "type": "toggle",
-        "img": "images/items/cardkey11.png",
-        "codes": "cardkey11f, split_cardkey,keyitem"
-    },
-    {
-        "name": "SS Ticket",
-        "type": "toggle",
-        "img": "images/items/ssticket.png",
-        "codes": "ssticket,keyitem"
-    },
-    {
-        "name": "Tea",
-        "type": "toggle",
-        "img": "images/items/tea.png",
-        "codes": "tea"
-    },
-    {
-        "name": "Plant Key",
-        "type": "toggle",
-        "img": "images/items/plantkey.png",
-        "codes": "plantkey,keyitem"
-    },
-    {
-        "name": "Mansion Key",
-        "type": "toggle",
-        "img": "images/items/mansionkey.png",
-        "codes": "mansionkey,keyitem"
-    },
-    {
-        "name": "Hideout Key",
-        "type": "toggle",
-        "img": "images/items/hideoutkey.png",
-        "codes": "hideoutkey,keyitem"
-    },
-    {
-        "name": "Safari Pass",
-        "type": "toggle",
-        "img": "images/items/safaripass.png",
-        "codes": "safaripass,keyitem"
-    },
-    {
-        "name": "Old Amber",
-        "type": "toggle",
-        "img": "images/items/oldamber.png",
-        "codes": "oldamber,fossil"
-    },
-    {
-        "name": "Dome Fossil",
-        "type": "toggle",
-        "img": "images/items/dome.png",
-        "codes": "domefossil,fossil"
-    },
-    {
-        "name": "Helix Fossil",
-        "type": "toggle",
-        "img": "images/items/helix.png",
-        "codes": "helixfossil,fossil"
-    },
-    {
-        "name": "Fire Stone",
-        "type": "toggle",
-        "img": "images/items/firestone.png",
-        "codes": "firestone,stone,keyitem"
-    },
-    {
-        "name": "Leaf Stone",
-        "type": "toggle",
-        "img": "images/items/leafstone.png",
-        "codes": "leafstone,stone,keyitem"
-    },
-    {
-        "name": "Thunder Stone",
-        "type": "toggle",
-        "img": "images/items/thunderstone.png",
-        "codes": "thunderstone,stone,keyitem"
-    },
-    {
-        "name": "Water Stone",
-        "type": "toggle",
-        "img": "images/items/waterstone.png",
-        "codes": "waterstone,stone,keyitem"
-    },
-    {
-        "name": "Moon Stone",
-        "type": "toggle",
-        "img": "images/items/moonstone.png",
-        "codes": "moonstone,stone,keyitem"
-    },
-    {
-        "name": "Helped Bill",
-        "type": "toggle",
-        "codes": "bill"
-	},
-    {
-        "name": "Saved Mr. Fuji",
-        "type": "toggle",
-        "img": "images/items/fuji.png",
-        "codes": "fuji"
-	},
-    {
-        "name": "Liberated Silph Co.",
-        "type": "toggle",
-        "img": "images/items/silph.png",
-        "codes": "silphco"
-	},
-    {
-        "name": "Beat the Champ",
-        "type": "toggle",
-        "img": "images/items/champ.png",
-        "codes": "champ"
-	}
-]
+    }
+}
