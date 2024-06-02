@@ -86,19 +86,17 @@
         "stages": [
             {
                 "name": "Card Key - Vanilla",
-                "img_mods": "@disabled",
-                "img": "images/items/cardkey.png",
+                "img": "images/items/opt_cardkey_vani.png",
                 "codes": "opt_cardkey,opt_cardkey_off"
             },
             {
                 "name": "Card Key - Progressive",
-                "img_mods": "@disabled",
-                "img": "images/items/cardkey.png",
+                "img": "images/items/opt_cardkey_prog.png",
                 "codes": "opt_cardkey,opt_cardkey_prog"
             },
             {
                 "name": "Cardkey - Split",
-                "img": "images/items/cardkey.png",
+                "img": "images/items/opt_cardkey_split.png",
                 "codes": "opt_cardkey,opt_cardkey_split",
                 "inherit_codes": false
             }
