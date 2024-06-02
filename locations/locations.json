@@ -793,7 +793,7 @@
             {
               "name": "3F Item",
               "item_count": 1,
-              "access_rules": ["$cardkey(3)"],
+              "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
@@ -811,19 +811,19 @@
             {
               "name": "4F Card Key Left Item",
               "item_count": 1,
-              "access_rules": ["$cardkey(4)"],
+              "access_rules": ["$cardkey|4"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "4F Card Key Middle Item",
               "item_count": 1,
-              "access_rules": ["$cardkey(4)"],
+              "access_rules": ["$cardkey|4"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "4F Card Key Right Item",
               "item_count": 1,
-              "access_rules": ["$cardkey(4)"],
+              "access_rules": ["$cardkey|4"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
@@ -847,7 +847,7 @@
             {
               "name": "4F Hostage",
               "item_count": 1,
-              "access_rules": ["$cardkey(4)"],
+              "access_rules": ["$cardkey|4"],
               "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
             },
             {
@@ -901,19 +901,19 @@
             {
               "name": "5F Hostage",
               "item_count": 1,
-              "access_rules": ["$cardkey(5)"],
+              "access_rules": ["$cardkey|5"],
               "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
             },
             {
               "name": "6F Card Key Southwest Item Top",
               "item_count": 1,
-              "access_rules": ["$cardkey(6)"],
+              "access_rules": ["$cardkey|6"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "6F Card Key Southwest Item Bottom",
               "item_count": 1,
-              "access_rules": ["$cardkey(6)"],
+              "access_rules": ["$cardkey|6"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
@@ -956,7 +956,7 @@
             {
               "name": "7F East Item",
               "item_count": 1,
-              "access_rules": ["$cardkey(7)"],
+              "access_rules": ["$cardkey|7"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
@@ -1028,7 +1028,7 @@
             {
               "name": "9F Rocket 2",
               "item_count": 1,
-              "access_rules": ["$cardkey(9)","$cardkey(3)"],
+              "access_rules": ["$cardkey|9","$cardkey|3"],
               "visibility_rules": ["trainer_on"]
             },
             {
@@ -1040,7 +1040,7 @@
             {
               "name": "9F Nurse",
               "item_count": 1,
-              "access_rules": ["$cardkey(9)"],
+              "access_rules": ["$cardkey|9"],
               "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
             },
             {
@@ -1076,7 +1076,7 @@
             {
               "name": "10F Hostage",
               "item_count": 1,
-              "access_rules": ["$cardkey(10)"],
+              "access_rules": ["$cardkey|10"],
               "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
             },
             {
@@ -1088,12 +1088,12 @@
             {
               "name": "11F Rocket 2",
               "item_count": 1,
-              "access_rules": ["cardkey(3)"],
+              "access_rules": ["cardkey|3"],
               "visibility_rules": ["trainer_on"]
             },
 			{
 				"name": "Liberate Silph Co",
-				"access_rules": ["$cardkey(11),$cardkey(3)"],
+				"access_rules": ["$cardkey|11,$cardkey|3"],
 				"hosted_item": "silphco"
 			},
             {
