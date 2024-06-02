@@ -454,6 +454,79 @@
         "codes": "cardkey,keyitem"
     },
     {
+        "name": "(Progressive) Card Key. Left click to toggle, right click to increase",
+        "type": "progressive_toggle",
+        "img": "images/items/cardkey",
+        "codes": "cardkeyprogvan,keyitem",
+        "stages": [
+            {
+                "name": "Cardkey",
+                "codes": "",
+                "img": "images/items/cardkey.png"
+            },
+            {
+                "name": "Progressive Cardkey (2F Access)",
+                "codes": "",
+                "img": "images/items/cardkeyprog.png",
+                "img_mods": "overlay|images/overlays/2.png"
+            },
+            {
+                "name": "Progressive Cardkey (3F Access)",
+                "codes": "",
+                "img": "images/items/cardkeyprog.png",
+                "img_mods": "overlay|images/overlays/3.png"
+            },
+            {
+                "name": "Progressive Cardkey (4F Access)",
+                "codes": "",
+                "img": "images/items/cardkeyprog.png",
+                "img_mods": "overlay|images/overlays/4.png"
+            },
+            {
+                "name": "Progressive Cardkey (5F Access)",
+                "codes": "",
+                "img": "images/items/cardkeyprog.png",
+                "img_mods": "overlay|images/overlays/5.png"
+            },
+            {
+                "name": "Progressive Cardkey (6F Access)",
+                "codes": "",
+                "img": "images/items/cardkeyprog.png",
+                "img_mods": "overlay|images/overlays/6.png"
+            },
+            {
+                "name": "Progressive Cardkey (7F Access)",
+                "codes": "",
+                "img": "images/items/cardkeyprog.png",
+                "img_mods": "overlay|images/overlays/7.png"
+            },
+            {
+                "name": "Progressive Cardkey (8F Access)",
+                "codes": "",
+                "img": "images/items/cardkeyprog.png",
+                "img_mods": "overlay|images/overlays/8.png"
+            },
+            {
+                "name": "Progressive Cardkey (9F Access)",
+                "codes": "",
+                "img": "images/items/cardkeyprog.png",
+                "img_mods": "overlay|images/overlays/9.png"
+            },
+            {
+                "name": "Progressive Cardkey (10F Access)",
+                "codes": "",
+                "img": "images/items/cardkeyprog.png",
+                "img_mods": "overlay|images/overlays/10.png"
+            },
+            {
+                "name": "Progressive Cardkey (11F Access)",
+                "codes": "",
+                "img": "images/items/cardkeyprog.png",
+                "img_mods": "overlay|images/overlays/11.png"
+            }
+        ]
+    },
+    {
         "name": "Progressive Card Key",
         "type": "consumable", 
         "max_quantity": 10,
