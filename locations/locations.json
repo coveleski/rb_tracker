@@ -733,7 +733,7 @@
         },
         {
           "name": "Route 11-12 Gatehouse",
-          "access_rules": ["$cerulean,$extra_boulders"],
+          "access_rules": ["$cerulean,$extra_boulders","$lavender,pokeflute"],
           "sections": [
             {
               "name": "Oak's Aide",
@@ -793,13 +793,13 @@
             {
               "name": "3F Item",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cardkey|3","$cardkey|9"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "3F Scientist",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cardkey|3","$cardkey|9"],
               "visibility_rules": ["trainer_on"]
             },
             {
@@ -859,7 +859,7 @@
             {
               "name": "5F Northwest Item",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cardkey|5"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
@@ -986,7 +986,7 @@
             {
               "name": "7F Hostage",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cardkey|7"],
               "visibility_rules": ["opt_cardkey_prog", "opt_cardkey_split"]
             },
             {
@@ -1034,7 +1034,7 @@
             {
               "name": "HI: 9F Nurse Bed",
               "item_count": 1,
-              "access_rules": ["$hidden"],
+              "access_rules": ["$hidden,$cardkey|9"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
@@ -1088,7 +1088,7 @@
             {
               "name": "11F Rocket 2",
               "item_count": 1,
-              "access_rules": ["cardkey|3"],
+              "access_rules": ["$cardkey|3"],
               "visibility_rules": ["trainer_on"]
             },
 			{
