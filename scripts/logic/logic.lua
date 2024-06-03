@@ -282,7 +282,7 @@ function elite4()
     local pokedex = pokedex_count()
 
 
-    return ((badges_count() >= badges_required) and (key_items() >= key_items_required) and (pokedex >= pokedex_required))
+    return ((badges_count() >= badges_required) and (key_items_count() >= key_items_required) and (pokedex >= pokedex_required))
 end
 
 function victoryroad()
