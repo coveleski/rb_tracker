@@ -48,7 +48,13 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["old_man"] then
-		Tracker:FindObjectForCode('opt_old_man').CurrentStage = slot_data["old_man"]
+		local obj = Tracker:FindObjectForCode('opt_old_man')
+		local setting = slot_data["old_man"]
+		if setting == 2 then
+			obj.CurrentStage = 1
+		else
+			obj.CurrentStage = 0
+		end
 	end
 
     if slot_data["elite_four_badges_condition"] then
