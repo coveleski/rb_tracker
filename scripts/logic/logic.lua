@@ -54,7 +54,7 @@ function cut()
             extra = has(badges[stage])
         end
     end
-    return has('cut') and (has('cascade') or extra)
+    return has('cut') and (has('cascade') or has('opt_hm_off') or extra)
 end
 
 function fly()
@@ -67,7 +67,7 @@ function fly()
             extra = has(badges[stage])
         end
     end
-    return has('fly') and (has('thunder') or extra)
+    return has('fly') and (has('thunder') or has('opt_hm_off') or extra)
 end
 
 function surf()
@@ -80,7 +80,7 @@ function surf()
             extra = has(badges[stage])
         end
     end
-    return has('surf') and (has('soul') or extra)
+    return has('surf') and (has('soul') or has('opt_hm_off') or extra)
 end
 
 function strength()
@@ -93,7 +93,7 @@ function strength()
             extra = has(badges[stage])
         end
     end
-    return has('strength') and (has('rainbow') or extra)
+    return has('strength') and (has('rainbow') or has('opt_hm_off') or extra)
 end
 
 function flash()
@@ -106,7 +106,7 @@ function flash()
             extra = has(badges[stage])
         end
     end
-    return has('flash') and (has('boulder') or extra)
+    return has('flash') and (has('boulder') or has('opt_hm_off') or extra)
 end
 
 function flyto(location)
