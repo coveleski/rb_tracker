@@ -131,8 +131,8 @@ function get_slot_options(slot_data)
 		Tracker:FindObjectForCode('free_fly').CurrentStage = slot_data["free_fly_map"]
 	end
 
-    if slot_data["town_map_free_fly"] then
-		Tracker:FindObjectForCode('tm_free_fly').CurrentStage = slot_data["town_map_free_fly"]
+    if slot_data["town_map_fly_map"] then
+		Tracker:FindObjectForCode('tm_free_fly').CurrentStage = slot_data["town_map_fly_map"]
 	end
 
     if slot_data["extra_badges"] then
