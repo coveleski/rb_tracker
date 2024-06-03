@@ -3634,7 +3634,7 @@
         },
         {
           "name": "Indigo Plateau",
-          "access_rules": ["$elite4"],
+          "access_rules": ["$indigo,$elite4"],
           "sections": [
             {
               "name": "Lorelei",
