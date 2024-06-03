@@ -51,6 +51,7 @@
                                 "superrod",
                                 "voucher",
                                 "ssticket",
+								"pokedex",
                                 "tea"
                             ],
                             [
@@ -64,7 +65,7 @@
                                 "helixfossil"
                             ],
                             [
-                                "cardkey",
+                                "cardkeyprogvan",
                                 "secretkey",
                                 "liftkey",
                                 "plantkey",
@@ -95,7 +96,7 @@
                         "opt_aide_2",
                         "opt_aide_11",
                         "opt_aide_15",
-                        "dex_composite",
+                        "opt_dex_required",
                         "opt_fossilcheck"
                     ]
                 ]

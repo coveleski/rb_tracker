@@ -12,8 +12,15 @@ function get_slot_options(slot_data)
 		Tracker:FindObjectForCode('opt_hidden_items').CurrentStage = slot_data["randomize_hidden_items"]
 	end
 
-    if slot_data["badges_needed_for_hm_moves"] then
-
+	if slot_data["badges_needed_for_hm_moves"] then
+		local obj = Tracker:FindObjectForCode("opt_hm")
+		local stage = slot_data["badges_needed_for_hm_moves"]
+		if stage >= 2 then
+			stage = 2
+		end
+		if obj then
+			obj.CurrentStage = stage
+		end
 	end
 
     if slot_data["oaks_aide_rt_2"] then
@@ -37,8 +44,7 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["tea"] then
-		--TODO
-		Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage = slot_data["extra_key_items"]
+		Tracker:FindObjectForCode('opt_tea').CurrentStage = slot_data["tea"]
 	end
 
     if slot_data["old_man"] then
@@ -188,7 +194,7 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["split_card_key"] then
-		local obj = Tracker:FindObjectForCode("op_cardkey")
+		local obj = Tracker:FindObjectForCode("opt_cardkey")
 		if obj then
 			tmp = slot_data["split_card_key"]
 			if tmp == 2 then

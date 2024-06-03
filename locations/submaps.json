@@ -41,20 +41,20 @@
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/4F Scientist"}],"map_locations":[{"map":"silph16","x": 729,"y": 439}]}
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/4F Hostage"}],"map_locations":[{"map":"silph16","x": 601,"y": 375}]}
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Southwest Item"}],"map_locations":[{"map":"silph16","x": 49,"y": 863}]}
-,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Northwest Item"}],"map_locations":[{"map":"silph16","x": 49,"y": 863}]}
-,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Southeast Item"}],"map_locations":[{"map":"silph16","x": 81,"y": 735}]}
-,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/HI: 5F Pot Plant"}],"map_locations":[{"map":"silph16","x": 353,"y": 911}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Northwest Item"}],"map_locations":[{"map":"silph16","x": 81,"y": 735}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Southeast Item"}],"map_locations":[{"map":"silph16","x": 353,"y": 911}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/HI: 5F Pot Plant"}],"map_locations":[{"map":"silph16","x": 200,"y": 703}]}
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Rocket 1"}],"map_locations":[{"map":"silph16","x": 465,"y": 719}]}
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Juggler"}],"map_locations":[{"map":"silph16","x": 289,"y": 815}]}
-,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Scientist"}],"map_locations":[{"map":"silph16","x": 145,"y": 907}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Scientist"}],"map_locations":[{"map":"silph16","x": 145,"y": 703}]}
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Rocket 2"}],"map_locations":[{"map":"silph16","x": 145,"y": 911}]}
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Hostage"}],"map_locations":[{"map":"silph16","x": 225,"y": 799}]}
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/6F Card Key Southwest Item Top"}],"map_locations":[{"map":"silph16","x": 553,"y": 847}]}
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/6F Card Key Southwest Item Bottom"}],"map_locations":[{"map":"silph16","x": 537,"y": 895}]}
-,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/6F Rocket 1"}],"map_locations":[{"map":"silph16","x": 825,"y": 703}]}
-,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/6F Scientist"}],"map_locations":[{"map":"silph16","x": 617,"y": 767}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/6F Rocket 1"}],"map_locations":[{"map":"silph16","x": 777,"y": 703}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/6F Scientist"}],"map_locations":[{"map":"silph16","x": 617,"y": 783}]}
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/6F Rocket 2"}],"map_locations":[{"map":"silph16","x": 729,"y": 895}]}
-,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/6F Hostage"}],"map_locations":[{"map":"silph16","x": 841,"y": 751}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/6F Hostage"}],"map_locations":[{"map":"silph16","x": 665,"y": 744}]}
 
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/7F West Item"}],"map_locations":[{"map":"silph711","x": 33,"y": 177}]}
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 7F - 11F/7F East Item"}],"map_locations":[{"map":"silph711","x": 401,"y": 209}]}

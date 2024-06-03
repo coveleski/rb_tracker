@@ -86,19 +86,17 @@
         "stages": [
             {
                 "name": "Card Key - Vanilla",
-                "img_mods": "@disabled",
-                "img": "images/items/cardkey.png",
+                "img": "images/items/opt_cardkey_vani.png",
                 "codes": "opt_cardkey,opt_cardkey_off"
             },
             {
                 "name": "Card Key - Progressive",
-                "img_mods": "@disabled",
-                "img": "images/items/cardkey.png",
+                "img": "images/items/opt_cardkey_prog.png",
                 "codes": "opt_cardkey,opt_cardkey_prog"
             },
             {
                 "name": "Cardkey - Split",
-                "img": "images/items/cardkey.png",
+                "img": "images/items/opt_cardkey_split.png",
                 "codes": "opt_cardkey,opt_cardkey_split",
                 "inherit_codes": false
             }
@@ -330,12 +328,13 @@
         "stages": [
             {
                 "name": "HM Mode - HMs without Badges",
-                "img": "images/items/hmno.png",
+                "img": "images/items/hm_normal.png",
+                "img_mods": "@disabled",
                 "codes": "opt_hm,opt_hm_off"
             },
             {
                 "name": "HM Mode - Normal",
-                "img": "images/items/hmon.png",
+                "img": "images/items/hm_normal.png",
                 "codes": "opt_hm,opt_hm_on",
                 "inherit_codes": false
             },
@@ -414,16 +413,17 @@
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
+		"codes": "opt_dex_required",
         "stages": [
             {
                 "name": "Pokédex not required",
                 "img_mods": "@disabled",
-                "img": "images/items/pokedex.png",
+                "img": "images/options/pokedex_required.png",
                 "codes": "opt_dex_required,opt_dex_required_off"
             },
             {
                 "name": "Pokédex required for Aide/Dexsanity checks",
-                "img": "images/items/pokedex.png",
+                "img": "images/options/pokedex_required.png",
                 "codes": "opt_dex_required,opt_dex_required_on",
                 "inherit_codes": false
             }
