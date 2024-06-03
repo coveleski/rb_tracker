@@ -145,10 +145,10 @@ end
 
 function rock_tunnel()
 
-    if has('opt_dark_rock_tunnel_off') then
-        return AccessibilityLevel.SequenceBreak
-    elseif flash() or has('opt_dark_rock_tunnel_on') then
+    if flash() or has('opt_dark_rock_tunnel_on') then
         return AccessibilityLevel.Normal
+    elseif has('opt_dark_rock_tunnel_off') then
+        return AccessibilityLevel.SequenceBreak
     else
         return AccessibilityLevel.None
     end
