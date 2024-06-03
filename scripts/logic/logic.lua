@@ -154,10 +154,6 @@ function rock_tunnel()
     end
 end
 
-function guard_gate()
-    return true
-end
-
 function officer()
     return has('bill') or has("opt_officer_off")
 end
