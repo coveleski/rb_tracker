@@ -34,5 +34,11 @@
         "location_size": 20,
         "location_border_thickness": 2,
         "img": "images/maps/mansion_alt.png"
+    },
+    {
+        "name": "encounters",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/map.png"
     }
 ]
