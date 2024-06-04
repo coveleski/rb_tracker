@@ -99,16 +99,18 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["route_3_condition"] then
-		-- TODO
+		local obj = Tracker:FindObjectForCode("opt_rt3")
+		local stage = slot_data["route_3_condition"]
+		if stage >= 5 then
+			stage = 5
+		end
+		if obj then
+			obj.CurrentStage = stage
+		end
 	end
 
     if slot_data["robbed_house_officer"] then
-		opt = slot_data["robbed_house_officer"]
-		if opt ~= 0 then
-			Tracker:FindObjectForCode('opt_officer').Active = true
-		else
-			Tracker:FindObjectForCode('opt_officer').Active = false
-		end
+		Tracker:FindObjectForCode('opt_officer').CurrentStage = slot_data["robbed_house_officer"]
 	end
 
     if slot_data["viridian_gym_condition"] then
