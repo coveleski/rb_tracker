@@ -103,6 +103,14 @@
                                         "type": "map",
                                         "maps": ["mansion"]
                                     }
+                                },
+								{
+                                    "title": "Encounters",
+                                    "icon": "images/items/pokedex.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["encounters"]
+                                    }
                                 }
                             ]
                         }
