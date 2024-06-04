@@ -418,13 +418,13 @@
 		"codes": "opt_dex_required",
         "stages": [
             {
-                "name": "Pokédex not required",
+                "name": "Pokédex not required [Manual]",
                 "img_mods": "@disabled",
                 "img": "images/options/pokedex_required.png",
                 "codes": "opt_dex_required,opt_dex_required_off"
             },
             {
-                "name": "Pokédex required for Aide/Dexsanity checks",
+                "name": "Pokédex required for Aide/Dexsanity checks [Manual]",
                 "img": "images/options/pokedex_required.png",
                 "codes": "opt_dex_required,opt_dex_required_on",
                 "inherit_codes": false
@@ -592,24 +592,19 @@
         ]
     },
     {
-        "name": "Dexsanity",
+        "name": "Dexsanity [Manual Only]",
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Dexsanity - Off",
-                "img": "images/items/poke_gray.png",
-                "codes": "opt_dexsanity,opt_dexsanity_off"
-            },
-            {
-                "name": "Dexsanity - Area 1:1 Mapping",
+                "name": "Dexsanity - Area 1:1 Mapping [Manual]",
                 "img": "images/items/poke.png",
                 "codes": "opt_dexsanity,opt_dexsanity_one",
                 "inherit_codes": false
             },
             {
-                "name": "Dexsanity - All Slots",
+                "name": "Dexsanity - All Slots [Manual]",
                 "img": "images/items/great.png",
                 "codes": "opt_dexsanity,opt_dexsanity_ten",
                 "inherit_codes": false
