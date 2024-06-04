@@ -47,12 +47,13 @@
         "stages": [
             {
                 "name": "Rocktunnel - Flash in logic",
-                "img": "images/items/rocktunnel_light.png",
+                "img": "images/items/flash_required.png",
                 "codes": "opt_dark_rock_tunnel,opt_dark_rock_tunnel_off"
             },
             {
                 "name": "Rocktunnel - No Flash in logic",
-                "img": "images/items/rocktunnel_dark.png",
+                "img": "images/items/flash_required.png",
+				"img_mods": "@disabled",
                 "codes": "opt_dark_rock_tunnel, opt_dark_rock_tunnel_on",
                 "inherit_codes": false
             }
@@ -143,12 +144,12 @@
             {
                 "name": "Hidden Items not randomized",
                 "img_mods": "@disabled",
-                "img": "images/items/hidden.png",
+                "img": "images/items/hiddenitems.png",
                 "codes": "opt_hidden_items,opt_hidden_items_off"
             },
             {
                 "name": "Hidden Items randomized",
-                "img": "images/items/hidden.png",
+                "img": "images/items/hiddenitems.png",
                 "codes": "opt_hidden_items,opt_hidden_items_on",
                 "inherit_codes": false
             }
