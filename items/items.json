@@ -600,33 +600,88 @@
     },
     {
         "name": "Tea",
-        "type": "toggle",
+        "type": "progressive_toggle",
         "img": "images/items/tea.png",
-        "codes": "tea"
+        "codes": "tea,keyitem",
+		"stages": [
+		{
+			"name": "Hideout Key",
+			"codes": "tea,keyitem",
+			"img": "images/items/tea.png"
+		},
+		{
+			"name": "Right-Click to enable again",
+			"codes": "",
+			"img": "images/items/doesnotexist.png"
+		}]
     },
     {
         "name": "Plant Key",
-        "type": "toggle",
+        "type": "progressive_toggle",
         "img": "images/items/plantkey.png",
-        "codes": "plantkey,keyitem"
+        "codes": "plantkey,keyitem",
+		"stages": [
+		{
+			"name": "Plant Key",
+			"codes": "plantkey,keyitem",
+			"img": "images/items/plantkey.png"
+		},
+		{
+			"name": "Right-Click to enable again",
+			"codes": "",
+			"img": "images/items/doesnotexist.png"
+		}]
     },
     {
         "name": "Mansion Key",
-        "type": "toggle",
+        "type": "progressive_toggle",
         "img": "images/items/mansionkey.png",
-        "codes": "mansionkey,keyitem"
+        "codes": "mansionkey,keyitem",
+		"stages": [
+		{
+			"name": "Mansion Key",
+			"codes": "mansionkey,keyitem",
+			"img": "images/items/mansionkey.png"
+		},
+		{
+			"name": "Right-Click to enable again",
+			"codes": "",
+			"img": "images/items/doesnotexist.png"
+		}]
     },
     {
         "name": "Hideout Key",
-        "type": "toggle",
+        "type": "progressive_toggle",
         "img": "images/items/hideoutkey.png",
-        "codes": "hideoutkey,keyitem"
+        "codes": "hideoutkey,keyitem",
+		"stages": [
+		{
+			"name": "Hideout Key",
+			"codes": "hideoutkey,keyitem",
+			"img": "images/items/hideoutkey.png"
+		},
+		{
+			"name": "Right-Click to enable again",
+			"codes": "",
+			"img": "images/items/doesnotexist.png"
+		}]
     },
     {
         "name": "Safari Pass",
-        "type": "toggle",
+        "type": "progressive_toggle",
         "img": "images/items/safaripass.png",
-        "codes": "safaripass,keyitem"
+        "codes": "safaripass,keyitem",
+		"stages": [
+		{
+			"name": "Hideout Key",
+			"codes": "safaripass,keyitem",
+			"img": "images/items/safaripass.png"
+		},
+		{
+			"name": "Right-Click to enable again",
+			"codes": "",
+			"img": "images/items/doesnotexist.png"
+		}]
     },
     {
         "name": "Old Amber",
