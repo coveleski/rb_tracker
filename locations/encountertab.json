@@ -8,7 +8,10 @@
           "name": "Vermilion City",
           "access_rules": ["$cerulean"],
           "sections": [
-
+					{
+						"name": "Trade",
+						"access_rules": []
+					}
           ],
           "map_locations": [{ "map": "encounters", "x": 400, "y": 304, "size": 27, "border_thickness": 4 }]
         },
@@ -101,7 +104,11 @@
                         "item_count": 10,
                         "clear_as_group": false,
                         "visibility_rules": ["opt_dexsanity_ten"]
-                    }
+                    },
+					{
+						"name": "Trade",
+						"access_rules": ["$cut","$vermilion"]
+					}
           ],
           "map_locations": [{ "map": "encounters", "x": 144, "y": 208 }]
         },
@@ -145,7 +152,10 @@
           "name": "Cerulean City",
           "access_rules": ["$cerulean"],
           "sections": [
-
+					{
+						"name": "Trade",
+						"access_rules": []
+					}
           ],
           "map_locations": [{ "map": "encounters", "x": 400, "y": 80, "size": 27, "border_thickness": 4 }]
         },
@@ -209,7 +219,10 @@
           "name": "Route 11-12 Gatehouse",
           "access_rules": ["$cerulean,$extra_boulders","$lavender,pokeflute"],
           "sections": [
-
+					{
+						"name": "Trade",
+						"access_rules": []
+					}
           ],
           "map_locations": [{ "map": "encounters", "x": 496, "y": 304 }]
         },
@@ -225,7 +238,10 @@
           "name": "Silph Co 7F - 11F",
           "access_rules": ["$saffron,fuji"],
           "sections": [
-
+					{
+						"name": "Static Encounter: Lapras",
+						"access_rules": [],
+					}
           ],
           "map_locations": [{ "map": "encounters", "x": 340, "y": 144 }]
         },
@@ -250,7 +266,13 @@
                         "access_rules": [
                             "$celadon,$cut"
                         ]
-                    }
+                    },
+					{
+						"name": "Static Encounter: Snorlax",
+						"access_rules": ["pokeflute,$celadon","pokeflute,$fuchsia,$cyclingroad"],
+                        "chest_unopened_img": "images/pokedex/snorlax.png",
+                        "chest_opened_img": "images/items/pokedex_done.png"
+					}
           ],
           "map_locations": [{ "map": "encounters", "x": 240, "y": 176 }]
         },
@@ -332,7 +354,12 @@
           "name": "Cinnabar Island",
           "access_rules": ["$cinnabar"],
           "sections": [
-
+					{
+						"name": "Trade",
+						"item_count": 3,
+						"clear_as_group": false,
+						"access_rules": []
+					}
           ],
           "map_locations": [{ "map": "encounters", "x": 144, "y": 496, "size": 27, "border_thickness": 4 }]
         },
@@ -340,7 +367,14 @@
           "name": "Saffron City",
           "access_rules": ["$saffron"],
           "sections": [
-
+					{
+						"name": "Static Encounter: Hitmonlee",
+						"access_rules": [],
+					},
+					{
+						"name": "Static Encounter: Hitmonchan",
+						"access_rules": [],
+					}
           ],
           "map_locations": [{ "map": "encounters", "x": 400, "y": 176, "size": 27, "border_thickness": 4 }]
         },
@@ -367,7 +401,11 @@
                         "item_count": 10,
                         "clear_as_group": false,
                         "visibility_rules": ["opt_dexsanity_ten"]
-                    }
+                    },
+					{
+						"name": "Purchase Magikarp",
+						"access_rules": [],
+					}
           ],
           "map_locations": [{ "map": "encounters", "x": 336, "y": 80 }]
         },
@@ -430,7 +468,13 @@
                         "item_count": 10,
                         "clear_as_group": false,
                         "visibility_rules": ["opt_dexsanity_ten"]
-                    }
+                    },
+					{
+						"name": "Static Encounter: Mewtu",
+						"access_rules": [],
+                        "chest_unopened_img": "images/pokedex/mewtu.png",
+                        "chest_opened_img": "images/items/pokedex_done.png"
+					}
           ],
           "map_locations": [{ "map": "encounters", "x": 368, "y": 48 }]
         },
@@ -602,7 +646,21 @@
                         "item_count": 10,
                         "clear_as_group": false,
                         "visibility_rules": ["opt_dexsanity_ten"]
-                    }
+                    },
+					{
+						"name": "Static Encounter: Balls",
+						"access_rules": [],
+						"item_count": 6,
+						"clear_as_group": false,
+                        "chest_unopened_img": "images/pokedex/voltorb.png",
+                        "chest_opened_img": "images/items/pokedex_done.png"
+					},
+					{
+						"name": "Static Encounter: Zapdos",
+						"access_rules": [],
+                        "chest_unopened_img": "images/pokedex/zapdos.png",
+                        "chest_opened_img": "images/items/pokedex_done.png"
+					}
           ],
           "map_locations": [{ "map": "encounters", "x": 560, "y": 80 }]
         },
@@ -645,7 +703,13 @@
                         "item_count": 10,
                         "clear_as_group": false,
                         "visibility_rules": ["opt_dexsanity_ten"]
-                    }
+                    },
+					{
+						"name": "Static Encounter: Moltres",
+						"access_rules": [],
+                        "chest_unopened_img": "images/pokedex/moltres.png",
+                        "chest_opened_img": "images/items/pokedex_done.png"
+					}
           ],
           "map_locations": [{ "map": "encounters", "x": 80, "y": 144 }]
         },
@@ -864,7 +928,13 @@
                         "item_count": 10,
                         "clear_as_group": false,
                         "visibility_rules": ["opt_dexsanity_ten"]
-                    }
+                    },
+					{
+						"name": "Static Encounter: Articuno",
+						"access_rules": ["$strength"],
+                        "chest_unopened_img": "images/pokedex/articuno.png",
+                        "chest_opened_img": "images/items/pokedex_done.png"
+					}
           ],
           "map_locations": [{ "map": "encounters", "x": 240, "y": 496 }]
         },
@@ -930,7 +1000,10 @@
           "name": "Underground Tunnel North-South",
           "access_rules": ["$cerulean"],
           "sections": [
-
+					{
+						"name": "Trade",
+						"access_rules": []
+					}
           ],
           "map_locations": [{ "map": "encounters", "x": 400, "y": 144 }]
         },
@@ -946,7 +1019,13 @@
           "name": "S.S. Anne",
           "access_rules": ["$celadon,ssticket"],
           "sections": [
-
+,
+					{
+						"name": "Static Encounter: Mew",
+						"access_rules": ["$surf"],
+                        "chest_unopened_img": "images/pokedex/mew.png",
+                        "chest_opened_img": "images/items/pokedex_done.png"
+					}
           ],
           "map_locations": [{ "map": "encounters", "x": 368, "y": 304 }]
         },
@@ -1056,7 +1135,11 @@
                         "item_count": 10,
                         "clear_as_group": false,
                         "visibility_rules": ["opt_dexsanity_ten"]
-                    }
+                    },
+					{
+						"name": "Trade",
+						"access_rules": []
+					}
           ],
           "map_locations": [{ "map": "encounters", "x": 288, "y": 432 }]
         },
@@ -1081,11 +1164,16 @@
         },
         {
           "name": "Route 12",
-          "access_rules": [],
+          "access_rules": ["$vermilion","$lavender"],
           "sections": [
-
+					{
+						"name": "Static Encounter: Snorlax",
+						"access_rules": ["pokeflute"],
+                        "chest_unopened_img": "images/pokedex/snorlax.png",
+                        "chest_opened_img": "images/items/pokedex_done.png"
+					}
           ],
-          "map_locations": [{ "map": "encounters", "x": 528, "y": 240 }]
+          "map_locations": [{ "map": "encounters", "x": 528, "y": 304 }]
         },
         {
           "name": "Route 8",
@@ -1266,8 +1354,8 @@
                         "access_rules": [
                             "superrod,$lavender",
                             "superrod,$fuchsia",
-                            "superrod,$celadon,pokeflute,$bike",
-                            "superrod,$fuchsia,$bike"
+                            "superrod,$celadon,pokeflute,$cyclingroad",
+                            "superrod,$fuchsia,$cyclingroad"
                         ]
                     },
                     {
