@@ -253,6 +253,12 @@
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
+              "name": "Evolution Stones in Department Store",
+              "clear_as_groupe": true,
+              "visibility_rules": ["opt_stonesanity_off"],
+              "hosted_item": "leafstone, thunderstone, waterstone, firestone"
+            },
+            {
               "name": "Erika",
               "item_count": 2,
               "access_rules": ["$cut"],
