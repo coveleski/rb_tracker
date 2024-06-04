@@ -1,0 +1,1335 @@
+[
+    {
+      "name": "Encounters",
+      "chest_unopened_img": "images/items/pokedex.png",
+      "chest_opened_img": "images/items/pokedex_done.png",
+      "children": [
+        {
+          "name": "Vermilion City",
+          "access_rules": ["$cerulean"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 400, "y": 304, "size": 27, "border_thickness": 4 }]
+        },
+        {
+          "name": "Fuchsia City",
+          "access_rules": ["$fuchsia"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 336, "y": 432, "size": 27, "border_thickness": 4 }]
+        },
+        {
+          "name": "Route 12 South",
+          "access_rules": ["$fuchsia,$extra_boulders","$lavender,$surf","$cerulean,flute"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 3,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 528, "y": 336 }]
+        },
+        {
+          "name": "Pallet Town",
+          "access_rules": [],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 144, "y": 368, "size": 27, "border_thickness": 4}]
+        },
+        {
+          "name": "Celadon City",
+          "access_rules": ["$celadon"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 304, "y": 176, "size": 27, "border_thickness": 4 }]
+        },
+        {
+          "name": "Route 1",
+          "access_rules": [],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 2,
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_dexsanity_one"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_dexsanity_ten"
+                        ]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 144, "y": 320 }]
+        },
+        {
+          "name": "Viridian City",
+          "access_rules": [],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 144, "y": 272,"size": 27, "border_thickness": 4 }]
+        },
+        {
+          "name": "Route 2",
+		  "access_rules": ["$pewter", "$cut", "$old_man"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 3,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 144, "y": 208 }]
+        },
+            {
+                "name": "Diglett's Cave",
+                "access_rules": [
+                    "$cut","$vermilion"
+                ],
+                "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 2,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "encounters",
+                        "x": 432,
+                        "y": 272
+                    }
+                ]
+            },
+        {
+          "name": "Pewter City",
+          "access_rules": ["$pewter"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 144, "y": 112, "size": 27, "border_thickness": 4 }]
+        },
+        {
+          "name": "Cerulean City",
+          "access_rules": ["$cerulean"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 400, "y": 80, "size": 27, "border_thickness": 4 }]
+        },
+        {
+          "name": "Route 24",
+          "access_rules": ["$cerulean"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 5,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"
+                        ]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 400, "y": 48 }]
+        },
+        {
+          "name": "Route 25",
+          "access_rules": ["$cerulean"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 7,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"
+                        ]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 448, "y": 16 }]
+        },
+        {
+          "name": "Lavender Town",
+          "access_rules": ["$lavender"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 528, "y": 176, "size": 27, "border_thickness": 4 }]
+        },
+        {
+          "name": "Route 12 North",
+          "access_rules": ["$lavender","$cerulean,$extra_boulders,pokeflute","$fuchsia,$extra_boulders,pokeflute"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 528, "y": 272 }]
+        },
+        {
+          "name": "Route 11-12 Gatehouse",
+          "access_rules": ["$cerulean,$extra_boulders","$lavender,pokeflute"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 496, "y": 304 }]
+        },
+        {
+          "name": "Silph Co 1F - 6F",
+          "access_rules": ["$saffron,fuji"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 368, "y": 144 }]
+        },
+        {
+          "name": "Silph Co 7F - 11F",
+          "access_rules": ["$saffron,fuji"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 340, "y": 144 }]
+        },
+        {
+          "name": "Route 16",
+          "access_rules": [],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 4,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"],
+                        "access_rules": [
+                            "$celadon,$cut"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"],
+                        "access_rules": [
+                            "$celadon,$cut"
+                        ]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 240, "y": 176 }]
+        },
+        {
+          "name": "Route 15",
+          "access_rules": ["$fuchsia"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 6,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 400, "y": 432 }]
+        },
+        {
+          "name": "Safari Zone",
+          "access_rules": ["$fuchsia,safaripass"],
+          "sections": [
+                    {
+                        "name": "Center Zone Pokémon 1:1",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Center Zone Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "East Zone Pokémon 1:1",
+                        "item_count": 9,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "East Zone Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "North Zone Pokémon 1:1",
+                        "item_count": 9,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "North Zone Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "West Zone Pokémon 1:1",
+                        "item_count": 9,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "West Zone Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 336, "y": 400 }]
+        },
+        {
+          "name": "Cinnabar Island",
+          "access_rules": ["$cinnabar"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 144, "y": 496, "size": 27, "border_thickness": 4 }]
+        },
+        {
+          "name": "Saffron City",
+          "access_rules": ["$saffron"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 400, "y": 176, "size": 27, "border_thickness": 4 }]
+        },
+        {
+          "name": "Fossil",
+          "access_rules": ["$pewter,$rt3","$cerulean,$surf"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 272, "y": 48 }]
+        },
+        {
+          "name": "Route 4",
+          "access_rules": ["$pewter,$rt3"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 3,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 336, "y": 80 }]
+        },
+        {
+          "name": "Route 9",
+          "access_rules": ["$cerulean,$cut","$lavender,^$rock_tunnel"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 3,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"
+                        ]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 464, "y": 80 }]
+        },
+        {
+          "name": "Cerulean Cave",
+          "access_rules": ["$cerulean,$ceruleancave,$surf"],
+          "sections": [
+                    {
+                        "name": "1F Pokémon 1:1",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "1F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "2F Pokémon 1:1",
+                        "item_count": 9,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "2F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "B2F Pokémon 1:1",
+                        "item_count": 8,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "B2F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 368, "y": 48 }]
+        },
+        {
+          "name": "Pokemon Tower",
+          "access_rules": ["$lavender"],
+          "sections": [
+                    {
+                        "name": "3F Pokémon 1:1",
+                        "item_count": 3,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "3F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "4F Pokémon 1:1",
+                        "item_count": 3,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "4F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"
+                        ]
+                    },
+                    {
+                        "name": "5F Pokémon 1:1",
+                        "item_count": 3,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "5F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"
+                        ]
+                    },
+                    {
+                        "name": "6F Pokémon 1:1",
+                        "item_count": 3,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "6F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"
+                        ]
+                    },
+                    {
+                        "name": "7F Pokémon 1:1",
+                        "item_count": 3,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "7F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"
+                        ]
+                    }
+		],
+          "map_locations": [{ "map": "encounters", "x": 560, "y": 176 }]
+        },
+            {
+                "name": "Route 5",
+                "access_rules": [
+                    "$vermilion"
+                ],
+                "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 3,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "encounters",
+                        "x": 400,
+                        "y": 128
+                    }
+                ]
+            },
+        {
+          "name": "Pokemon Mansion",
+          "access_rules": ["$cinnabar,mansionkey", "$cinnabar,opt_extra_key_items_off"],
+          "sections": [
+                    {
+                        "name": "1F Pokémon 1:1",
+                        "item_count": 6,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "1F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "2F Pokémon 1:1",
+                        "item_count": 6,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "2F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "3F Pokémon 1:1",
+                        "item_count": 6,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "3F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "B1F Pokémon 1:1",
+                        "item_count": 7,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "B1F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 112, "y": 496 }]
+        },
+        {
+          "name": "Power Plant",
+          "access_rules": ["$cerulean,$cut,$surf,$plantkey","$lavender,^$rock_tunnel,$surf"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 5,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 560, "y": 80 }]
+        },
+        {
+          "name": "Victory Road",
+          "access_rules": ["$rt23,$surf,$victoryroad,$strength","$flyto|indigo,$strength"],
+          "sections": [
+                    {
+                        "name": "1F Pokémon 1:1",
+                        "item_count": 8,
+                        "clear_as_group": false,
+                        "visibility_rules": ["dexsanity_one"]
+                    },
+                    {
+                        "name": "1F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "2F Pokémon 1:1",
+                        "item_count": 9,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "2F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "3F Pokémon 1:1",
+                        "item_count": 8,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "3F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 80, "y": 144 }]
+        },
+        {
+          "name": "Viridian Forest",
+          "access_rules": ["$pewter", "$cut", "$old_man"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 5,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"
+                        ]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 144, "y": 144 }]
+        },
+        {
+          "name": "Mt Moon",
+          "access_rules": ["$pewter,$rt3","$cerulean,$surf"],
+          "sections": [
+                    {
+                        "name": "1F Pokémon 1:1",
+                        "item_count": 4,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "1F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"
+                        ]
+                    },
+                    {
+                        "name": "B1F Pokémon 1:1",
+                        "item_count": 4,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "B1F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"
+                        ]
+                    },
+                    {
+                        "name": "B2F Pokémon 1:1",
+                        "item_count": 3,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "B2F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"
+                        ]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 272, "y": 80 }]
+        },
+        {
+          "name": "Rocket Hideout",
+          "access_rules": ["$celadon,hideoutkey"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 288, "y": 208 }]
+        },
+        {
+          "name": "Rock Tunnel",
+          "access_rules": ["$lavender,^$rock_tunnel","$cerulean,$cut,^$rock_tunnel"],
+          "sections": [
+                    {
+                        "name": "B1F Pokémon 1:1",
+                        "item_count": 4,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "B1F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "1F Pokémon 1:1",
+                        "item_count": 4,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "1F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 528, "y": 112 }]
+        },
+        {
+          "name": "Route 10 North",
+          "access_rules": ["$lavender,^$rock_tunnel","$cerulean,$cut"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 3,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"
+                        ]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 528, "y": 80 }]
+        },
+        {
+          "name": "Route 10 South",
+          "access_rules": ["$lavender","$cerulean,$cut,^$rock_tunnel"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 528, "y": 144 }]
+        },
+        {
+          "name": "Route 13",
+          "access_rules": ["$fuchsia"],
+          "sections": [
+                     {
+                        "name": "Pokémon 1:1",
+                        "item_count": 5,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 528, "y": 336 }]
+        },
+        {
+          "name": "Seafoam Islands",
+          "access_rules": ["$cinnabar,$surf","$fuchsia,$surf"],
+          "sections": [
+                    {
+                        "name": "1F Pokémon 1:1",
+                        "item_count": 8,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "1F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "B1F Pokémon 1:1",
+                        "item_count": 7,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "B1F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "B2F Pokémon 1:1",
+                        "item_count": 7,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "B2F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "B3F Pokémon 1:1",
+                        "item_count": 6,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "B3F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "B4F Pokémon 1:1",
+                        "item_count": 6,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "B4F Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 240, "y": 496 }]
+        },
+        {
+          "name": "Route 23",
+          "access_rules": ["$rt23,$surf"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 5,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"
+                        ]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 80, "y": 208 }]
+        },
+        {
+          "name": "Route 11",
+          "access_rules": ["$cerulean"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 3,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 448, "y": 304 }]
+        },
+        {
+          "name": "Route 17",
+          "access_rules": ["$cyclingroad,$fuchsia","$cyclingroad,$celadon,pokeflute"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 4,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 208, "y": 304 }]
+        },
+        {
+          "name": "Underground Tunnel North-South",
+          "access_rules": ["$cerulean"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 400, "y": 144 }]
+        },
+        {
+          "name": "Underground Tunnel West-East",
+          "access_rules": ["$celadon"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 432, "y": 176 }]
+        },
+        {
+          "name": "S.S. Anne",
+          "access_rules": ["$celadon,ssticket"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 368, "y": 304 }]
+        },
+        {
+          "name": "Route 21",
+          "access_rules": ["$surf"],
+          "sections": [
+                    {
+                        "name": "Pokémon (Grass) 1:1",
+                        "item_count": 5,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon (Grass)",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    },
+                    {
+                        "name": "Pokémon (Surf) 1:1",
+                        "item_count": 1,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon (Surf)",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 144, "y": 432 }]
+        },
+        {
+          "name": "Route 20 West",
+          "access_rules": ["$surf"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 1,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 192, "y": 496 }]
+        },
+            {
+                "name": "Route 22",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 4,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "encounters",
+                        "x": 80,
+                        "y": 272
+                    }
+                ]
+            },
+        {
+          "name": "Route 20 East",
+          "access_rules": ["$fuchsia,$surf","$surf,$strength"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 288, "y": 496 }]
+        },
+        {
+          "name": "Route 19",
+          "access_rules": [],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 336, "y": 480 }]
+        },
+        {
+          "name": "Route 18",
+          "access_rules": ["$fuchsia"],
+          "sections": [
+                     {
+                        "name": "Pokémon 1:1",
+                        "item_count": 4,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 288, "y": 432 }]
+        },
+        {
+          "name": "Route 14",
+          "access_rules": ["$fuchsia"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 6,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 432, "y": 400 }]
+        },
+        {
+          "name": "Route 12",
+          "access_rules": [],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 528, "y": 240 }]
+        },
+        {
+          "name": "Route 8",
+          "access_rules": ["$lavender"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 4,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"
+                        ]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 464, "y": 176 }]
+        },
+        {
+          "name": "Route 6",
+          "access_rules": ["$cerulean"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 3,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 400, "y": 240 }]
+        },
+        {
+          "name": "Route 3",
+          "access_rules": ["$pewter,$rt3","$cerulean,$surf"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 3,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_ten"
+                        ]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 208, "y": 112 }]
+        },
+        {
+          "name": "Indigo Plateau",
+          "access_rules": ["$indigo,$elite4"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 80, "y": 80, "size": 27, "border_thickness": 4 }]
+        },
+        {
+          "name": "Celadon Game Corner",
+          "access_rules": ["$celadon,coincase"],
+          "sections": [
+
+          ],
+          "map_locations": [{ "map": "encounters", "x": 320, "y": 208 }]
+        },
+            {
+                "name": "Fishing Is Fun",
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Old Rod (Any Spot)",
+                        "item_count": 1,
+                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "chest_unopened_img": "images/items/oldrod.png",
+                        "chest_opened_img": "images/items/oldrod_done.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "oldrod"
+                        ]
+                    },
+                    {
+                        "name": "Good Rod (Any Spot)",
+                        "item_count": 2,
+                        "chest_unopened_img": "images/items/goodrod.png",
+                        "chest_opened_img": "images/items/goodrod_done.png",
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "access_rules": [
+                            "goodrod"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod (Pallet & Viridian)",
+                        "item_count": 2,
+                        "chest_unopened_img": "images/items/goodrod.png",
+                        "chest_opened_img": "images/items/goodrod_done.png",
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "access_rules": [
+                            "superrod"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod (Route 22)",
+                        "item_count": 2,
+                        "chest_unopened_img": "images/items/goodrod.png",
+                        "chest_opened_img": "images/items/goodrod_done.png",
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "access_rules": [
+                            "superrod"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod (Route 24/25/Cerulean/Cerulean Gym)",
+                        "item_count": 3,
+                        "chest_unopened_img": "images/items/superrod.png",
+                        "chest_opened_img": "images/items/superrod_done.png",
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "access_rules": [
+                            "superrod,$cerulean"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod (Route 6/11/Vermillion/Dock)",
+                        "item_count": 2,
+                        "chest_unopened_img": "images/items/superrod.png",
+                        "chest_opened_img": "images/items/superrod_done.png",
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "access_rules": [
+                            "superrod,$cerulean"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod (Route 10 & Celadon)",
+                        "item_count": 2,
+                        "chest_unopened_img": "images/items/superrod.png",
+                        "chest_opened_img": "images/items/superrod_done.png",
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "access_rules": [
+                            "superrod,$celadon"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod (Safari Zone)",
+                        "item_count": 4,
+                        "chest_unopened_img": "images/items/superrod.png",
+                        "chest_opened_img": "images/items/superrod_done.png",
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "access_rules": [
+                            "superrod,safaripass,$fuchsia"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod (Route 12/13/17/18)",
+                        "item_count": 4,
+                        "chest_unopened_img": "images/items/superrod.png",
+                        "chest_opened_img": "images/items/superrod_done.png",
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "access_rules": [
+                            "superrod,$lavender",
+                            "superrod,$fuchsia",
+                            "superrod,$celadon,pokeflute,$bike",
+                            "superrod,$fuchsia,$bike"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod (Route 19/20/21/Cinnabar/Seafoam Island)",
+                        "item_count": 4,
+                        "chest_unopened_img": "images/items/superrod.png",
+                        "chest_opened_img": "images/items/superrod_done.png",
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "access_rules": [
+                            "superrod,$cinnabar"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod (Route 23 & Cerulean Cave)",
+                        "item_count": 4,
+                        "chest_unopened_img": "images/items/superrod.png",
+                        "chest_opened_img": "images/items/superrod_done.png",
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "access_rules": [
+                            "superrod,$rt23",
+                            "superrod,$ceruleancave,$cerulean,$cansurf"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod (Fuchsia)",
+                        "item_count": 4,
+                        "chest_unopened_img": "images/items/superrod.png",
+                        "chest_opened_img": "images/items/superrod_done.png",
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "access_rules": [
+                            "superrod,$fuchsia"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "encounters",
+                        "x": 528,
+                        "y": 432
+                    }
+                ]
+            },
+        {
+          "name": "READ ME",
+          "access_rules": [],
+          "sections": [
+                    {
+                        "name": "This map can only be operated manually.\nYou can backup your current state and then\nload it up again if you're using this map in an Async.",
+                        "item_count": 1,
+                        "clear_as_group": false,
+                        "visibility_rules": [],
+						"access_rules": [],
+						"chest_unopened_img": "images/items/doesnotexist.png",
+						"chest_opened_img": "images/items/doesnotexist.png"
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 80, "y": 432 }]
+        },
+      ]
+    }
+  ]
+  
