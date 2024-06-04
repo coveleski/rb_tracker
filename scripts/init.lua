@@ -36,6 +36,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Locations
     Tracker:AddLocations("locations/locations.json")
     Tracker:AddLocations("locations/submaps.json")
+    Tracker:AddLocations("locations/encountertab.json")
 end
 
 -- Layout
