@@ -362,10 +362,8 @@
     },
     {
         "name": "Pokedex",
-        "type": "consumable",
+        "type": "toggle",
 		"allow_disabled": true,
-        "max_quantity": 151,
-        "initial_quantity": 0,
         "img": "images/items/pokedex.png",
         "codes": "pokedex"
     },
