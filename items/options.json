@@ -121,16 +121,16 @@
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Itemfinder required",
-                "img": "images/items/itemfinder.png",
-                "codes": "opt_itemfinder,opt_itemfinder_on"
-            },
-            {
                 "name": "Itemfinder not required",
                 "img_mods": "@disabled",
                 "img": "images/items/itemfinder.png",
                 "codes": "opt_itemfinder,opt_itemfinder_off",
                 "inherit_codes": false
+            },
+			{
+                "name": "Itemfinder required",
+                "img": "images/items/itemfinder.png",
+                "codes": "opt_itemfinder,opt_itemfinder_on"
             }
         ]
     },
@@ -287,6 +287,7 @@
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
+		"codes": "opt_rt3",
         "stages": [
             {
                 "name": "Route 3 - Open",
