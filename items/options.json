@@ -592,21 +592,28 @@
         ]
     },
     {
-        "name": "Dexsanity [Manual Only]",
+        "name": "Dexsanity",
         "type": "progressive",
         "loop": true,
+		"codes": "opt_dexsanity",
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Dexsanity - Area 1:1 Mapping [Manual]",
-                "img": "images/items/poke.png",
-                "codes": "opt_dexsanity,opt_dexsanity_one",
+                "name": "Dexsanity - None",
+                "img": "images/items/dexsanity_none.png",
+                "codes": "opt_dexsanity_none",
                 "inherit_codes": false
             },
             {
-                "name": "Dexsanity - All Slots [Manual]",
-                "img": "images/items/great.png",
-                "codes": "opt_dexsanity,opt_dexsanity_ten",
+                "name": "Dexsanity - Partial",
+                "img": "images/items/dexsanity_partial.png",
+                "codes": "opt_dexsanity_partial",
+                "inherit_codes": false
+            },
+            {
+                "name": "Dexsanity - Full",
+                "img": "images/items/dexsanity_full.png",
+                "codes": "opt_dexsanity_none",
                 "inherit_codes": false
             }
         ]
