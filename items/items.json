@@ -769,5 +769,17 @@
         "type": "toggle",
         "img": "images/items/champ.png",
         "codes": "champ"
+	},
+    {
+        "name": "1:1 Mapping",
+        "type": "toggle",
+        "img": "images/options/one-to-one.png",
+        "codes": "opt_dexsanity_ten"
+	},
+    {
+        "name": "Full Mapping",
+        "type": "toggle",
+        "img": "images/options/full.png",
+        "codes": "opt_dexsanity_one"
 	}
 ]
