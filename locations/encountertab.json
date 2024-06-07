@@ -54,7 +54,6 @@
           "name": "Celadon City",
           "access_rules": ["$celadon"],
           "sections": [
-
           ],
           "map_locations": [{ "map": "encounters", "x": 304, "y": 176, "size": 27, "border_thickness": 4 }]
         },
@@ -572,7 +571,7 @@
                     {
                         "map": "encounters",
                         "x": 400,
-                        "y": 128
+                        "y": 112
                     }
                 ]
             },
@@ -1245,8 +1244,45 @@
         {
           "name": "Celadon Game Corner",
           "access_rules": ["$celadon,coincase"],
+          "chest_unopened_img": "images/items/coincase.png",
+          "chest_opened_img": "images/items/coincase_done.png",
           "sections": [
-
+                    {
+                        "name": "Prize Corner Left - 1",
+                        "item_count": 1,
+                        "clear_as_group": false,
+                        "visibility_rules": [""]
+                    },
+                    {
+                        "name": "Prize Corner Left - 2",
+                        "item_count": 1,
+                        "clear_as_group": false,
+                        "visibility_rules": [""]
+                    },
+                    {
+                        "name": "Prize Corner Left - 3",
+                        "item_count": 1,
+                        "clear_as_group": false,
+                        "visibility_rules": [""]
+                    },
+                    {
+                        "name": "Prize Corner Middle - 1",
+                        "item_count": 1,
+                        "clear_as_group": false,
+                        "visibility_rules": [""]
+                    },
+                    {
+                        "name": "Prize Corner Middle - 2",
+                        "item_count": 1,
+                        "clear_as_group": false,
+                        "visibility_rules": [""]
+                    },
+                    {
+                        "name": "Prize Corner Middle - 3",
+                        "item_count": 1,
+                        "clear_as_group": false,
+                        "visibility_rules": [""]
+                    }
           ],
           "map_locations": [{ "map": "encounters", "x": 320, "y": 208 }]
         },
@@ -1405,9 +1441,21 @@
           "name": "READ ME",
           "access_rules": [],
           "sections": [
+					{
+			            "access_rules": ["{$scoutable}"],
+						"name": "",
+						"chest_unopened_img": "images/items/doesnotexist.png",
+						"chest_opened_img": "images/items/doesnotexist.png"
+					},
                     {
                         "name": "This map can only be operated manually.\nYou can backup your current state and then\nload it up again if you're using this map in an Async.",
-                        "item_count": 1,
+                        "clear_as_group": false,
+                        "visibility_rules": [],
+						"access_rules": [],
+						"hosted_item": "opt_dexsanity_one, opt_dexsanity_ten"
+                    },
+                    {
+                        "name": "With the above icons you can trigger whether you got\n1:1 mapping (original number of PKMN per place) or\nFull mapping (10 PKMN per place)",
                         "clear_as_group": false,
                         "visibility_rules": [],
 						"access_rules": [],
@@ -1415,7 +1463,7 @@
 						"chest_opened_img": "images/items/doesnotexist.png"
                     }
           ],
-          "map_locations": [{ "map": "encounters", "x": 80, "y": 432 }]
+          "map_locations": [{ "map": "encounters", "size": 32, "x": 80, "y": 432 }]
         },
       ]
     }
