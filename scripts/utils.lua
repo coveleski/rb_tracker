@@ -22,16 +22,53 @@ end
 
 function has(item, amount)
 	local count = Tracker:ProviderCountForCode(item)
-	amount = tonumber(amount)
+	local amount = tonumber(amount)
 	if not amount then
-		return count > 0
-	else
-		return count >= amount
+        if count > 0 then
+            return AccessibilityLevel.Normal
+        end
+	elseif count >= amount then
+        return AccessibilityLevel.Normal
 	end
+    return AccessibilityLevel.None
 end
 
 function progCount(code)
 	return Tracker:FindObjectForCode(code).CurrentStage
+end
+
+function access(...)
+    local access = AccessibilityLevel.Normal
+    local args = {...}
+    for i,v in ipairs(args) do
+        --break early if we hit min accessibility
+        if v == AccessibilityLevel.None then
+            return AccessibilityLevel.None
+        end
+
+        if access > v then
+            access = v
+        end
+    end
+
+    return access
+end
+
+function max(...)
+    -- TODO: Break early if we hit max accessibility
+    local maximum = AccessibilityLevel.None
+    local args = {...}
+
+    for i,v in ipairs(args) do
+        if v == AccessibilityLevel.Normal then
+            return AccessibilityLevel.Normal
+        end
+
+        if maximum < v then
+            maximum = v
+        end
+    end
+    return maximum
 end
 
 function scoutable()

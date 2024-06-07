@@ -209,8 +209,8 @@ function get_slot_options(slot_data)
 				tmp = 1
 			elseif tmp == 1 then
 				tmp = 2
-				obj.CurrentStage = tmp
 			end
+			obj.CurrentStage = tmp
 		end
 	end
 end

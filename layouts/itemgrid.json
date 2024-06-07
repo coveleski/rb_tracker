@@ -65,7 +65,7 @@
                                 "helixfossil"
                             ],
                             [
-                                "customcardkey",
+                                "custom_cardkey",
                                 "secretkey",
                                 "liftkey",
                                 "plantkey",
@@ -114,7 +114,11 @@
                     [
                         "opt_old_man",
                         "opt_rt3",
-			            "opt_officer",
+
+			            
+
+			"opt_officer",
+
                         "opt_extra_boulders",
                         "opt_hm",
                         "opt_tea"
@@ -134,7 +138,7 @@
                         "opt_hidden_items",
                         "opt_extra_key_items",
                         "opt_prizesanity",
-                        "opt_trn",
+                        "opt_trn",                     
                         "opt_stonesanity",
                         "opt_keyonly",
                         "opt_cardkey"

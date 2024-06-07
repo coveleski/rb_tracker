@@ -7,8 +7,12 @@ local variant = Tracker.ActiveVariantUID
 IS_ITEMS_ONLY = variant:find("itemsonly")
 
 function split_key()
-    obj =  Tracker:FindObjectForCode('opt_cardkey_split')
+    local obj =  Tracker:FindObjectForCode('opt_cardkey_split')
+    print('opt_split_key state" ' .. obj.CurrentStage)
+    key = Tracker:FindObjectForCode('custom_cardkey')
+    key:OnMiddleClickFunc()
     if obj.CurrentStage == 2 then
+      print('loading split layout')
       Tracker:AddLayouts("layouts/split_cardkey.json")
     end
   end
@@ -20,9 +24,11 @@ if ENABLE_DEBUG_LOG then
 end
 
 -- Utility Script for helper functions etc.
+print("LOADING UTILS.LUA")
 ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Logic
+print("LOADING LOGIC.LUA")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Items
@@ -40,7 +46,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
 end
 
 -- Layout
-Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/itemgrid.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/dex.json")
@@ -52,4 +58,6 @@ end
 -- Add a watch to dynamically load layout if progressive card keys enabled
 if PopVersion and PopVersion >= "0.1.0" then
     ScriptHost:AddWatchForCode("loadCardKey", "opt_cardkey_split", split_key)
-  end
+end
+
+ScriptHost:LoadScript('scripts/custom_items/cardkey.lua')

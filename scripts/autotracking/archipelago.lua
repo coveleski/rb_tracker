@@ -20,7 +20,6 @@ function onClear(slot_data)
 		print(key, value)
 	end
 
-
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end
@@ -115,6 +114,10 @@ function onItem(index, item_id, item_name, player_number)
             end
         elseif v[2] == "consumable" then
             obj.AcquiredCount = obj.AcquiredCount + obj.Increment
+        elseif v[1] == "cardkey" then
+            set_active(customcardkey, true)
+        elseif v[1] == "cardkey_progressive" then
+            set_qty(customcardkey, customcardkey.ItemState['qty'] + 1)
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
         end
