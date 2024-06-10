@@ -27,18 +27,6 @@
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
-              "name": "Lt. Surge",
-              "item_count": 2,
-              "access_rules": ["^$cut","^$surf"],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "​Lt. Surge",
-              "item_count": 1,
-              "access_rules": ["^$cut","^$surf"],
-              "visibility_rules": ["opt_keyonly_on"]
-            },
-            {
               "name": "Gym: Sailor",
               "item_count": 1,
               "access_rules": ["^$cut","^$surf"],
@@ -55,6 +43,18 @@
               "item_count": 1,
               "access_rules": ["^$cut","^$surf"],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "Lt. Surge",
+              "item_count": 2,
+              "access_rules": ["^$cut","^$surf"],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "​Lt. Surge",
+              "item_count": 1,
+              "access_rules": ["^$cut","^$surf"],
+              "visibility_rules": ["opt_keyonly_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 400, "y": 304, "size": 27, "border_thickness": 4 }]
@@ -80,18 +80,6 @@
               "item_count": 1,
               "access_rules": ["^$strength"],
               "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "Koga",
-              "item_count": 2,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "​Koga",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "Gym: Juggler 1",
@@ -128,6 +116,18 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "Koga",
+              "item_count": 2,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "​Koga",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 336, "y": 432, "size": 27, "border_thickness": 4 }]
@@ -137,6 +137,12 @@
           "access_rules": ["^$fuchsia,^$extra_boulders","^$lavender,^$surf","^$cerulean,flute"],
           "sections": [
             {
+              "name": "Fisherman 5",
+              "item_count": 1,
+              "access_rules": ["^$cut"],
+              "visibility_rules": ["trainer_on"]
+            },
+			{
               "name": "Fishing Guru's Brother",
               "item_count": 1,
               "access_rules": [],
@@ -158,12 +164,6 @@
               "name": "Jr. Trainer M",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "Fisherman 5",
-              "item_count": 1,
-              "access_rules": ["^$cut"],
               "visibility_rules": ["trainer_on"]
             }
           ],
@@ -217,6 +217,24 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
+              "name": "Gambling Addict",
+              "item_count": 1,
+              "access_rules": [""],
+              "visibility_rules": [""]
+            },
+            {
+              "name": "3F Dept Store Counter Man",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "Evolution Stones in Department Store",
+              "clear_as_groupe": true,
+              "visibility_rules": ["opt_stonesanity_off"],
+              "hosted_item": "leafstone, thunderstone, waterstone, firestone"
+            },
+            {
               "name": "Rooftop Thirsty Girl Water",
               "item_count": 1,
               "access_rules": [],
@@ -235,40 +253,28 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "3F Dept Store Counter Man",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "Gambling Addict",
-              "item_count": 1,
-              "access_rules": [""],
-              "visibility_rules": [""]
-            },
-            {
               "name": "HI: Dead End Near Cuttable Bush",
               "item_count": 1,
               "access_rules": ["^$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
-              "name": "Evolution Stones in Department Store",
-              "clear_as_groupe": true,
-              "visibility_rules": ["opt_stonesanity_off"],
-              "hosted_item": "leafstone, thunderstone, waterstone, firestone"
-            },
-            {
-              "name": "Erika",
-              "item_count": 2,
-              "access_rules": ["^$cut"],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "​Erika",
+              "name": "Prize Corner 1",
               "item_count": 1,
-              "access_rules": ["^$cut"],
-              "visibility_rules": ["opt_keyonly_on"]
+              "access_rules": ["coincase"],
+              "visibility_rules": ["opt_prizesanity_on,opt_keyonly_off"]
+            },
+            {
+              "name": "Prize Corner 2",
+              "item_count": 1,
+              "access_rules": ["coincase"],
+              "visibility_rules": ["opt_prizesanity_on,opt_keyonly_off"]
+            },
+            {
+              "name": "Prize Corner 3",
+              "item_count": 1,
+              "access_rules": ["coincase"],
+              "visibility_rules": ["opt_prizesanity_on,opt_keyonly_off"]
             },
             {
               "name": "Gym: Lass 1",
@@ -313,22 +319,16 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "Prize Corner 1",
-              "item_count": 1,
-              "access_rules": ["coincase"],
-              "visibility_rules": ["opt_prizesanity_on,opt_keyonly_off"]
+              "name": "Erika",
+              "item_count": 2,
+              "access_rules": ["^$cut"],
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "Prize Corner 2",
+              "name": "​Erika",
               "item_count": 1,
-              "access_rules": ["coincase"],
-              "visibility_rules": ["opt_prizesanity_on,opt_keyonly_off"]
-            },
-            {
-              "name": "Prize Corner 3",
-              "item_count": 1,
-              "access_rules": ["coincase"],
-              "visibility_rules": ["opt_prizesanity_on,opt_keyonly_off"]
+              "access_rules": ["^$cut"],
+              "visibility_rules": ["opt_keyonly_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 304, "y": 176, "size": 27, "border_thickness": 4 }]
@@ -351,12 +351,6 @@
           "access_rules": [],
           "sections": [
             {
-              "name": "Sleepy Guy",
-              "item_count": 1,
-              "access_rules": ["^$surf","^$cut"],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
               "name": "Item for Oak",
               "item_count": 1,
               "access_rules": [],
@@ -368,17 +362,11 @@
               "access_rules": ["^$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
-            {
-              "name": "Giovanni",
-              "item_count": 2,
-              "access_rules": ["^$viridiangym,^$cut","^$viridiangym,^$old_man"],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "​Giovanni",
+			{
+              "name": "Sleepy Guy",
               "item_count": 1,
-              "access_rules": ["^$viridiangym,^$cut","^$viridiangym,^$old_man"],
-              "visibility_rules": ["opt_keyonly_on"]
+              "access_rules": ["^$surf","^$cut"],
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Item in Gym",
@@ -433,6 +421,18 @@
               "item_count": 1,
               "access_rules": ["^$viridiangym,^$cut","^$viridiangym,^$old_man"],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "Giovanni",
+              "item_count": 2,
+              "access_rules": ["^$viridiangym,^$cut","^$viridiangym,^$old_man"],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "​Giovanni",
+              "item_count": 1,
+              "access_rules": ["^$viridiangym,^$cut","^$viridiangym,^$old_man"],
+              "visibility_rules": ["opt_keyonly_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 144, "y": 272,"size": 27, "border_thickness": 4 }]
@@ -441,12 +441,6 @@
           "name": "Route 2",
           "access_rules": ["^$cut"],
           "sections": [
-            {
-              "name": "Oak's Aide",
-              "item_count": 1,
-              "access_rules": ["^$aide|2", "{^$scoutable}"],
-              "visibility_rules": []
-            },
             {
               "name": "South Item",
               "item_count": 1,
@@ -458,6 +452,12 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "Oak's Aide",
+              "item_count": 1,
+              "access_rules": ["^$aide|2", "{^$scoutable}"],
+              "visibility_rules": []
             }
           ],
           "map_locations": [{ "map": "map", "x": 144, "y": 208 }]
@@ -473,6 +473,12 @@
               "visibility_rules": [""]
             },
             {
+              "name": "Gym: Jr. Trainer M",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
               "name": "Brock",
               "item_count": 2,
               "access_rules": [],
@@ -483,12 +489,6 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_on"]
-            },
-            {
-              "name": "Gym: Jr. Trainer M",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 144, "y": 112, "size": 27, "border_thickness": 4 }]
@@ -516,18 +516,6 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "Misty",
-              "item_count": 2,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "​Misty",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_on"]
-            },
-            {
               "name": "Gym: Swimmer",
               "item_count": 1,
               "access_rules": [],
@@ -538,6 +526,18 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "Misty",
+              "item_count": 2,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "​Misty",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 400, "y": 80, "size": 27, "border_thickness": 4 }]
@@ -546,18 +546,6 @@
           "name": "Route 24",
           "access_rules": ["^$cerulean"],
           "sections": [
-            {
-              "name": "Nugget Bridge",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
             {
               "name": "Bug Catcher",
               "item_count": 1,
@@ -589,10 +577,22 @@
               "visibility_rules": ["trainer_on"]
             },
             {
+              "name": "Nugget Bridge",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
               "name": "Jr. Trainer M 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 400, "y": 48 }]
@@ -602,35 +602,16 @@
           "access_rules": ["^$cerulean"],
           "sections": [
             {
-              "name": "Bill",
+              "name": "Hiker 1",
               "item_count": 1,
-              "hosted_item": "bill",
               "access_rules": [],
-              "visibility_rules": [""]
-            },
-            {
-              "name": "Item",
-              "item_count": 1,
-              "access_rules": ["[^$cut]"],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "HI: Fence Outside Bill's House",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "HI: Northeast Of Grass",
               "item_count": 1,
               "access_rules": ["^$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
-              "name": "Hiker 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Youngster 1",
@@ -669,6 +650,12 @@
               "visibility_rules": ["trainer_on"]
             },
             {
+              "name": "Item",
+              "item_count": 1,
+              "access_rules": ["[^$cut]"],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
               "name": "Youngster 3",
               "item_count": 1,
               "access_rules": [],
@@ -679,6 +666,19 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "Bill",
+              "item_count": 1,
+              "hosted_item": "bill",
+              "access_rules": [],
+              "visibility_rules": [""]
+            },
+            {
+              "name": "HI: Fence Outside Bill's House",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 448, "y": 16 }]
@@ -706,16 +706,16 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "Island Item",
-              "item_count": 1,
-              "access_rules": ["^$surf"],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
               "name": "Fisherman 1",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "Island Item",
+              "item_count": 1,
+              "access_rules": ["^$surf"],
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Fisherman 2",
@@ -1172,22 +1172,16 @@
           "access_rules": ["^$fuchsia"],
           "sections": [
             {
-              "name": "Oak's Aide",
+              "name": "Jr. Trainer F 1",
               "item_count": 1,
-              "access_rules": ["aide|15", "{^$scoutable}"],
-              "visibility_rules": [""]
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Item",
               "item_count": 1,
               "access_rules": ["^$cut"],
               "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "Jr. Trainer F 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Beauty 1",
@@ -1242,6 +1236,12 @@
               "item_count": 1,
               "access_rules": ["^$cut"],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "Oak's Aide",
+              "item_count": 1,
+              "access_rules": ["aide|15", "{^$scoutable}"],
+              "visibility_rules": [""]
             }
           ],
           "map_locations": [{ "map": "map", "x": 400, "y": 432 }]
@@ -1251,13 +1251,13 @@
           "access_rules": ["^$fuchsia,^$safari_zone"],
           "sections": [
             {
-              "name": "Secret House",
+              "name": "Center Zone Island Item",
               "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": [""]
+              "access_rules": ["^$surf"],
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "East Zone Northeast Item",
+              "name": "East Zone East Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
@@ -1269,19 +1269,13 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "East Zone East Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
               "name": "East Zone Center Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "North Zone Northeast Item",
+              "name": "East Zone Northeast Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
@@ -1293,7 +1287,7 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "West Zone Southwest Item",
+              "name": "North Zone Northeast Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
@@ -1305,28 +1299,34 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "West Zone Southeast Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
               "name": "West Zone Northeast Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": [""]
             },
             {
-              "name": "Center Zone Island Item",
-              "item_count": 1,
-              "access_rules": ["^$surf"],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
               "name": "HI: Secret House Statue",
               "item_count": 1,
               "access_rules": ["^$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
+            },
+			{
+              "name": "Secret House",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": [""]
+            },
+            {
+              "name": "West Zone Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "West Zone Southeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 336, "y": 400 }]
@@ -1340,18 +1340,6 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "Blaine",
-              "item_count": 2,
-              "access_rules": ["secretkey"],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "​Blaine",
-              "item_count": 1,
-              "access_rules": ["secretkey"],
-              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "Gym: Burglar 1",
@@ -1394,6 +1382,18 @@
               "item_count": 1,
               "access_rules": ["secretkey"],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "Blaine",
+              "item_count": 2,
+              "access_rules": ["secretkey"],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "​Blaine",
+              "item_count": 1,
+              "access_rules": ["secretkey"],
+              "visibility_rules": ["opt_keyonly_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 144, "y": 496, "size": 27, "border_thickness": 4 }]
@@ -1409,28 +1409,40 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
+              "name": "HI: Copycat Desk",
+              "item_count": 1,
+              "access_rules": ["hidden,silphco"],
+              "visibility_rules": ["opt_hidden_items_on"]
+            },
+            {
               "name": "Mr. Psychic",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "Sabrina",
-              "item_count": 2,
-              "access_rules": ["silphco"],
-              "visibility_rules": ["opt_keyonly_off"]
+              "name": "Fighting Dojo: Blackbelt 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "​Sabrina",
+              "name": "Fighting Dojo: Blackbelt 2",
               "item_count": 1,
-              "access_rules": ["silphco"],
-              "visibility_rules": ["opt_keyonly_on"]
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "HI: Copycat Desk",
+              "name": "Fighting Dojo: Blackbelt 3",
               "item_count": 1,
-              "access_rules": ["hidden,silphco"],
-              "visibility_rules": ["opt_hidden_items_on"]
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "Fighting Dojo: Blackbelt 4",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Psychic 1",
@@ -1475,28 +1487,16 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "Fighting Dojo: Blackbelt 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "name": "Sabrina",
+              "item_count": 2,
+              "access_rules": ["silphco"],
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "Fighting Dojo: Blackbelt 2",
+              "name": "​Sabrina",
               "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "Fighting Dojo: Blackbelt 3",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "Fighting Dojo: Blackbelt 4",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "access_rules": ["silphco"],
+              "visibility_rules": ["opt_keyonly_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 400, "y": 176, "size": 27, "border_thickness": 4 }]
@@ -1550,18 +1550,6 @@
           "access_rules": ["^$cerulean,^$cut","^$lavender,^$rock_tunnel"],
           "sections": [
             {
-              "name": "Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "HI: Bush By Grass",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
               "name": "Jr. Trainer F 1",
               "item_count": 1,
               "access_rules": [],
@@ -1574,6 +1562,12 @@
               "visibility_rules": ["trainer_on"]
             },
             {
+              "name": "Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
               "name": "Jr. Trainer M 1",
               "item_count": 1,
               "access_rules": [],
@@ -1584,6 +1578,12 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "HI: Bush By Grass",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "Hiker 2",
@@ -1623,7 +1623,7 @@
           "access_rules": ["^$cerulean,^$ceruleancave,^$surf"],
           "sections": [
             {
-              "name": "1F Southwest Item",
+              "name": "2F East Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
@@ -1641,25 +1641,25 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "2F East Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "2F Southwest Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
               "name": "2F North Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
             },
+			{
+              "name": "1F Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
             {
-              "name": "B1F Center Item",
+              "name": "HI: 1F Center Rocks",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
+            },
+            {
+              "name": "2F Southwest Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
@@ -1671,10 +1671,10 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "HI: 1F Center Rocks",
+              "name": "B1F Center Item",
               "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "HI: B1F Northeast Rocks",
@@ -1690,58 +1690,16 @@
           "access_rules": ["^$lavender"],
           "sections": [
             {
-              "name": "3F North Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "4F East Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "4F West Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "4F South Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "5F Southwest Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "6F West Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "6F Southeast Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "HI: 5F Near West Staircase",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
               "name": "3F Channeler 1",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "3F North Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "3F Channeler 2",
@@ -1762,16 +1720,40 @@
               "visibility_rules": ["trainer_on"]
             },
             {
+              "name": "4F East Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "4F West Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
               "name": "4F Channeler 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+			{
+              "name": "4F South Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "4F Channeler 3",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "HI: 5F Near West Staircase",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "5F Channeler 1",
@@ -1791,6 +1773,12 @@
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
             },
+			{
+              "name": "5F Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
             {
               "name": "5F Channeler 4",
               "item_count": 1,
@@ -1803,6 +1791,12 @@
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
             },
+			{
+              "name": "6F Southeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
             {
               "name": "6F Channeler 2",
               "item_count": 1,
@@ -1814,6 +1808,12 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+			{
+              "name": "6F West Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "7F Rocket 1",
@@ -1846,16 +1846,22 @@
           "access_rules": ["^$cinnabar,^$mansion"],
           "sections": [
             {
+              "name": "HI: 1F Block Near Entrance Carpet",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on", "opt_stonesanity_on"]
+            },
+			{
               "name": "1F North Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "1F South Item",
+              "name": "2F Burglar",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "2F Northeast Item",
@@ -1863,11 +1869,23 @@
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
             },
+			{
+              "name": "3F Burglar",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
             {
               "name": "3F Southwest Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
+            },
+			{
+              "name": "HI: 3F Behind Burglar",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "3F Northeast Item",
@@ -1876,10 +1894,34 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "B1F North Item",
+              "name": "3F Scientist",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+			{
+              "name": "1F Scientist",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+			{
+              "name": "1F South Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "B1F South Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "B1F Burglar",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "B1F Southwest Item",
@@ -1888,7 +1930,13 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "B1F South Item",
+              "name": "B1F Scientist",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "B1F North Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
@@ -1905,59 +1953,11 @@
               "access_rules": [],
               "visibility_rules": [""]
             },
-            {
+			{
               "name": "HI: B1F Secret Key Room Corner",
               "item_count": 1,
               "access_rules": ["^$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
-              "name": "HI: 1F Block Near Entrance Carpet",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on", "opt_stonesanity_on"]
-            },
-            {
-              "name": "HI: 3F Behind Burglar",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
-              "name": "1F Scientist",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "2F Burglar",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "3F Scientist",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "3F Burglar",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "B1F Scientist",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "B1F Burglar",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 112, "y": 496 }]
@@ -1973,13 +1973,13 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "North Item",
+              "name": "HI: Central Dead End",
               "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
             },
             {
-              "name": "Northeast Item",
+              "name": "South Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
@@ -1991,16 +1991,16 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "South Item",
+              "name": "Northeast Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "HI: Central Dead End",
+              "name": "North Item",
               "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "HI: Before Zapdos",
@@ -2016,40 +2016,10 @@
           "access_rules": ["^$indigo,^$strength"],
           "sections": [
             {
-              "name": "2F Northeast Item",
+              "name": "1F Cooltrainer F",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "2F East Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "2F West Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "2F North Item Near Moltres",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "3F Northeast Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "3F Northwest Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "1F Top Item",
@@ -2062,24 +2032,6 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "HI: 2F Rock Before Moltres",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
-              "name": "HI: 2F Rock In Final Room",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
-              "name": "1F Cooltrainer F",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "1F Cooltrainer M",
@@ -2100,10 +2052,22 @@
               "visibility_rules": ["trainer_on"]
             },
             {
+              "name": "2F West Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
               "name": "2F Tamer",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "2F Northeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "2F Juggler 2",
@@ -2112,16 +2076,46 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "2F PokeManiac",
+              "name": "2F East Item",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "3F Cooltrainer M 1",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "3F Northeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "3F Northwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "2F PokeManiac",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "HI: 2F Rock Before Moltres",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
+            },
+            {
+              "name": "2F North Item Near Moltres",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "3F Cooltrainer F 1",
@@ -2140,6 +2134,12 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "HI: 2F Rock In Final Room",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 80, "y": 144 }]
@@ -2149,34 +2149,16 @@
           "access_rules": ["^$pewter"],
           "sections": [
             {
-              "name": "East Item",
+              "name": "HI: Entrance Tree",
               "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "Northwest Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "Southwest Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "HI: Northwest By Trainer",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
-              "name": "HI: Entrance Tree",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "Bug Catcher 1",
@@ -2189,6 +2171,24 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+			{
+              "name": "East Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "Northwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "HI: Northwest By Trainer",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "Bug Catcher 3",
@@ -2204,16 +2204,58 @@
           "access_rules": ["^$pewter,^$rt3","^$cerulean,^$surf"],
           "sections": [
             {
+              "name": "1F Bug Catcher 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "1F Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+			{
               "name": "1F West Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "1F Northwest Item",
+              "name": "1F Lass 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "B2F Rocket 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "B2F South Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "1F Super Nerd",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "1F South Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "1F Bug Catcher 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "1F Southeast Item",
@@ -2228,22 +2270,16 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "1F South Item",
+              "name": "1F Lass 2",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "1F Southwest Item",
+              "name": "B2F Rocket 2",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "B2F South Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "B2F North Item",
@@ -2252,46 +2288,10 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "HI: B2F Dead End Before Fossils",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
               "name": "HI: B2F Lone Rock",
               "item_count": 1,
               "access_rules": ["^$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
-              "name": "1F Bug Catcher 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "1F Lass 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "1F Super Nerd",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "1F Bug Catcher 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "1F Lass 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "1F Youngster",
@@ -2306,16 +2306,10 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "B2F Rocket 1",
+              "name": "1F Northwest Item",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "B2F Rocket 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "B2F Rocket 3",
@@ -2328,6 +2322,12 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "HI: B2F Dead End Before Fossils",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 272, "y": 80 }]
@@ -2337,19 +2337,85 @@
           "access_rules": ["^$celadon,^$hideout"],
           "sections": [
             {
+              "name": "B1F Rocket 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "B1F Rocket 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+			{
               "name": "B1F West Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "B1F Southwest Item",
+              "name": "HI: B1F Pot Plant",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
+            },
+            {
+              "name": "B2F Rocket",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "B3F Rocket 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "B3F East Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "B2F Northwest Left Item",
+              "name": "HI: B3F Near East Item",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
+            },
+            {
+              "name": "B3F Center Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "B3F Rocket 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "B4F West Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "B4F Rocket 1",
+              "item_count": 1,
+              "access_rules": ["liftkey"],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "B4F Rocket Grunt Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": [""]
+            },
+            {
+              "name": "B4F Northwest Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
@@ -2367,82 +2433,16 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
+              "name": "B2F Northwest Left Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
               "name": "B2F Southwest Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "B3F East Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "B3F Center Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "B4F West Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "B4F Northwest Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "B4F Southwest Item",
-              "item_count": 1,
-              "access_rules": ["liftkey"],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "B4F Giovanni Item",
-              "item_count": 1,
-              "access_rules": ["liftkey"],
-              "visibility_rules": [""]
-            },
-            {
-              "name": "B4F Rocket Grunt Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": [""]
-            },
-            {
-              "name": "HI: B1F Pot Plant",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
-              "name": "HI: B3F Near East Item",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
-              "name": "HI: B4F Behind Giovanni",
-              "item_count": 1,
-              "access_rules": ["^$hidden,liftkey"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
-              "name": "B1F Rocket 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "B1F Rocket 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "B1F Rocket 3",
@@ -2457,34 +2457,22 @@
               "visibility_rules": ["trainer_on"]
             },
             {
+              "name": "B1F Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
               "name": "B1F Rocket 5",
               "item_count": 1,
               "access_rules": ["liftkey"],
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "B2F Rocket",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "B3F Rocket 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "B3F Rocket 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "B4F Rocket 1",
+              "name": "B4F Southwest Item",
               "item_count": 1,
               "access_rules": ["liftkey"],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "B4F Rocket 2",
@@ -2497,6 +2485,18 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "B4F Giovanni Item",
+              "item_count": 1,
+              "access_rules": ["liftkey"],
+              "visibility_rules": [""]
+            },
+            {
+              "name": "HI: B4F Behind Giovanni",
+              "item_count": 1,
+              "access_rules": ["^$hidden,liftkey"],
+              "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 288, "y": 208 }]
@@ -2506,31 +2506,43 @@
           "access_rules": ["^$lavender,^$rock_tunnel","^$cerulean,^$cut,^$rock_tunnel"],
           "sections": [
             {
+              "name": "1F PokeManiac",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "B1F PokeManiac 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "B1F Jr. Trainer F 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },            
+			{
               "name": "B1F Southwest Item",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_extra_key_items_on"]
             },
             {
-              "name": "B1F West Item",
+              "name": "B1F PokeManiac 2",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_extra_key_items_on"]
+              "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "B1F Northwest Item",
+              "name": "B1F Hiker 1",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_extra_key_items_on"]
+              "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "B1F North Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_extra_key_items_on"]
-            },
-            {
-              "name": "1F PokeManiac",
+              "name": "B1F Hiker 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -2554,54 +2566,24 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "1F Jr. Trainer F 1",
+              "name": "B1F North Item",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": ["opt_extra_key_items_on"]
             },
             {
-              "name": "1F Jr. Trainer F 2",
+              "name": "B1F West Item",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": ["opt_extra_key_items_on"]
             },
             {
-              "name": "1F Jr. Trainer F 3",
+              "name": "B1F Northwest Item",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": ["opt_extra_key_items_on"]
             },
-            {
-              "name": "B1F PokeManiac 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "B1F Jr. Trainer F 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "B1F PokeManiac 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "B1F Hiker 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "B1F Hiker 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
+			{
               "name": "B1F Jr. Trainer F 2",
               "item_count": 1,
               "access_rules": [],
@@ -2615,6 +2597,24 @@
             },
             {
               "name": "B1F PokeManiac 3",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "1F Jr. Trainer F 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "1F Jr. Trainer F 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "1F Jr. Trainer F 3",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -2637,6 +2637,12 @@
               "item_count": 1,
               "access_rules": ["^$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
+            },
+            {
+              "name": "PokeManiac 1 (near Power Plant)",
+              "item_count": 1,
+              "access_rules": ["^$surf"],
+              "visibility_rules": ["trainer_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 528, "y": 80 }]
@@ -2646,19 +2652,7 @@
           "access_rules": ["^$lavender","^$cerulean,^$cut,^$rock_tunnel"],
           "sections": [
             {
-              "name": "HI: Bush",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
               "name": "Jr. Trainer F",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "PokeManiac 1",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -2670,13 +2664,19 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "Hiker 2",
+              "name": "HI: Bush",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
+            },
+            {
+              "name": "PokeManiac 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "PokeManiac 2",
+              "name": "Hiker 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
@@ -2688,18 +2688,6 @@
           "name": "Route 13",
           "access_rules": ["^$fuchsia"],
           "sections": [
-            {
-              "name": "HI: Dead End Bush",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
-              "name": "HI: Dead End By Water Corner",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
             {
               "name": "Jr. Trainer F 1",
               "item_count": 1,
@@ -2737,6 +2725,12 @@
               "visibility_rules": ["trainer_on"]
             },
             {
+              "name": "HI: Dead End By Water Corner",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
+            },
+            {
               "name": "Jr. Trainer F 4",
               "item_count": 1,
               "access_rules": [],
@@ -2747,6 +2741,12 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "HI: Dead End Bush",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "Bird Keeper 3",
@@ -2793,7 +2793,7 @@
           "access_rules": ["^$rt23,^$surf"],
           "sections": [
             {
-              "name": "HI: Rocks Before Victory Road",
+              "name": "HI: On Island",
               "item_count": 1,
               "access_rules": ["^$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
@@ -2805,11 +2805,12 @@
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
-              "name": "HI: On Island",
+              "name": "HI: Rocks Before Victory Road",
               "item_count": 1,
               "access_rules": ["^$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             }
+
           ],
           "map_locations": [{ "map": "map", "x": 80, "y": 208 }]
         },
@@ -2817,12 +2818,6 @@
           "name": "Route 11",
           "access_rules": ["^$cerulean"],
           "sections": [
-            {
-              "name": "HI: Isolated Bush Near Gate",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
             {
               "name": "Youngster 1",
               "item_count": 1,
@@ -2882,6 +2877,12 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "HI: Isolated Bush Near Gate",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 448, "y": 304 }]
@@ -2892,30 +2893,6 @@
           "sections": [
             {
               "name": "HI: In Grass",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
-              "name": "HI: Near Northernmost Sign",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
-              "name": "HI: East Center",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
-              "name": "HI: West Center",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
-              "name": "HI: Before Final Bridge",
               "item_count": 1,
               "access_rules": ["^$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
@@ -2951,6 +2928,12 @@
               "visibility_rules": ["trainer_on"]
             },
             {
+              "name": "HI: Near Northernmost Sign",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
+            },
+            {
               "name": "Cue Ball 3",
               "item_count": 1,
               "access_rules": [],
@@ -2961,6 +2944,18 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "HI: East Center",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
+            },
+            {
+              "name": "HI: West Center",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "Biker 4",
@@ -2979,6 +2974,12 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "HI: Before Final Bridge",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
           "map_locations": [{ "map": "map", "x": 208, "y": 304 }]
@@ -3050,40 +3051,16 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "2F Fisherman",
+              "name": "1F Item",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "2F Gentleman 1",
+              "name": "B1F Item 1",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "2F Gentleman 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "2F Lass",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "Bow: Sailor 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "Bow: Sailor 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "B1F Sailor 1",
@@ -3098,16 +3075,34 @@
               "visibility_rules": ["trainer_on"]
             },
             {
+              "name": "B1F Item 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
               "name": "B1F Sailor 3",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
             },
             {
+              "name": "B1F Item 3",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
               "name": "B1F Sailor 4",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "HI: B1F Pillow",
+              "item_count": 1,
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "B1F Fisherman",
@@ -3122,16 +3117,34 @@
               "visibility_rules": ["trainer_on"]
             },
             {
-              "name": "2F Captain",
+              "name": "HI: 1F Kitchen Trash",
               "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": [""]
+              "access_rules": ["^$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
             },
             {
-              "name": "1F Item",
+              "name": "Bow: Sailor 1",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "Bow: Sailor 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "2F Fisherman",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "2F Gentleman 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "2F Item 1",
@@ -3140,40 +3153,28 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
+              "name": "2F Gentleman 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
+              "name": "2F Lass",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": ["trainer_on"]
+            },
+            {
               "name": "2F Item 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "B1F Item 1",
+              "name": "2F Captain",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "B1F Item 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "B1F Item 3",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "HI: 1F Kitchen Trash",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
-            },
-            {
-              "name": "HI: B1F Pillow",
-              "item_count": 1,
-              "access_rules": ["^$hidden"],
-              "visibility_rules": ["opt_hidden_items_on"]
+              "visibility_rules": [""]
             }
           ],
           "map_locations": [{ "map": "map", "x": 368, "y": 304 }]
