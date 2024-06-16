@@ -628,13 +628,13 @@
         "stages": [
             {
                 "name": "Trainers are not blind",
-                "img": "images/items/bicycle.png",
+                "img": "images/options/blind.png",
                 "codes": "opt_blind_trainers, opt_blind_trainers_off",
                 "inherit_codes": false
             },
             {
                 "name": "Trainers are blind",
-                "img": "images/items/bicycle.png",
+                "img": "images/options/blind.png",
                 "img_mods": "@disabled",
                 "codes": "opt_blind_trainers, opt_blind_trainers_on",
                 "inherit_codes": false
