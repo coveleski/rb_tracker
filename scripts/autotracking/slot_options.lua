@@ -212,6 +212,25 @@ function get_slot_options(slot_data)
 		Tracker:FindObjectForCode('opt_dark_rock_tunnel').CurrentStage = slot_data["dark_rock_tunnel_logic"]
 	end
 
+	if slot_data["require_pokedex"] then
+		Tracker:FindObjectForCode('opt_dex_required').CurrentStage = slot_data["require_pokedex"]
+	end
+
+	if slot_data["blind_trainers"] then
+		local sd_value = slot_data["blind_trainers"]
+		if sd_value == 100 then
+			Tracker:FindObjectForCode('opt_blind_trainers').CurrentStage = 1
+		else
+			Tracker:FindObjectForCode('opt_blind_trainers').CurrentStage = 0
+		end
+	end
+
+	if slot_data["area_1_to_1_mapping"] then
+		local obj = Tracker:FindObjectForCode('opt_encounter') 
+		obj.CurrentStage = slot_data["area_1_to_1_mapping"]
+		obj.Active = true
+	end
+
     if slot_data["split_card_key"] then
 		local obj = Tracker:FindObjectForCode("opt_cardkey")
 		if obj then

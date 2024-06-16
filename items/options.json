@@ -621,6 +621,27 @@
         ]
     },
     {
+        "name": "Blind Trainers",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Trainers are not blind",
+                "img": "images/items/bicycle.png",
+                "codes": "opt_blind_trainers, opt_blind_trainers_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Trainers are blind",
+                "img": "images/items/bicycle.png",
+                "img_mods": "@disabled",
+                "codes": "opt_blind_trainers, opt_blind_trainers_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Free Fly Location",
         "type": "progressive",
         "loop": true,
@@ -1226,15 +1247,15 @@
         "loop":"true",
         "stages": [
             {
-                "name": "1:1 Mapping",
-                "img": "images/options/one-to-one.png",
-                "codes": "opt_encounter, opt_encounter_one",
-                "inherit_codes": "false"
-            },
-            {
                 "name": "Full Mapping",
                 "img": "images/options/full.png",
                 "codes": "opt_encounter, opt_encounter_ten",
+                "inherit_codes": "false"
+            },
+            {
+                "name": "1:1 Mapping",
+                "img": "images/options/one-to-one.png",
+                "codes": "opt_encounter, opt_encounter_one",
                 "inherit_codes": "false"
             }
         ]

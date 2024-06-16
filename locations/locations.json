@@ -652,7 +652,7 @@
             {
               "name": "Item",
               "item_count": 1,
-              "access_rules": ["[^$cut]"],
+              "access_rules": ["^$rt25_item"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {

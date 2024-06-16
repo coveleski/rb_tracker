@@ -134,6 +134,14 @@ function aide(route)
 
 end
 
+function rt25_item()
+    local blind = AccessibilityLevel.SequenceBreak
+    if has('opt_blind_trainers_on') == AccessibilityLevel.Normal then
+        blind = AccessibilityLevel.None
+    end
+    return max(cut(), blind)
+end
+
 -- ROADBLOCK CHECKS
 function old_man()
     return max(has('opt_old_man_on'), has('parcel'))
