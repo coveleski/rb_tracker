@@ -36,7 +36,14 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["extra_key_items"] then
-		Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage = slot_data["extra_key_items"]
+		--we need to force an item-code change
+		local current = Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage
+		local sd_value = slot_data["extra_key_items"]
+		if current == sd_value then
+			toggle_extra_key_items()
+		else
+			Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage = slot_data["extra_key_items"]
+		end
 	end
 
     if slot_data["extra_strength_boulders"] then
@@ -44,7 +51,13 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["tea"] then
-		Tracker:FindObjectForCode('opt_tea').CurrentStage = slot_data["tea"]
+		local current = Tracker:FindObjectForCode('opt_tea').CurrentStage
+		local sd_value = slot_data["tea"]
+		if current == sd_value then
+			toggle_tea()
+		else
+			Tracker:FindObjectForCode('opt_tea').CurrentStage = slot_data["tea"]
+		end
 	end
 
     if slot_data["old_man"] then
