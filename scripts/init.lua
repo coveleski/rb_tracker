@@ -8,7 +8,6 @@ IS_ITEMS_ONLY = variant:find("itemsonly")
 
 function split_key()
     local obj =  Tracker:FindObjectForCode('opt_cardkey_split')
-    print('opt_split_key state" ' .. obj.CurrentStage)
     key = Tracker:FindObjectForCode('custom_cardkey')
     key:OnMiddleClickFunc()
     if obj.CurrentStage == 2 then

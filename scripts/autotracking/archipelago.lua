@@ -73,9 +73,7 @@ function onClear(slot_data)
     end
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
-    print('###############CALLING SLOTDATA() ###############')
     get_slot_options(slot_data)
-    print('###############CALCULATING DEXSANITY ###############')
     dexsanity_init()    
 end
 

@@ -289,9 +289,6 @@ function elite4()
     local enough_items = key_items_count() >= key_items_required
     local enough_dex = pokedex >= pokedex_required
 
-    print('e4 badges:' .. tostring(enough_badges))
-    print('e4 items:' .. tostring(enough_items))
-    print('e4 dex:' .. tostring(enough_dex))
     if enough_badges and enough_items and enough_dex then
         return AccessibilityLevel.Normal
     elseif enough_badges and enough_items then
@@ -383,6 +380,5 @@ function fossils()
         end
         return AccessibilityLevel.SequenceBreak
     end
-    print(enough_fossils())
     return AccessibilityLevel.None
 end
