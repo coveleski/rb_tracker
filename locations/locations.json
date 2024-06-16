@@ -456,7 +456,7 @@
             {
               "name": "Oak's Aide",
               "item_count": 1,
-              "access_rules": ["^$aide|2", "{^$scoutable}"],
+              "access_rules": ["^$aide|2"],
               "visibility_rules": []
             }
           ],

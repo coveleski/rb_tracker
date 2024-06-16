@@ -2,20 +2,28 @@ saffron_access = AccessibilityLevel.None
 -- ITEM COUNT CHECKS
 
 -- returns int of # of badges
-function badges_count()
-    return Tracker:ProviderCountForCode('badge')
+function badges_count(amount)
+    if Tracker:ProviderCountForCode('badge') >= amount then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.None
 end
 -- returns int of # of key items
-function key_items_count()
+function key_items_count(amount)    
     local count = 0
     -- accounting for the purchasable evo stones
     if has('opt_stonesanity_on') == AccessibilityLevel.Normal then
         count = 4
     end
-    return count  + Tracker:ProviderCountForCode('keyitem')
+    count =  count  + Tracker:ProviderCountForCode('keyitem')
+    if count >= amount then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.None
+
 end
 -- returns int of # of pokemon caught
-function pokedex_count()
+function pokedex_count(amount)
     local hundreds = 0
     local tens = 0
     local ones = 0
@@ -32,13 +40,20 @@ function pokedex_count()
     if obj then
         ones = obj.CurrentStage
     end
-    return (100 * hundreds) + (10 * tens) + ones
+    local dex_count =  (100 * hundreds) + (10 * tens) + ones
+    if dex_count >= amount then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.SequenceBreak
 end
 -- returns whether we have enough fossils for a second check
 function enough_fossils()
     local fossils = Tracker:ProviderCountForCode("fossil")
     local fossils_req = Tracker:FindObjectForCode('opt_fossilcheck').AcquiredCount
-    return fossils >= fossils_req
+    if fossils >= fossils_req then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.None
 end
 
 -- HM CHECKS
@@ -129,8 +144,11 @@ end
 function aide(route)
     local code = 'opt_aide_' .. route
     local required = Tracker:FindObjectForCode(code).AcquiredCount
-    local caught = pokedex_count()
-    return required <= caught and max(has('pokedex'),has('opt_dex_required_off'))
+    local reachable = access(pokedex_count(required),max(has('pokedex'),has('opt_dex_required_off')))
+    if reachable == AccessibilityLevel.Normal then 
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.Inspect
 
 end
 
@@ -274,20 +292,15 @@ function elite4()
         ones = obj.CurrentStage
     end
     local pokedex_required = (100 * hundreds) + (10 * tens) + ones
-    local pokedex = pokedex_count()
 
 
-    local enough_badges = badges_count() >= badges_required
-    local enough_items = key_items_count() >= key_items_required
-    local enough_dex = pokedex >= pokedex_required
+    local enough_badges = badges_count(badges_required)
+    local enough_items = key_items_count(key_items_required)
+    local enough_dex = pokedex_count(pokedex_required)
 
-    print('e4 badges:' .. tostring(enough_badges))
-    print('e4 items:' .. tostring(enough_items))
-    print('e4 dex:' .. tostring(enough_dex))
-    if enough_badges and enough_items and enough_dex then
-        return AccessibilityLevel.Normal
-    elseif enough_badges and enough_items then
-        return AccessibilityLevel.SequenceBreak
+    local fightable = access(enough_badges, enough_items, enough_dex)
+    if  fightable >= AccessibilityLevel.SequenceBreak then
+        return fightable
     elseif indigo() == AccessibilityLevel.Normal then
         return scoutable()
     end
@@ -298,31 +311,24 @@ function victoryroad()
     local obj = Tracker:FindObjectForCode("vr_digit")
     if obj then
         local count = obj.CurrentStage
-        if (badges_count() >= count) then
-            return AccessibilityLevel.Normal
-        end
+        return badges_count(count)
     end
-    return AccessibilityLevel.None
 end
 
 function rt23()
     local obj = Tracker:FindObjectForCode("rt22_digit")
-    local req = obj.CurrentStage
-    if badges_count() >= req then
-        return AccessibilityLevel.Normal
+    if obj then
+        local count = obj.CurrentStage
+        return badges_count(count)
     end
-    return AccessibilityLevel.None
 end
 
 function viridiangym()
     local obj = Tracker:FindObjectForCode("vg_digit")
     if obj then
         local count = obj.CurrentStage
-        if (badges_count() >= count) then
-            return AccessibilityLevel.Normal
-        end
+        return badges_count(count)
     end
-    return AccessibilityLevel.None
 end
 
 function ceruleancave()
@@ -342,10 +348,8 @@ function ceruleancave()
         ones = obj.CurrentStage
     end
     local key_item_req = (10 * tens) + ones
-    if (key_items_count() >= key_item_req) and (badges_count() >= badge_req) then
-        return AccessibilityLevel.Normal
-    end
-    return AccessibilityLevel.None
+    return access(key_items_count(key_item_req), badges_count(badge_req))
+
 end
 
 function powerplant()
@@ -370,11 +374,10 @@ end
 function fossils()
     local mt_moon = max(access(pewter(),rt3()),access(surf(),cerulean()))
     if mt_moon == AccessibilityLevel.Normal then
-        if access(mt_moon, cinnabar()) == AccessibilityLevel.Normal and enough_fossils() then
+        if access(mt_moon, cinnabar(),enough_fossils()) == AccessibilityLevel.Normal then
             return AccessibilityLevel.Normal
         end
         return AccessibilityLevel.SequenceBreak
     end
-    print(enough_fossils())
     return AccessibilityLevel.None
 end
