@@ -110,3 +110,12 @@ function set_active(self, active)
         self.IconMods = '@disabled'
     end
 end
+
+function reset_cardkey(self)
+    self.Name = "Card Key"
+    self.ItemState['option'] = 'vanilla'
+    self.ItemState['qty'] = 0
+    self.ItemState['active'] = false
+    self.Icon = ImageReference:FromPackRelativePath('images/items/cardkey.png')
+    self.IconMods = "@disabled"
+end

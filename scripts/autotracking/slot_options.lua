@@ -42,7 +42,7 @@ function get_slot_options(slot_data)
 		if current == sd_value then
 			toggle_extra_key_items()
 		else
-			Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage = slot_data["extra_key_items"]
+			Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage = sd_value
 		end
 	end
 
@@ -56,7 +56,7 @@ function get_slot_options(slot_data)
 		if current == sd_value then
 			toggle_tea()
 		else
-			Tracker:FindObjectForCode('opt_tea').CurrentStage = slot_data["tea"]
+			Tracker:FindObjectForCode('opt_tea').CurrentStage = sd_value
 		end
 	end
 
@@ -215,13 +215,18 @@ function get_slot_options(slot_data)
     if slot_data["split_card_key"] then
 		local obj = Tracker:FindObjectForCode("opt_cardkey")
 		if obj then
-			tmp = slot_data["split_card_key"]
-			if tmp == 2 then
-				tmp = 1
-			elseif tmp == 1 then
-				tmp = 2
+			local current = obj.CurrentStage
+			local sd_value  = slot_data["split_card_key"]
+			if sd_value == 2 then
+				sd_value = 1
+			elseif sd_value == 1 then
+				sd_value = 2
 			end
-			obj.CurrentStage = tmp
+			if current == sd_value then
+				split_key()
+			else
+				obj.CurrentStage = sd_value
+			end
 		end
 	end
 end
