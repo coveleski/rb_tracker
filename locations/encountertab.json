@@ -637,7 +637,7 @@
         },
         {
           "name": "Power Plant",
-          "access_rules": ["$cerulean,$cut,$surf,$plantkey","$lavender,^$rock_tunnel,$surf"],
+          "access_rules": ["$cerulean,$cut,$surf,plantkey","$lavender,^$rock_tunnel,$surf"],
           "sections": [
                     {
                         "name": "Pokémon 1:1",
@@ -1443,7 +1443,7 @@
                         "visibility_rules": ["opt_encounter_one","opt_encounter_ten"],
                         "access_rules": [
                             "superrod,$rt23",
-                            "superrod,$ceruleancave,$cerulean,$cansurf"
+                            "superrod,$ceruleancave,$cerulean,$surf"
                         ]
                     },
                     {
