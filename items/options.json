@@ -808,6 +808,7 @@
         "type": "progressive",
         "codes": "rt22_digit",
         "allow_disabled": false,
+        "loop": true,
         "stages": [
             {
                 "img": "/images/digits/d0.png"
@@ -842,6 +843,7 @@
         "name": "",
         "type": "progressive",
         "codes": "vg_digit",
+        "loop": true,
         "allow_disabled": false,
         "stages": [
             {
@@ -885,6 +887,7 @@
         "name": "",
         "type": "progressive",
         "codes": "vr_digit",
+        "loop": true,
         "allow_disabled": false,
         "stages": [
             {
@@ -920,6 +923,7 @@
         "name": "",
         "type": "progressive",
         "codes": "e4b_digit",
+        "loop": true,
         "allow_disabled": false,
         "stages": [
             {
@@ -955,6 +959,7 @@
         "name": "",
         "type": "progressive",
         "codes": "e4p_digit1",
+        "loop": true,
         "allow_disabled": false,
         "stages": [
             {
@@ -969,6 +974,7 @@
         "name": "",
         "type": "progressive",
         "codes": "e4p_digit2",
+        "loop": true,
         "allow_disabled": false,
         "stages": [
             {
@@ -1007,6 +1013,7 @@
         "name": "",
         "type": "progressive",
         "codes": "e4p_digit3",
+        "loop": true,
         "allow_disabled": false,
         "stages": [
             {
@@ -1045,6 +1052,7 @@
         "name": "",
         "type": "progressive",
         "codes": "e4k_digit1",
+        "loop": true,
         "allow_disabled": false,
         "stages": [
             {
@@ -1071,6 +1079,7 @@
         "name": "",
         "type": "progressive",
         "codes": "e4k_digit2",
+        "loop": true,
         "allow_disabled": false,
         "stages": [
             {
@@ -1109,6 +1118,7 @@
         "name": "",
         "type": "progressive",
         "codes": "ccaveB_digit",
+        "loop": true,
         "allow_disabled": false,
         "stages": [
             {
@@ -1144,6 +1154,7 @@
         "name": "",
         "type": "progressive",
         "codes": "ccaveK_digit1",
+        "loop": true,
         "allow_disabled": false,
         "stages": [
             {
@@ -1182,6 +1193,7 @@
         "name": "",
         "type": "progressive",
         "codes": "ccaveK_digit2",
+        "loop": true,
         "allow_disabled": false,
         "stages": [
             {
