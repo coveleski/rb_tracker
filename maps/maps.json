@@ -49,8 +49,20 @@
     },
     {
         "name": "underground",
-        "location_size": 13,
+        "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/underground.png"
+    },
+    {
+        "name": "gamecorner",
+        "location_size": 28,
+        "location_border_thickness": 2,
+        "img": "images/maps/gamecorner.png"
+    },
+    {
+        "name": "rockethideout",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/rockethideout.png"
     }
 ]
