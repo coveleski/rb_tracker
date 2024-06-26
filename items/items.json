@@ -791,49 +791,49 @@
         "name": "Brock Beaten",
         "type": "toggle",
 		"img": "images/items/brock.png",
-        "codes": "brock_beaten"
+        "codes": "brock_beaten,gym_beaten"
 	},
 	{
         "name": "Misty Beaten",
         "type": "toggle",
 		"img": "images/items/misty.png",
-        "codes": "misty_beaten"
+        "codes": "misty_beaten,gym_beaten"
 	},
     {
         "name": "Lt. Surge Beaten",
         "type": "toggle",
 		"img": "images/items/surge.png",
-        "codes": "surge_beaten"
+        "codes": "surge_beaten,gym_beaten"
 	},
 	{
         "name": "Erika Beaten",
         "type": "toggle",
 		"img": "images/items/erika.png",
-        "codes": "erika_beaten"
+        "codes": "erika_beaten,gym_beaten"
 	},
 	{
         "name": "Koga Beaten",
         "type": "toggle",
 		"img": "images/items/koga.png",
-        "codes": "koga_beaten"
+        "codes": "koga_beaten,gym_beaten"
 	},
 	{
         "name": "Sabrina Beaten",
         "type": "toggle",
 		"img": "images/items/sabrina.png",
-        "codes": "sabrina_beaten"
+        "codes": "sabrina_beaten,gym_beaten"
 	},
 	{
         "name": "Blaine Beaten",
         "type": "toggle",
 		"img": "images/items/blaine.png",
-        "codes": "blaine_beaten"
+        "codes": "blaine_beaten,gym_beaten"
 	},
 	{
         "name": "Giovanni (Gym Leader) Beaten",
         "type": "toggle",
 		"img": "images/items/giovanni.png",
-        "codes": "giovanni_beaten"
+        "codes": "giovanni_beaten,gym_beaten"
 	},
     {
         "name": "Helped Bill",
