@@ -52,6 +52,7 @@
             },	
             {	
               "name": "Lt. Surge",	
+			  "hosted_item": "surge_beaten",
               "chest_unopened_img": "images/trainers/ltsurge.png",
               "chest_opened_img": "images/trainers/ltsurge_done.png",	
               "item_count": 2,	
@@ -60,6 +61,7 @@
             },	
             {	
               "name": "​Lt. Surge",	
+			  "hosted_item": "surge_beaten",
               "chest_unopened_img": "images/trainers/ltsurge.png",
               "chest_opened_img": "images/trainers/ltsurge_done.png",	
               "item_count": 1,	
@@ -141,6 +143,7 @@
             },	
             {	
               "name": "Koga",	
+			  "hosted_item": "koga_beaten",
               "chest_unopened_img": "images/trainers/koga.png",
               "chest_opened_img": "images/trainers/koga_done.png",	
               "item_count": 2,	
@@ -149,6 +152,7 @@
             },	
             {	
               "name": "​Koga",	
+			  "hosted_item": "koga_beaten",
               "chest_unopened_img": "images/trainers/koga.png",
               "chest_opened_img": "images/trainers/koga_done.png",	
               "item_count": 1,	
@@ -364,6 +368,7 @@
             },	
             {	
               "name": "Erika",	
+			  "hosted_item": "erika_beaten",
               "chest_unopened_img": "images/trainers/erika.png",
               "chest_opened_img": "images/trainers/erika_done.png",	
               "item_count": 2,	
@@ -372,6 +377,7 @@
             },	
             {	
               "name": "​Erika",		
+			  "hosted_item": "erika_beaten",
               "chest_unopened_img": "images/trainers/erika.png",
               "chest_opened_img": "images/trainers/erika_done.png",	
               "item_count": 1,	
@@ -488,6 +494,7 @@
             },	
             {	
               "name": "Giovanni",
+			  "hosted_item": "giovanni_beaten",
               "chest_unopened_img": "images/trainers/giovanni.png",
               "chest_opened_img": "images/trainers/giovanni_done.png",	
               "item_count": 2,	
@@ -496,6 +503,7 @@
             },	
             {	
               "name": "​Giovanni",
+			  "hosted_item": "giovanni_beaten",
               "chest_unopened_img": "images/trainers/giovanni.png",
               "chest_opened_img": "images/trainers/giovanni_done.png",	
               "item_count": 1,	
@@ -549,7 +557,8 @@
               "visibility_rules": ["trainer_on"]	
             },	
             {	
-              "name": "Brock",	
+              "name": "Brock",
+			  "hosted_item": "brock_beaten",
               "chest_unopened_img": "images/trainers/brock.png",
               "chest_opened_img": "images/trainers/brock_done.png",	
               "item_count": 2,	
@@ -558,6 +567,7 @@
             },	
             {	
               "name": "​Brock",	
+			  "hosted_item": "brock_beaten",
               "chest_unopened_img": "images/trainers/brock.png",
               "chest_opened_img": "images/trainers/brock_done.png",	
               "item_count": 1,	
@@ -607,6 +617,7 @@
             },	
             {	
               "name": "Misty",	
+			  "hosted_item": "misty_beaten",
               "chest_unopened_img": "images/trainers/misty.png",
               "chest_opened_img": "images/trainers/misty_done.png",	
               "item_count": 2,	
@@ -615,6 +626,7 @@
             },	
             {	
               "name": "​Misty",	
+			  "hosted_item": "misty_beaten",
               "chest_unopened_img": "images/trainers/misty.png",
               "chest_opened_img": "images/trainers/misty_done.png",	
               "item_count": 1,	
@@ -1611,6 +1623,7 @@
             },	
             {	
               "name": "Blaine",	
+			  "hosted_item": "blaine_beaten",
               "chest_unopened_img": "images/trainers/blaine.png",
               "chest_opened_img": "images/trainers/blaine_done.png",	
               "item_count": 2,	
@@ -1619,6 +1632,7 @@
             },	
             {	
               "name": "​Blaine",
+			  "hosted_item": "blaine_beaten",
               "chest_unopened_img": "images/trainers/blaine.png",
               "chest_opened_img": "images/trainers/blaine_done.png",	
               "item_count": 1,	
@@ -1740,6 +1754,7 @@
             },	
             {	
               "name": "Sabrina",	
+			  "hosted_item": "sabrina_beaten",
               "chest_unopened_img": "images/trainers/sabrina.png",
               "chest_opened_img": "images/trainers/sabrina_done.png",		
               "item_count": 2,	
@@ -1748,6 +1763,7 @@
             },	
             {	
               "name": "​Sabrina",	
+			  "hosted_item": "sabrina_beaten",
               "chest_unopened_img": "images/trainers/sabrina.png",
               "chest_opened_img": "images/trainers/sabrina_done.png",	
               "item_count": 1,	
