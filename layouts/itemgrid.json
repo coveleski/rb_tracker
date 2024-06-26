@@ -15,16 +15,6 @@
                         "item_margin": "3, 3",
                         "h_alignment": "left",
                         "rows": [
-							[
-								"brock_beaten",
-								"misty_beaten",
-								"surge_beaten",
-								"erika_beaten",
-								"koga_beaten",
-								"sabrina_beaten",
-								"blaine_beaten",
-								"giovanni_beaten"
-							],
                             [
                                 "boulder",
                                 "cascade",
