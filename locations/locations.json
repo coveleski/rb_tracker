@@ -1655,7 +1655,7 @@
             {	
               "name": "HI: Copycat Desk",	
               "item_count": 1,	
-              "access_rules": ["hidden,silphco"],	
+              "access_rules": ["^$hidden,silphco"],	
               "visibility_rules": ["opt_hidden_items_on"]	
             },	
             {	
