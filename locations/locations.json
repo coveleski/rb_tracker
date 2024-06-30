@@ -597,7 +597,7 @@
               "name": "Rocket Thief",	
               "item_count": 1,	
               "access_rules": ["^$officer", "^$vermilion"],	
-              "visibility_rules": [""]	
+              "visibility_rules": ["opt_keyonly_off"]	
             },	
             {	
               "name": "Gym: Swimmer",	
@@ -2834,7 +2834,7 @@
               "name": "B2F Northwest Left Item",	
               "item_count": 1,	
               "access_rules": [],	
-              "visibility_rules": ["opt_keyonly_off"]	
+              "visibility_rules": ["opt_keyonly_on,opt_stonesanity_on","opt_keyonly_off"]	
             },	
             {	
               "name": "B2F Southwest Item",	
