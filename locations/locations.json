@@ -1281,7 +1281,7 @@
             {	
               "name": "Liberate Silph Co",	
               "access_rules": ["^$cardkey|11,^$cardkey|3"],	
-              "hosted_item": "silphco"	
+              "hosted_item": "silphco_hosted"	
             },	
             {	
               "name": "11F Silph Co President",	
@@ -2141,12 +2141,12 @@
               "access_rules": ["silphscope","opt_pokedoll_skip_on"],	
               "visibility_rules": ["trainer_on"]	
             },	
-{	
-"name": "7F Save Mr. Fuji",	
-"hosted_item": "fuji",	
-"access_rules": ["silphscope","opt_pokedoll_skip_on"]	
-}	
-],	
+            {	
+              "name": "7F Save Mr. Fuji",	
+              "hosted_item": "fuji_hosted",	
+              "access_rules": ["silphscope","opt_pokedoll_skip_on"]	
+            }	
+        ],	
           "map_locations": [{ "map": "map", "x": 560, "y": 176 }]	
         },	
         {	
