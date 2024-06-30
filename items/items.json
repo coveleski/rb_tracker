@@ -788,51 +788,51 @@
         "codes": "moonstone,stone,keyitem"
     },
     {
-        "name": "Brock Beaten",
+        "name": "",
         "type": "toggle",
-		"img": "images/items/brock.png",
+		"img": "images/items/doesnotexist.png",
         "codes": "brock_beaten,gym_beaten"
 	},
 	{
-        "name": "Misty Beaten",
+        "name": "",
         "type": "toggle",
-		"img": "images/items/misty.png",
+		"img": "images/items/doesnotexist.png",
         "codes": "misty_beaten,gym_beaten"
 	},
     {
-        "name": "Lt. Surge Beaten",
+        "name": "",
         "type": "toggle",
-		"img": "images/items/surge.png",
+		"img": "images/items/doesnotexist.png",
         "codes": "surge_beaten,gym_beaten"
 	},
 	{
-        "name": "Erika Beaten",
+        "name": "",
         "type": "toggle",
-		"img": "images/items/erika.png",
+		"img": "images/items/doesnotexist.png",
         "codes": "erika_beaten,gym_beaten"
 	},
 	{
-        "name": "Koga Beaten",
+        "name": "",
         "type": "toggle",
-		"img": "images/items/koga.png",
+		"img": "images/items/doesnotexist.png",
         "codes": "koga_beaten,gym_beaten"
 	},
 	{
-        "name": "Sabrina Beaten",
+        "name": "",
         "type": "toggle",
-		"img": "images/items/sabrina.png",
+		"img": "images/items/doesnotexist.png",
         "codes": "sabrina_beaten,gym_beaten"
 	},
 	{
-        "name": "Blaine Beaten",
+        "name": "",
         "type": "toggle",
-		"img": "images/items/blaine.png",
+		"img": "images/items/doesnotexist.png",
         "codes": "blaine_beaten,gym_beaten"
 	},
 	{
-        "name": "Giovanni (Gym Leader) Beaten",
+        "name": "",
         "type": "toggle",
-		"img": "images/items/giovanni.png",
+		"img": "images/items/doesnotexist.png",
         "codes": "giovanni_beaten,gym_beaten"
 	},
     {
