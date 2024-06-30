@@ -788,15 +788,53 @@
         "codes": "moonstone,stone,keyitem"
     },
     {
-        "name": "Any Gym Beaten",
+        "name": "",
         "type": "toggle",
-        "codes": "gym_beaten"
+		"img": "images/items/doesnotexist.png",
+        "codes": "brock_beaten,gym_beaten"
+	},
+	{
+        "name": "",
+        "type": "toggle",
+		"img": "images/items/doesnotexist.png",
+        "codes": "misty_beaten,gym_beaten"
 	},
     {
-        "name": "Brock Beaten",
+        "name": "",
         "type": "toggle",
-        "codes": "brock_beaten"
-    },
+		"img": "images/items/doesnotexist.png",
+        "codes": "surge_beaten,gym_beaten"
+	},
+	{
+        "name": "",
+        "type": "toggle",
+		"img": "images/items/doesnotexist.png",
+        "codes": "erika_beaten,gym_beaten"
+	},
+	{
+        "name": "",
+        "type": "toggle",
+		"img": "images/items/doesnotexist.png",
+        "codes": "koga_beaten,gym_beaten"
+	},
+	{
+        "name": "",
+        "type": "toggle",
+		"img": "images/items/doesnotexist.png",
+        "codes": "sabrina_beaten,gym_beaten"
+	},
+	{
+        "name": "",
+        "type": "toggle",
+		"img": "images/items/doesnotexist.png",
+        "codes": "blaine_beaten,gym_beaten"
+	},
+	{
+        "name": "",
+        "type": "toggle",
+		"img": "images/items/doesnotexist.png",
+        "codes": "giovanni_beaten,gym_beaten"
+	},
     {
         "name": "Helped Bill",
         "type": "toggle",
