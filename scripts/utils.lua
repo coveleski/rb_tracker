@@ -102,3 +102,29 @@ function toggle_tea()
         obj.CurrentStage = stage
     end
 end
+
+function toggle_item(code)
+  local active = Tracker:FindObjectForCode(code).Active
+  code = code.."_hosted"
+  local object = Tracker:FindObjectForCode(code)
+  if object then
+    object.Active = active
+  else
+    if ENABLE_DEBUG_LOG then
+      print(string.format("toggle_item: could not find object for code %s", code))
+    end
+  end
+end
+
+function toggle_hosted_item(code)
+  local active = Tracker:FindObjectForCode(code).Active
+  code = code:gsub("_hosted", "")
+  local object = Tracker:FindObjectForCode(code)
+  if object then
+    object.Active = active
+  else
+    if ENABLE_DEBUG_LOG then
+      print(string.format("toggle_hosted_item: could not find object for code %s", code))
+    end
+  end
+end
