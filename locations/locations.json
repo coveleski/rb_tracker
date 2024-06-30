@@ -262,7 +262,7 @@
             },	
             {	
               "name": "Evolution Stones in Department Store",	
-              "clear_as_groupe": true,	
+              "clear_as_group": true,	
               "visibility_rules": ["opt_stonesanity_off"],	
               "hosted_item": "leafstone, thunderstone, waterstone, firestone"	
             },	
