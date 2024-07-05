@@ -637,7 +637,7 @@
         },
         {
           "name": "Power Plant",
-          "access_rules": ["$cerulean,$cut,$surf,plantkey","$lavender,^$rock_tunnel,$surf"],
+          "access_rules": ["^$powerplant"],
           "sections": [
                     {
                         "name": "Pokémon 1:1",
