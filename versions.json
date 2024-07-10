@@ -1,5 +1,12 @@
 {
 	"versions": [
+		
+		{
+			"package_version": "1.0.4",
+			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.5.zip",
+			"sha256": "06F089689B312C4F450E06D481D28E3DEFE4BCF997DA8B6236FC9A2604C247FE",
+			"changelog": ["added trainer images", "new submaps", "lots of bugfixes", "new settings autotracked"]
+		},
 		{
 			"package_version": "1.0.4",
 			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.4.zip",
