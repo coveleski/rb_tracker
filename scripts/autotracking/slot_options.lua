@@ -227,8 +227,7 @@ function get_slot_options(slot_data)
 
 	if slot_data["area_1_to_1_mapping"] then
 		local obj = Tracker:FindObjectForCode('opt_encounter') 
-		obj.CurrentStage = slot_data["area_1_to_1_mapping"]
-		obj.Active = true
+		obj.CurrentStage = slot_data["area_1_to_1_mapping"] + 1 -- 0 is the disabled stage
 	end
 
     if slot_data["split_card_key"] then
