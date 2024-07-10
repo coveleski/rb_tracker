@@ -4188,7 +4188,7 @@
         },	
         {	
           "name": "Route 6",	
-          "access_rules": ["^$cerulean"],	
+          "access_rules": ["^$vermilion"],	
           "sections": [	
             {	
               "name": "Bug Catcher 1",	
