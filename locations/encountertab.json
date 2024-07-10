@@ -56,6 +56,11 @@
           "name": "Celadon City",
           "access_rules": ["$celadon"],
           "sections": [
+            {
+                "name": "Static Encounter: Eevee",
+                "chest_unopened_img": "images/pokedex/eevee.png",
+                "access_rules": []
+            }
           ],
           "map_locations": [{ "map": "encounters", "x": 304, "y": 176, "size": 27, "border_thickness": 4 }]
         },
