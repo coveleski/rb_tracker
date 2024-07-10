@@ -872,7 +872,7 @@
         },	
         {	
           "name": "Route 11-12 Gatehouse",	
-          "access_rules": ["^$vermilion","^$lavender,pokeflute"],	
+          "access_rules": ["^$vermilion,^$extra_boulders","^$lavender,pokeflute"],	
           "sections": [	
             {	
               "name": "Oak's Aide",	
