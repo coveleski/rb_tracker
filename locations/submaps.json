@@ -162,8 +162,8 @@
 ,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B2F Northwest Right Item"}],"map_locations":[{"map":"rockethideout","x": 592,"y": 223}]}
 ,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B2F Northwest Left Item"}],"map_locations":[{"map":"rockethideout","x": 512,"y": 207}]}
 ,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B2F Southwest Item"}],"map_locations":[{"map":"rockethideout","x": 544,"y": 367}]}
-,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B1F Rocket 3"}],"map_locations":[{"map":"rockethideout","x": 296,"y": 303}]}
-,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B1F Rocket 4"}],"map_locations":[{"map":"rockethideout","x": 248,"y": 431}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B1F Rocket 4"}],"map_locations":[{"map":"rockethideout","x": 296,"y": 303}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B1F Rocket 3"}],"map_locations":[{"map":"rockethideout","x": 248,"y": 431}]}
 ,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B1F Southwest Item"}],"map_locations":[{"map":"rockethideout","x": 152,"y": 303}]}
 ,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B1F Rocket 5"}],"map_locations":[{"map":"rockethideout","x": 456,"y": 319}]}
 ,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B4F Southwest Item"}],"map_locations":[{"map":"rockethideout","x": 688,"y": 822}]}
