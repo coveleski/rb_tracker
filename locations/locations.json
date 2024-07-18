@@ -1794,7 +1794,7 @@
         },	
         {	
           "name": "Route 4",	
-          "access_rules": ["^$pewter,^$rt3"],	
+          "access_rules": ["^$pewter,^$rt3", "^$cerulean,^$surf"],	
           "sections": [	
             {	
               "name": "Item",	
