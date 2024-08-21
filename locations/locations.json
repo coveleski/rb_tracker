@@ -3260,24 +3260,24 @@
         },	
         {	
           "name": "Route 23",	
-          "access_rules": ["^$rt23,^$surf"],	
+          "access_rules": [],	
           "sections": [	
             {	
               "name": "HI: On Island",	
               "item_count": 1,	
-              "access_rules": ["^$hidden"],	
+              "access_rules": ["^$hidden,^$rt23,^$surf","^$hidden,$indigo,$surf,$strength,$victoryroad"],	
               "visibility_rules": ["opt_hidden_items_on"]	
             },	
             {	
               "name": "HI: East Bush After Water",	
               "item_count": 1,	
-              "access_rules": ["^$hidden"],	
+              "access_rules": ["^$hidden,^$rt23,^$surf","^$hidden,$indigo,$strength,$victoryroad"],	
               "visibility_rules": ["opt_hidden_items_on"]	
             },	
             {	
               "name": "HI: Rocks Before Victory Road",	
               "item_count": 1,	
-              "access_rules": ["^$hidden"],	
+              "access_rules": ["^$hidden,^$rt23,^$surf","^$hidden,$indigo,$strength,$victoryroad"],	
               "visibility_rules": ["opt_hidden_items_on"]	
             }	
 	
