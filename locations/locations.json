@@ -3496,7 +3496,7 @@
         },	
         {	
           "name": "Underground Tunnel North-South",	
-          "access_rules": ["^$cerulean"],	
+          "access_rules": ["^$vermilion"],	
           "sections": [	
             {	
               "name": "HI: Near Northern Stairs",	
