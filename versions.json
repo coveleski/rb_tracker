@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.0.7",
+			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.7.zip",
+			"sha256": "CF00A78052D6B66F74704E1E52712A41BDBC4BE4D67654D03F8AF92C5335D138",
+			"changelog": ["Bugfixes & Encounter Tab Overhaul"]
+		},
+		{
 			"package_version": "1.0.6",
 			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.6.zip",
 			"sha256": "3E04167526D337218650B88BEA6B82836D26FCABCB2D1520D4A28A28CB0CC611",
