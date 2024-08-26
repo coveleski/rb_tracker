@@ -95,7 +95,7 @@
 ,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/B1F Northwest Item"}],"map_locations":[{"map":"mansion","x": 585,"y": 567}]}
 ,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/B1F West Item"}],"map_locations":[{"map":"mansion","x": 585,"y": 711}]}
 ,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/HI: B1F Secret Key Room Corner"}],"map_locations":[{"map":"mansion","x": 521,"y": 647}]}
-,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/HI: 1F Block Near Entrance Carpet"}],"map_locations":[{"map":"mansion","x": 145,"y": 352}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/HI: 1F Block Near Entrance Carpet"}],"map_locations":[{"map":"mansion","x": 145,"y": 320}]}
 ,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/HI: 3F Behind Burglar"}],"map_locations":[{"map":"mansion","x": 33,"y": 647}]}
 ,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/1F Scientist"}],"map_locations":[{"map":"mansion","x": 289,"y": 304}]}
 ,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/2F Burglar"}],"map_locations":[{"map":"mansion","x": 553,"y": 304}]}
