@@ -71,6 +71,18 @@ function onClear(slot_data)
             end
         end
     end
+	-- resets HMs
+	hm_list = {"Cut", "Fly", "Surf", "Strength", "Flash"}
+	
+	for i = 1, #hm_list do
+		hm = hm_list[i]
+		
+		obj = Tracker:FindObjectForCode(string.lower(hm))
+		
+		if obj then
+			obj.CurrentStage = 0
+		end
+	end
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
     get_slot_options(slot_data)
