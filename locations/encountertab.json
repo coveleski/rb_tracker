@@ -158,7 +158,7 @@
                 ]
             },
             {
-                "name": "Route 2",
+                "name": "Route 2", ## Route 2 in locations.json has $cut as a requirement since all items are cut-locked. So, here we use custom access rules.
                 "access_rules": [
                     "^$pewter",
                     "$cut",
@@ -185,7 +185,7 @@
                         "name": "Trade",
                         "access_rules": [
                             "$cut",
-                            "^$vermilion"
+                            "@Kanto/Vermilion City" # Trade is possible without cut if you come from Vermillion
                         ]
                     }
                 ],
@@ -201,7 +201,7 @@
                 "name": "Diglett's Cave",
                 "access_rules": [
                     "$cut",
-                    "^$vermilion"
+                    "@Kanto/Vermilion City"
                 ],
                 "sections": [
                     {
@@ -331,7 +331,7 @@
             {
                 "name": "Lavender Town",
                 "access_rules": [
-                    "$lavender"
+                    "@Kanto/Lavender Town"
                 ],
                 "sections": [],
                 "map_locations": [
@@ -361,7 +361,7 @@
             {
                 "name": "Route 11-12 Gatehouse",
                 "access_rules": [
-                    "^$vermilion,^$extra_boulders","^$lavender,pokeflute"
+                    "@Kanto/Route 11-12 Gatehouse"
                 ],
                 "sections": [
                     {
@@ -380,7 +380,7 @@
             {
                 "name": "Silph Co 1F - 6F",
                 "access_rules": [
-                    "$saffron,fuji"
+                    "@Kanto/Saffron City, fuji"
                 ],
                 "sections": [],
                 "map_locations": [
@@ -441,8 +441,7 @@
                     {
                         "name": "Static Encounter: Snorlax",
                         "access_rules": [
-                            "pokeflute,^$celadon",
-                            "pokeflute,^$fuchsia,^$cyclingroad"
+                            "pokeflute, @Kanto/Celadon City" // If you have the pokeflute and come from below, you already have access to celadon
                         ],
                         "chest_unopened_img": "images/pokedex/snorlax.png",
                         "chest_opened_img": "images/items/pokedex_done.png"
@@ -640,7 +639,7 @@
             {
                 "name": "Route 4",
                 "access_rules": [
-                    "^$cerulean"
+                    "@Kanto/Cerulean City" # Route 4 has more requirements in locations.json. Route 4-Mons can be accessed if you have access to cerulean.
                 ],
                 "sections": [
                     {
@@ -1761,17 +1760,12 @@
             {
                 "name": "Route 12",
                 "access_rules": [
-                    "^$vermilion",
-                    "^$lavender",
-					"^$fuchsia,^$extra_boulders",
-					"^$fuchsia,^$surf"
+                    "@Kanto/Lavender Town, pokeflute" # If you have access to Snorlax from the west or south and have a flute, you also have access to lavender
                 ],
                 "sections": [
                     {
                         "name": "Static Encounter: Snorlax",
-                        "access_rules": [
-                            "pokeflute"
-                        ],
+                        "access_rules": [],
                         "chest_unopened_img": "images/pokedex/snorlax.png",
                         "chest_opened_img": "images/items/pokedex_done.png"
                     }
@@ -1818,7 +1812,7 @@
             {
                 "name": "Route 7",
                 "access_rules": [
-                    "^$celadon"
+                    "@Kanto/Celadon City"
                 ],
                 "sections": [
                     {
@@ -1915,7 +1909,7 @@
             {
                 "name": "Celadon Game Corner",
                 "access_rules": [
-                    "^$celadon,coincase"
+                    "@Kanto/Celadon City,coincase"
                 ],
                 "chest_unopened_img": "images/items/coincase.png",
                 "chest_opened_img": "images/items/coincase_done.png",
