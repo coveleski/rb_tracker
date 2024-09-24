@@ -1029,7 +1029,7 @@
                     "^$rt23, ^$victoryroad, ^$surf", "@Kanto/Indigo Plateau, ^$strength"
                 ],
                         "visibility_rules": [
-                            "dexsanity_one"
+                            "opt_encounter_one"
                         ]
                     },
                     {
