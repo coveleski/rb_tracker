@@ -1729,7 +1729,7 @@
             {
                 "name": "Route 14",
                 "access_rules": [
-                    "@Kanto/Route 14"
+                    "@Kanto/Route 14, ^$cut"
                 ],
                 "sections": [
                     {
