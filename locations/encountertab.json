@@ -51,7 +51,7 @@
                         "name": "Pokémon 1:1",
                         "item_count": 3,
                         "access_rules": [
-                            "$cut"
+                            "^$cut"
                         ],
                         "clear_as_group": false,
                         "visibility_rules": [
@@ -62,7 +62,7 @@
                         "name": "Pokémon",
                         "item_count": 10,
                         "access_rules": [
-                            "$cut"
+                            "^$cut"
                         ],
                         "clear_as_group": false,
                         "visibility_rules": [
@@ -160,9 +160,9 @@
             {
                 "name": "Route 2", // Route 2 in locations.json has $cut as a requirement since all items are cut-locked. So, here we use custom access rules.
                 "access_rules": [
-                    "^$pewter",
-                    "$cut",
-                    "$old_man"
+                    "@Kanto/Pewter City",
+                    "^$cut",
+                    "^$old_man"
                 ],
                 "sections": [
                     {
@@ -184,7 +184,7 @@
                     {
                         "name": "Trade",
                         "access_rules": [
-                            "$cut",
+                            "^$cut",
                             "@Kanto/Vermilion City" // Trade is possible without cut if you come from Vermillion
                         ]
                     }
@@ -200,7 +200,7 @@
             {
                 "name": "Diglett's Cave",
                 "access_rules": [
-                    "$cut",
+                    "^$cut",
                     "@Kanto/Vermilion City"
                 ],
                 "sections": [
@@ -1026,7 +1026,7 @@
                         "item_count": 8,
                         "clear_as_group": false,
                 "access_rules": [
-                    "^$rt23, ^$victoryroad, $surf", "^$indigo, $strength"
+                    "^$rt23, ^$victoryroad, ^$surf", "@Kanto/Indigo Plateau, ^$strength"
                 ],
                         "visibility_rules": [
                             "dexsanity_one"
@@ -1037,7 +1037,7 @@
                         "item_count": 10,
                         "clear_as_group": false,
                 "access_rules": [
-                    "^$rt23, ^$victoryroad, $surf", "^$indigo, $strength"
+                    "^$rt23, ^$victoryroad, ^$surf", "@Kanto/Indigo Plateau, ^$strength"
                 ],
                         "visibility_rules": [
                             "opt_encounter_ten"
@@ -1048,7 +1048,7 @@
                         "item_count": 9,
                         "clear_as_group": false,
                 "access_rules": [
-                    "^$indigo" // This is specifically because you can reach a small 3x3 section of 2F by going backwards, with no strength. If you go forwards you have indigo access either way.
+                    "@Kanto/Indigo Plateau" // This is specifically because you can reach a small 3x3 section of 2F by going backwards, with no strength. If you go forwards you have indigo access either way.
                 ],
                         "visibility_rules": [
                             "opt_encounter_one"
@@ -1059,7 +1059,7 @@
                         "item_count": 10,
                         "clear_as_group": false,
                 "access_rules": [
-                    "^$indigo" // This is specifically because you can reach a small 3x3 section of 2F by going backwards, with no strength. If you go forwards you have indigo access either way.
+                    "@Kanto/Indigo Plateau" // This is specifically because you can reach a small 3x3 section of 2F by going backwards, with no strength. If you go forwards you have indigo access either way.
                 ],
                         "visibility_rules": [
                             "opt_encounter_ten"
@@ -1070,7 +1070,7 @@
                         "item_count": 8,
                         "clear_as_group": false,
                 "access_rules": [
-                    "^$indigo"
+                    "@Kanto/Indigo Plateau"
                 ],
                         "visibility_rules": [
                             "opt_encounter_one"
@@ -1081,7 +1081,7 @@
                         "item_count": 10,
                         "clear_as_group": false,
                 "access_rules": [
-                    "^$indigo"
+                    "@Kanto/Indigo Plateau"
                 ],
                         "visibility_rules": [
                             "opt_encounter_ten"
@@ -1089,7 +1089,7 @@
                     },
                     {
                         "name": "Static Encounter: Moltres",
-                        "access_rules": ["^$indigo, $strength"],
+                        "access_rules": ["@Kanto/Indigo Plateau, ^$strength"],
                         "chest_unopened_img": "images/pokedex/moltres.png",
                         "chest_opened_img": "images/items/pokedex_done.png"
                     }
@@ -1312,7 +1312,7 @@
                         "name": "Pokémon 1:1",
                         "item_count": 5,
                         "access_rules": [
-                            "$cut"
+                            "^$cut"
                         ],
                         "clear_as_group": false,
                         "visibility_rules": [
@@ -1323,7 +1323,7 @@
                         "name": "Pokémon",
                         "item_count": 10,
                         "access_rules": [
-                            "$cut"
+                            "^$cut"
                         ],
                         "clear_as_group": false,
                         "visibility_rules": [
@@ -1428,7 +1428,7 @@
                     {
                         "name": "Static Encounter: Articuno",
                         "access_rules": [
-                            "$strength"
+                            "^$strength"
                         ],
                         "chest_unopened_img": "images/pokedex/articuno.png",
                         "chest_opened_img": "images/items/pokedex_done.png"
@@ -1544,7 +1544,7 @@
                     {
                         "name": "Static Encounter: Mew",
                         "access_rules": [
-                            "$surf"
+                            "^$surf"
                         ],
                         "chest_unopened_img": "images/pokedex/mew.png",
                         "chest_opened_img": "images/items/pokedex_done.png"
@@ -1681,7 +1681,7 @@
             },
             {
                 "name": "Route 19",
-                "access_rules": [],
+                "access_rules": ["@Kanto/Fuchsia City"],
                 "sections": [],
                 "map_locations": [
                     {
@@ -2044,7 +2044,7 @@
                             "opt_encounter_ten"
                         ],
                         "access_rules": [
-                            "superrod,^$cerulean"
+                            "superrod,@Kanto/Cerulean City"
                         ]
                     },
                     {
@@ -2058,7 +2058,7 @@
                             "opt_encounter_ten"
                         ],
                         "access_rules": [
-                            "superrod,^$cerulean"
+                            "superrod,@Kanto/Vermilion City"
                         ]
                     },
                     {
@@ -2072,7 +2072,7 @@
                             "opt_encounter_ten"
                         ],
                         "access_rules": [
-                            "superrod,^$celadon"
+                            "superrod,@Kanto/Celadon City"
                         ]
                     },
                     {
@@ -2086,7 +2086,7 @@
                             "opt_encounter_ten"
                         ],
                         "access_rules": [
-                            "superrod,safaripass,^$fuchsia"
+                            "superrod,@Kanto/Safari Zone"
                         ]
                     },
                     {
@@ -2100,10 +2100,8 @@
                             "opt_encounter_ten"
                         ],
                         "access_rules": [
-                            "superrod,^$lavender",
-                            "superrod,^$fuchsia",
-                            "superrod,^$celadon,pokeflute,^$cyclingroad",
-                            "superrod,^$fuchsia,^$cyclingroad"
+                            "superrod,@Kanto/Lavender Town", //rt 12 north can be accessed from Lavender and has the same rules
+                            "superrod,@Kanto/Fuchsia City", //12 South, 13, 17 and 18 can all be accessed from Fuchsia. Bicycle Road doesn't matter because if you can get there you can get to 17
                         ]
                     },
                     {
@@ -2117,7 +2115,7 @@
                             "opt_encounter_ten"
                         ],
                         "access_rules": [
-                            "superrod,^$cinnabar"
+                            "superrod,@Kanto/Cinnabar Island"
                         ]
                     },
                     {
@@ -2131,8 +2129,8 @@
                             "opt_encounter_ten"
                         ],
                         "access_rules": [
-                            "superrod,^$rt23",
-                            "superrod,^$ceruleancave,^$cerulean,$surf"
+                            "superrod,^$rt23", //@ Rules don't work because all 
+                            "superrod,@Kanto/Cerulean Cave"
                         ]
                     },
                     {
@@ -2146,7 +2144,7 @@
                             "opt_encounter_ten"
                         ],
                         "access_rules": [
-                            "superrod,^$fuchsia"
+                            "superrod,@Kanto/Fuchsia City"
                         ]
                     }
                 ],
