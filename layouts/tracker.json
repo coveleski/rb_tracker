@@ -81,6 +81,22 @@
                                     }
                                 },
 								{
+                                    "title": "Game Corner",
+                                    "icon": "images/items/coincase.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["gamecorner"]
+                                    }
+                                },
+								{
+                                    "title": "Rocket Hideout",
+                                    "icon": "images/trainers/rocket.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["rockethideout"]
+                                    }
+                                },
+								{
                                     "title": "Cycling Road",
                                     "icon": "images/items/bicycle.png",
                                     "content": {

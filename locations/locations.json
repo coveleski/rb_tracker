@@ -174,7 +174,7 @@
               "access_rules": ["^$cut"],	
               "visibility_rules": ["$trainer_visible|172000391"]	
             },	
-{	
+            {	
               "name": "Fishing Guru's Brother",	
               "item_count": 1,	
               "access_rules": [],	
@@ -416,7 +416,7 @@
               "access_rules": ["^$hidden"],	
               "visibility_rules": ["opt_hidden_items_on"]	
             },	
-{	
+            {	
               "name": "Sleepy Guy",	
               "item_count": 1,	
               "access_rules": ["^$surf","^$cut"],	
@@ -1534,7 +1534,7 @@
               "access_rules": ["^$hidden"],	
               "visibility_rules": ["opt_hidden_items_on"]	
             },	
-{	
+            {	
               "name": "Secret House",	
               "item_count": 1,	
               "access_rules": [],	
@@ -1571,6 +1571,7 @@
               "chest_opened_img": "images/trainers/burglar_done.png",
               "item_count": 1,	
               "access_rules": ["secretkey"],	
+
               "visibility_rules": ["$trainer_visible|172000525"]	
             },	
             {	
@@ -1587,6 +1588,7 @@
               "chest_opened_img": "images/trainers/supernerd_done.png",
               "item_count": 1,	
               "access_rules": ["secretkey"],	
+
               "visibility_rules": ["$trainer_visible|172000527"]	
             },	
             {	
@@ -1938,7 +1940,7 @@
               "access_rules": [],	
               "visibility_rules": ["opt_keyonly_off"]	
             },	
-{	
+            {	
               "name": "1F Southwest Item",	
               "item_count": 1,	
               "access_rules": [],	
@@ -2039,7 +2041,7 @@
               "access_rules": [],	
               "visibility_rules": ["$trainer_visible|172000487"]	
             },	
-{	
+            {	
               "name": "4F South Item",	
               "item_count": 1,	
               "access_rules": [],	
@@ -2083,7 +2085,7 @@
               "access_rules": [],	
               "visibility_rules": ["$trainer_visible|172000491"]	
             },	
-{	
+            {	
               "name": "5F Southwest Item",	
               "item_count": 1,	
               "access_rules": [],	
@@ -2105,7 +2107,7 @@
               "access_rules": [],	
               "visibility_rules": ["$trainer_visible|172000493"]	
             },	
-{	
+            {	
               "name": "6F Southeast Item",	
               "item_count": 1,	
               "access_rules": [],	
@@ -2127,7 +2129,7 @@
               "access_rules": [],	
               "visibility_rules": ["$trainer_visible|172000495"]	
             },	
-{	
+            {	
               "name": "6F West Item",	
               "item_count": 1,	
               "access_rules": [],	
@@ -2175,7 +2177,7 @@
               "access_rules": ["^$hidden"],	
               "visibility_rules": ["opt_hidden_items_on", "opt_stonesanity_on"]	
             },	
-{	
+            {	
               "name": "1F North Item",	
               "item_count": 1,	
               "access_rules": [],	
@@ -2195,7 +2197,7 @@
               "access_rules": [],	
               "visibility_rules": ["opt_keyonly_off"]	
             },	
-{	
+            {	
               "name": "3F Burglar",	
               "chest_unopened_img": "images/trainers/burglar.png",
               "chest_opened_img": "images/trainers/burglar_done.png",
@@ -2209,7 +2211,7 @@
               "access_rules": [],	
               "visibility_rules": ["opt_keyonly_off"]	
             },	
-{	
+            {	
               "name": "HI: 3F Behind Burglar",	
               "item_count": 1,	
               "access_rules": ["^$hidden"],	
@@ -2229,7 +2231,7 @@
               "access_rules": [],	
               "visibility_rules": ["$trainer_visible|172000217"]	
             },	
-{	
+            {	
               "name": "1F Scientist",	
               "chest_unopened_img": "images/trainers/scientist.png",
               "chest_opened_img": "images/trainers/scientist_done.png",
@@ -2237,7 +2239,7 @@
               "access_rules": [],	
               "visibility_rules": ["$trainer_visible|172000215"]	
             },	
-{	
+            {	
               "name": "1F South Item",	
               "item_count": 1,	
               "access_rules": [],	
@@ -2289,7 +2291,7 @@
               "access_rules": [],	
               "visibility_rules": [""]	
             },	
-{	
+            {	
               "name": "HI: B1F Secret Key Room Corner",	
               "item_count": 1,	
               "access_rules": ["^$hidden"],	
@@ -2534,7 +2536,7 @@
               "access_rules": [],	
               "visibility_rules": ["$trainer_visible|172000290"]	
             },	
-{	
+            {	
               "name": "East Item",	
               "item_count": 1,	
               "access_rules": [],	
@@ -2581,7 +2583,7 @@
               "access_rules": [],	
               "visibility_rules": ["opt_keyonly_off"]	
             },	
-{	
+            {	
               "name": "1F West Item",	
               "item_count": 1,	
               "access_rules": [],	
@@ -2738,7 +2740,7 @@
               "access_rules": [],	
               "visibility_rules": ["$trainer_visible|172000252"]	
             },	
-{	
+            {	
               "name": "B1F West Item",	
               "item_count": 1,	
               "access_rules": [],	
@@ -2937,7 +2939,7 @@
               "access_rules": [],	
               "visibility_rules": ["$trainer_visible|172000410"]	
             },            	
-{	
+            {	
               "name": "B1F Southwest Item",	
               "item_count": 1,	
               "access_rules": [],	
@@ -3009,7 +3011,7 @@
               "access_rules": [],	
               "visibility_rules": ["opt_extra_key_items_on"]	
             },	
-{	
+            {	
               "name": "B1F Jr. Trainer F 2",	
               "chest_unopened_img": "images/trainers/jrtrainerf.png",
               "chest_opened_img": "images/trainers/jrtrainerf_done.png",
@@ -3999,7 +4001,7 @@
               "chest_opened_img": "images/trainers/birdkeeper_done.png",
               "item_count": 1,	
               "access_rules": [],	
-              "visibility_rules": ["$trainer_visible|172000337"]	
+              "visibility_rules": ["$trainer_visible|172000337"]
             },	
             {	
               "name": "Bird Keeper 3",	

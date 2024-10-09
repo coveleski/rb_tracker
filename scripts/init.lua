@@ -26,6 +26,7 @@ if ENABLE_DEBUG_LOG then
 end
 
 -- Utility Script for helper functions etc.
+ScriptHost:LoadScript("scripts/watch.lua")
 ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Logic
@@ -67,3 +68,4 @@ if PopVersion and PopVersion >= "0.1.0" then
 end
 --load cardkey customitem
 ScriptHost:LoadScript('scripts/custom_items/cardkey.lua')
+initialize_watch_items()

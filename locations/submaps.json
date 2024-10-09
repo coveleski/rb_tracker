@@ -95,7 +95,7 @@
 ,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/B1F Northwest Item"}],"map_locations":[{"map":"mansion","x": 585,"y": 567}]}
 ,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/B1F West Item"}],"map_locations":[{"map":"mansion","x": 585,"y": 711}]}
 ,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/HI: B1F Secret Key Room Corner"}],"map_locations":[{"map":"mansion","x": 521,"y": 647}]}
-,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/HI: 1F Block Near Entrance Carpet"}],"map_locations":[{"map":"mansion","x": 145,"y": 352}]}
+,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/HI: 1F Block Near Entrance Carpet"}],"map_locations":[{"map":"mansion","x": 145,"y": 288}]}
 ,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/HI: 3F Behind Burglar"}],"map_locations":[{"map":"mansion","x": 33,"y": 647}]}
 ,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/1F Scientist"}],"map_locations":[{"map":"mansion","x": 289,"y": 304}]}
 ,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/2F Burglar"}],"map_locations":[{"map":"mansion","x": 553,"y": 304}]}
@@ -124,10 +124,53 @@
 ,{"name":"","sections":[{"ref":"Kanto/Route 17/Cue Ball 5"}],"map_locations":[{"map":"cyclingroad","x": 883,"y": 41}]}
 ,{"name":"","sections":[{"ref":"Kanto/Route 17/Biker 5"}],"map_locations":[{"map":"cyclingroad","x": 819,"y": 361}]}
 
-,{"name":"","sections":[{"ref":"Kanto/Underground Tunnel North-South/HI: Near Northern Stairs"}],"map_locations":[{"map":"underground","x": 362,"y": 40}]}
+,{"name":"","sections":[{"ref":"Kanto/Underground Tunnel North-South/HI: Near Northern Stairs"}],"map_locations":[{"map":"underground","x": 362,"y": 30}]}
 ,{"name":"","sections":[{"ref":"Kanto/Underground Tunnel North-South/HI: Near Southern Stairs"}],"map_locations":[{"map":"underground","x": 378,"y": 520}]}
 ,{"name":"","sections":[{"ref":"Kanto/Underground Tunnel West-East/HI: West"}],"map_locations":[{"map":"underground","x": 170,"y": 312}]}
 ,{"name":"","sections":[{"ref":"Kanto/Underground Tunnel West-East/HI: East"}],"map_locations":[{"map":"underground","x": 314,"y": 360}]}
+
+,{"name":"","sections":[{"ref":"Kanto/Celadon Game Corner/West Gambler Gift"}],"map_locations":[{"map":"gamecorner","x": 176,"y": 240}]}
+,{"name":"","sections":[{"ref":"Kanto/Celadon Game Corner/Center Gambler Gift"}],"map_locations":[{"map":"gamecorner","x": 464,"y": 240}]}
+,{"name":"","sections":[{"ref":"Kanto/Celadon Game Corner/East Gambler Gift"}],"map_locations":[{"map":"gamecorner","x": 560,"y": 304}]}
+,{"name":"","sections":[{"ref":"Kanto/Celadon Game Corner/HI: Northwest by Counter"}],"map_locations":[{"map":"gamecorner","x": 16,"y": 144}]}
+,{"name":"","sections":[{"ref":"Kanto/Celadon Game Corner/HI: Southwest Corner"}],"map_locations":[{"map":"gamecorner","x": 48,"y": 400}]}
+,{"name":"","sections":[{"ref":"Kanto/Celadon Game Corner/HI: Near Rumor Man"}],"map_locations":[{"map":"gamecorner","x": 112,"y": 240}]}
+,{"name":"","sections":[{"ref":"Kanto/Celadon Game Corner/HI: Near Speculating Woman"}],"map_locations":[{"map":"gamecorner","x": 112,"y": 336}]}
+,{"name":"","sections":[{"ref":"Kanto/Celadon Game Corner/HI: Near West Gifting Gambler"}],"map_locations":[{"map":"gamecorner","x": 144,"y": 272}]}
+,{"name":"","sections":[{"ref":"Kanto/Celadon Game Corner/HI: Near Wonderful Time Woman"}],"map_locations":[{"map":"gamecorner","x": 304,"y": 272}]}
+,{"name":"","sections":[{"ref":"Kanto/Celadon Game Corner/HI: Near Failing Gym Information Guy"}],"map_locations":[{"map":"gamecorner","x": 304,"y": 368}]}
+,{"name":"","sections":[{"ref":"Kanto/Celadon Game Corner/HI: Near East Gifting Gambler"}],"map_locations":[{"map":"gamecorner","x": 528,"y": 336}]}
+,{"name":"","sections":[{"ref":"Kanto/Celadon Game Corner/HI: Near Hooked Guy"}],"map_locations":[{"map":"gamecorner","x": 336,"y": 400}]}
+,{"name":"","sections":[{"ref":"Kanto/Celadon Game Corner/HI: End of Horizontal Machine Row"}],"map_locations":[{"map":"gamecorner","x": 368,"y": 112}]}
+,{"name":"","sections":[{"ref":"Kanto/Celadon Game Corner/HI: Front of Horizontal Machine Row"}],"map_locations":[{"map":"gamecorner","x": 496,"y": 144}]}
+
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B1F Rocket 1"}],"map_locations":[{"map":"rockethideout","x": 424,"y": 159}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B1F Rocket 2"}],"map_locations":[{"map":"rockethideout","x": 200,"y": 127}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B1F West Item"}],"map_locations":[{"map":"rockethideout","x": 184,"y": 255}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/HI: B1F Pot Plant"}],"map_locations":[{"map":"rockethideout","x": 344,"y": 271}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B2F Rocket"}],"map_locations":[{"map":"rockethideout","x": 816,"y": 223}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B3F Rocket 1"}],"map_locations":[{"map":"rockethideout","x": 424,"y": 694}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B3F East Item"}],"map_locations":[{"map":"rockethideout","x": 424,"y": 774}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/HI: B3F Near East Item"}],"map_locations":[{"map":"rockethideout","x": 440,"y": 774}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B3F Center Item"}],"map_locations":[{"map":"rockethideout","x": 328,"y": 726}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B3F Rocket 2"}],"map_locations":[{"map":"rockethideout","x": 168,"y": 854}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B4F West Item"}],"map_locations":[{"map":"rockethideout","x": 656,"y": 694}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B4F Rocket 1"}],"map_locations":[{"map":"rockethideout","x": 672,"y": 534}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B4F Rocket Grunt Item"}],"map_locations":[{"map":"rockethideout","x": 656,"y": 534}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B4F Northwest Item"}],"map_locations":[{"map":"rockethideout","x": 640,"y": 566}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B2F Northeast Item"}],"map_locations":[{"map":"rockethideout","x": 752,"y": 159}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B2F Northwest Right Item"}],"map_locations":[{"map":"rockethideout","x": 592,"y": 223}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B2F Northwest Left Item"}],"map_locations":[{"map":"rockethideout","x": 512,"y": 207}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B2F Southwest Item"}],"map_locations":[{"map":"rockethideout","x": 544,"y": 367}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B1F Rocket 4"}],"map_locations":[{"map":"rockethideout","x": 296,"y": 303}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B1F Rocket 3"}],"map_locations":[{"map":"rockethideout","x": 248,"y": 431}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B1F Southwest Item"}],"map_locations":[{"map":"rockethideout","x": 152,"y": 303}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B1F Rocket 5"}],"map_locations":[{"map":"rockethideout","x": 456,"y": 319}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B4F Southwest Item"}],"map_locations":[{"map":"rockethideout","x": 688,"y": 822}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B4F Rocket 2"}],"map_locations":[{"map":"rockethideout","x": 864,"y": 694}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B4F Rocket 3"}],"map_locations":[{"map":"rockethideout","x": 912,"y": 694}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B4F Giovanni Item"}],"map_locations":[{"map":"rockethideout","x": 896,"y": 550}]}
+,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/HI: B4F Behind Giovanni"}],"map_locations":[{"map":"rockethideout","x": 896,"y": 518}]}
 
         ]
     }
