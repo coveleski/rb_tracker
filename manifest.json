@@ -13,6 +13,12 @@
                 "ap"
             ]
         },
+        "var_eventpseudotracking": {
+            "display_name": "Map Tracker + Event Pseudo Tracking",
+            "flags": [
+                "ap"
+            ]
+        },
         "var_itemsonly": {
             "display_name": "Items Only",
             "flags": [
