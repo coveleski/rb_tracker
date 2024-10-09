@@ -73,8 +73,16 @@ function onClear(slot_data)
     end
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
+    TRAINERSANITY_LOCATIONS = {}
+    IS_CONNECTED = true
+
     get_slot_options(slot_data)
-    dexsanity_init()    
+    local ap_locations = get_ap_locations()
+    if Tracker:FindObjectForCode('trainer_on') then
+        trainersanity_init(ap_locations)
+    end
+    dexsanity_init(ap_locations)
+    print(dump_table(slot_data))
 end
 
 -- called when an item gets collected

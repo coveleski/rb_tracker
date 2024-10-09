@@ -1,3 +1,4 @@
+-- TRAINERSANITY_LOCATIONS = {}
 function get_slot_options(slot_data)
 
     if slot_data["second_fossil_check_condition"] then
@@ -185,7 +186,16 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["trainersanity"] then
-		Tracker:FindObjectForCode('opt_trn').CurrentStage = slot_data["trainersanity"]
+		local value = slot_data['trainersanity']
+		local stage = 0
+		if value > 0 then
+			stage = 1
+		end
+		Tracker:FindObjectForCode('opt_trn').CurrentStage = stage
+		print('slot data: '.. slot_data['trainersanity'])
+		print('stage' .. stage)
+		print(value > 0)
+		print('setting trn stage to '.. stage)
 	end
 
     if slot_data["prizesanity"] then
@@ -249,46 +259,24 @@ function get_slot_options(slot_data)
 	end
 end
 
-function dexsanity_init()
-    local missing = Archipelago.MissingLocations
-	local locations = Archipelago.CheckedLocations
-	local dex_checks = {}
-    --loop through all checked and unchecked locations
-	for _, v in pairs(missing) do
-		dex_checks[v] = true
-	end
-	for _, v in pairs(locations) do
-		dex_checks[v] = true
-	end
-
-	local count = 0
+function dexsanity_init(locations)
+    local count = 0
 	for i = 0, 150 do
-        --check to see if the dexsanity location exists in the list of all checks
 		local index = i + 172000549
-		local check_exists = dex_checks[index]
+		local check_exists = locations[index]
 		if check_exists then
 			count = count + 1
 		end
-		--if it doesn't, set it to the disabled stage
-        --otherwise leave at default
-		if not check_exists then
-			local loc = LOCATION_MAPPING[index]
-			local obj = Tracker:FindObjectForCode(loc[1])
-			if obj then
-				obj.CurrentStage = 2
-			end
-		end
 	end
-	local dexsanity = Tracker:FindObjectForCode('opt_dexsanity')
-	if dexsanity then
-		if count == 0 then
-			dexsanity.CurrentStage = 0
-		elseif count == 151 then
-			dexsanity.CurrentStage = 2
-		else
-			dexsanity.CurrentStage = 1
-		end
-		
-	end
-
 end
+
+function trainersanity_init(locations)
+    -- trainersanity checks have ids in the range 172000215-172000531
+    local start_index = 172000215
+    local end_index = 172000531
+    for i = start_index, end_index do
+        local location_exists = locations[i]
+        TRAINERSANITY_LOCATIONS[i] = location_exists
+		print(i .. ': ' .. tostring(TRAINERSANITY_LOCATIONS[i]))
+    end
+end	

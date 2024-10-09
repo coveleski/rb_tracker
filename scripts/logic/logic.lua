@@ -379,3 +379,19 @@ function fossils()
     end
     return AccessibilityLevel.None
 end
+
+function trainer_visible(id)
+	
+    local obj = Tracker:FindObjectForCode('opt_trn')
+    if (obj.CurrentStage == 0) then
+        return false
+    end
+    -- playernumber doesn't matter, just checking if we're connected
+    if Archipelago.PlayerNumber < 1 then
+        return true
+    end
+
+    local key = tonumber(id)
+	-- print(TRAINERSANITY_LOCATIONS[key])
+    return TRAINERSANITY_LOCATIONS[key]
+end
