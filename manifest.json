@@ -1,7 +1,7 @@
 ﻿{
-    "name": "Pokemon Red/Blue Archipelago Poptracker",
+    "name": "Pokemon Red/Blue Archipelago Poptracker BETA",
     "game_name": "Pokemon Red/Blue",
-    "package_version": "1.0.6",
+    "package_version": "1.0.7",
     "package_uid": "pokemonrb_ap",
     "author": "Coveleski & palex00",
     "versions_url": "https://raw.githubusercontent.com/coveleski/rb2/versions/versions.json",
