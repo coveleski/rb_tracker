@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.0.7",
+			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.7.zip",
+			"sha256": "44FF8949D7FC909436768BA2ABFD736C2F32B1284795D52406D26EFB3FCE4FC5",
+			"changelog": ["partial trainersanity", "v5 key item support"]
+		},
+		{
 			"package_version": "1.0.6",
 			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.6.zip",
 			"sha256": "3E04167526D337218650B88BEA6B82836D26FCABCB2D1520D4A28A28CB0CC611",
