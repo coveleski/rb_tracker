@@ -5,6 +5,7 @@ ENABLE_DEBUG_LOG = false
 local variant = Tracker.ActiveVariantUID
 -- check variant info
 IS_ITEMS_ONLY = variant:find("itemsonly")
+IS_PSEUDOTRACKING = variant:find("eventpseudotracking")
 
 function debug()
     trainer_visible(172000458)
