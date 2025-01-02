@@ -1781,7 +1781,7 @@
             {
                 "name": "Route 8",
                 "access_rules": [
-                    "@Kanto/Route 8"
+                    "@Kanto/Route 8, $cut"
                 ],
                 "sections": [
                     {
