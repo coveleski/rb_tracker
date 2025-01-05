@@ -1608,15 +1608,15 @@
               "visibility_rules": ["$trainer_visible|172000529"]	
             },	
             {	
-              "name": "Gym: Super Nerd 4",	
-              "chest_unopened_img": "images/trainers/supernerd.png",
-              "chest_opened_img": "images/trainers/supernerd_done.png",
+              "name": "Gym: Burglar 2",	
+              "chest_unopened_img": "images/trainers/burglar.png",
+              "chest_opened_img": "images/trainers/burglar_done.png",
               "item_count": 1,	
               "access_rules": ["secretkey"],	
               "visibility_rules": ["$trainer_visible|172000530"]	
             },	
             {	
-              "name": "Gym: Super Nerd 5",	
+              "name": "Gym: Super Nerd 4",	
               "chest_unopened_img": "images/trainers/supernerd.png",
               "chest_opened_img": "images/trainers/supernerd_done.png",
               "item_count": 1,	
