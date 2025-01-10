@@ -211,19 +211,22 @@ end
 function cerulean()
     local flight =  flyto('cerulean')
     local underground = max(cut(), flyto('vermilion'))
-    local underground_via_boardwalk = access(has('pokeflute'),extra_boulders(), max(access(surf(), strength()), flyto('fuchsia')))
+    -- local underground_via_fuchsia = access(has('pokeflute'), max(access(surf(), extra_boulders()), flyto('fuchsia')))
+    local underground_via_fuchsia = access(has('pokeflute'), flyto('fuchsia'), max(surf(), extra_boulders()))
+    local underground_via_lavender = access(has('pokeflute'),lavender())
     local gate = max(access(has('tea'),max(flyto('saffron'),celadon())),access(has('opt_tea_off'),celadon()))
     local rt3_passable = access(rt3(),max(old_man(),cut(),flyto('pewter')))
-    return max(flight, underground, gate, rt3_passable, underground_via_boardwalk)
+    return max(flight, underground, gate, rt3_passable, underground_via_fuchsia, underground_via_lavender)
 end
 
 function vermilion()
     local flight =  flyto('vermilion') -- flight
     local gate = max(access(has('tea'),max(flyto('saffron'),celadon())),access(has('opt_tea_off'),celadon())) --through saffron gates
     local underground = access(officer(), max(flyto('cerulean'), access(rt3(), max(old_man(), flyto('pewter'))))) --through underground
-    local snorlax = access(has('pokeflute'),extra_boulders(),max(lavender(),flyto('fuchsia'), access(surf(), strength())))--through eastern boardwalk
+    local pokeflute_via_fuchsia = access(has('pokeflute'),extra_boulders(),max(lavender(),flyto('fuchsia'), max(surf(), strength())))--through eastern boardwalk from fuchsia
+    local pokeflute_via_lavender = access(has('pokeflute'),lavender()) --through eastern boardwalk from lavender
     local diglett = cut() --through diglett cave
-    return max(flight,gate,underground, snorlax, diglett)
+    return max(flight,gate,underground, pokeflute_via_lavender, pokeflute_via_fuchsia, diglett)
 end
 
 function lavender()
