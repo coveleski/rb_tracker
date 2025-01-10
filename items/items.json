@@ -358,7 +358,7 @@
         "name": "Oak's Parcel",
         "type": "toggle",
         "img": "images/items/oaksparcel.png",
-        "codes": "parcel"
+        "codes": "parcel,newkeyitem"
     },
     {
         "name": "Pokedex",
@@ -431,7 +431,7 @@
         "name": "Gold Teeth",
         "type": "toggle",
         "img": "images/items/goldteeth.png",
-        "codes": "goldteeth,teeth"
+        "codes": "goldteeth,teeth,newkeyitem"
     },
     {
         "name": "Secret Key",
@@ -443,7 +443,7 @@
         "name": "Bike Voucher",
         "type": "toggle",
         "img": "images/items/bikevoucher.png",
-        "codes": "voucher"
+        "codes": "voucher,newkeyitem"
     },
     {
         "name": "Lift Key",
@@ -626,7 +626,7 @@
             },
             {
                 "name": "Tea",
-                "codes": "tea",
+                "codes": "tea, newkeyitem",
                 "img": "images/items/tea.png"
             }
         ]
@@ -743,19 +743,19 @@
         "name": "Old Amber",
         "type": "toggle",
         "img": "images/items/oldamber.png",
-        "codes": "oldamber,fossil"
+        "codes": "oldamber,fossil,newkeyitem"
     },
     {
         "name": "Dome Fossil",
         "type": "toggle",
         "img": "images/items/dome.png",
-        "codes": "domefossil,fossil"
+        "codes": "domefossil,fossil,newkeyitem"
     },
     {
         "name": "Helix Fossil",
         "type": "toggle",
         "img": "images/items/helix.png",
-        "codes": "helixfossil,fossil"
+        "codes": "helixfossil,fossil,newkeyitem"
     },
     {
         "name": "Fire Stone",

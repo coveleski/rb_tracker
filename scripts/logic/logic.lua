@@ -36,8 +36,11 @@ function badges_count()
 end
 -- returns int of # of key items
 function key_items_count()
-    local count = 0
-    return count  + Tracker:ProviderCountForCode('keyitem')
+    if Tracker:FindObjectForCode('v5_update').CurrentStage == 0 then
+        return Tracker:ProviderCountForCode('keyitem')
+    elseif Tracker:FindObjectForCode('v5_update').CurrentStage == 1 then
+        return Tracker:ProviderCountForCode('keyitem') + Tracker:ProviderCountForCode('newkeyitem')
+    end
 end
 -- returns int of # of pokemon caught
 function pokedex_count()

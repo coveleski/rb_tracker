@@ -1,5 +1,25 @@
 [
     {
+        "name": "Secret 0.5.1 setting",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "codes": "v5_update",
+        "stages": [
+            {
+                "name": "This is a 0.5.0 game",
+                "codes": "v5_update_false",
+                "img": "images/items/doesnotexist.png"
+            },
+            {
+                "name": "This is a 0.5.1 game",
+                "img": "images/items/doesnotexist.png",
+                "codes": "v5_update_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Bicycle Skip Patched",
         "type": "progressive",
         "loop": true,

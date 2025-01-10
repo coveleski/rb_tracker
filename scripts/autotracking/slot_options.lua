@@ -1,5 +1,11 @@
 function get_slot_options(slot_data)
 
+    if slot_data["v5_update"] ~= nil then
+		Tracker:FindObjectForCode('v5_update').CurrentStage = 1
+    else
+        Tracker:FindObjectForCode('v5_update').CurrentStage = 0
+    end    
+    
     if slot_data["second_fossil_check_condition"] then
 		Tracker:FindObjectForCode('opt_fossilcheck').AcquiredCount = slot_data["second_fossil_check_condition"]
 	end
